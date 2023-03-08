@@ -1,41 +1,55 @@
-import asyncio
-import time
 import socketio
+import Adafruit_BBIO.PWM as PWM
+import Adafruit_BBIO.GPIO as GPIO
+from time import sleep
 
-loop = asyncio.get_event_loop()
-sio = socketio.AsyncClient()
-start_timer = None
 
-#dummy func to test communication with server
-async def send_ping():
-    global start_timer
-    start_timer = time.time()
-    await sio.emit('ping_from_client')
+BB_FREQ = 250e3
+LED_PIN = "P9_14"
+sio = socketio.Client(logger=True, engineio_logger=False)
+GPIO.setup(LED_PIN, GPIO.OUT)
 
 
 @sio.event
-async def connect():
+def connect():
     print('connected to server')
-    await send_ping()
     
+    
+@sio.event
+def connect_error(data):
+    print("The connection failed!")
+
+
 @sio.event
 def disconnect():
     print('disconnected from server')
 
+
+#this event gets the from the sever and execute or
+#emit a response to the server 
 @sio.event
-async def pong_from_server():
-    global start_timer
-    latency = time.time() - start_timer
-    print('latency is {0:.2f} ms'.format(latency * 1000))
-    await sio.sleep(1)
-    if sio.connected:
-        await send_ping()
-
-
-async def start_server():
-    await sio.connect('http://192.168.50.189:8080') #address of server
-    await sio.wait()
-
+def cmd(msg):
+    print(msg)
+    if msg == 'ON':
+        print("LED Should Be on")
+        # Simulate Transition
+        # Gradually adjust the PWM to 0
+        for i in range(100, 0, -1):
+            PWM.start(LED_PIN, i, BB_FREQ)
+            sleep(0.1)
+    if msg == 'OFF':
+        print("LED Should Be OFF")
+        GPIO.output(LED_PIN, GPIO.LOW)
+    if msg == 'GET_TEMP':
+        dummyTemp = 34
+        print('Sending temp...')
+        print(dummyTemp)
+        #sio.emit('my message', {'foo': 'bar'})
+        #sio.emit('cmd',"dummyTemp")
+    if msg == 'GET_LIGHT_LEVEL':
+        print('Sending entenaity')
 
 if __name__ == '__main__':
-    loop.run_until_complete(start_server())
+    sio.connect('http://192.168.50.48:8080')
+    sio.wait()
+    #hello()

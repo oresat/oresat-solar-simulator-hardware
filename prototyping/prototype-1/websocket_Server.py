@@ -7,7 +7,7 @@ import tornado.web
 import socketio
 
 define("port", default=8080, help="run on the given port", type=int)
-define("debug", default=False, help="run in debug mode")
+define("debug", default=True, help="run in debug mode")
 
 msg1 ="ON"
 msg2 ="OFF"

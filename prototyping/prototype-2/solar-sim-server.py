@@ -3,7 +3,12 @@ import sys
 import socketio
 import eventlet
 
-local_address='192.168.50.48' 
+
+local_address='192.168.1.66' 
+
+with open('server.conf') as f:
+    local_address=f.read() 
+
 port = 8080
 
 sio = socketio.Server(logger=False,async_mode='eventlet')

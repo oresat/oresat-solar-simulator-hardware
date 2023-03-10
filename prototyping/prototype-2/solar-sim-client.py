@@ -3,6 +3,10 @@ import Adafruit_BBIO.PWM as PWM
 import Adafruit_BBIO.GPIO as GPIO
 from time import sleep
 
+server_addr='192.168.1.66' 
+
+with open('server.conf') as f:
+    server_addr=f.read() 
 
 BB_FREQ = 250e3
 LED_PIN = "P9_14"
@@ -50,6 +54,6 @@ def cmd(msg):
         print('Sending entenaity')
 
 if __name__ == '__main__':
-    sio.connect('http://192.168.50.48:8080')
+    sio.connect(f'{server_addr}:8080')
     sio.wait()
     #hello()

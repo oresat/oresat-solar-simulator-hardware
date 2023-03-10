@@ -54,6 +54,6 @@ def cmd(msg):
         print('Sending entenaity')
 
 if __name__ == '__main__':
-    sio.connect(f'{server_addr}:8080')
+    sio.connect(f'http://{server_addr}:8080')
     sio.wait()
     #hello()

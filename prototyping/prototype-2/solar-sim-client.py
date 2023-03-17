@@ -36,22 +36,38 @@ def cmd(msg):
     print(msg)
     if msg == 'ON':
         print("LED Should Be on")
+        # Turn LED on
+        GPIO.setup(LED_PIN, GPIO.OUT)
+        GPIO.output(LED_PIN, GPIO.HIGH)
+        sleep(0.5)
+    if msg == 'PWM':
+        print("LED Should Be PWM'ing")
         # Simulate Transition
         # Gradually adjust the PWM to 0
         for i in range(100, 0, -1):
             PWM.start(LED_PIN, i, BB_FREQ)
             sleep(0.1)
+        sleep(.5)
+        PWM.cleanup(LED_PIN)
     if msg == 'OFF':
         print("LED Should Be OFF")
+        sleep(0.5)
+        PWM.stop(LED_PIN)
+        PWM.cleanup(LED_PIN)
+        GPIO.setup(LED_PIN, GPIO.OUT)
         GPIO.output(LED_PIN, GPIO.LOW)
     if msg == 'GET_TEMP':
         dummyTemp = 34
         print('Sending temp...')
         print(dummyTemp)
-        #sio.emit('my message', {'foo': 'bar'})
+        sio.emit('my message', {'foo': 'bar'}, namespaces='/chat')
+        #sio.emit(data =str, dummyTemp)
         #sio.emit('cmd',"dummyTemp")
     if msg == 'GET_LIGHT_LEVEL':
         print('Sending entenaity')
+    else:
+        sio.wait()
+    
 
 if __name__ == '__main__':
     sio.connect(f'http://{server_addr}:8080')

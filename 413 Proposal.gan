@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Capstone Gantt Chart" company="" webLink="http://" view-date="2023-05-07" view-index="0" gantt-divider-location="679" resource-divider-location="300" version="3.2.3247" locale="en_US">
+    <description/>
+    <view zooming-state="default:4" id="gantt-chart">
+        <field id="tpd3" name="Name" width="494" order="0"/>
+        <field id="tpd4" name="Begin date" width="88" order="1"/>
+        <field id="tpd5" name="End date" width="81" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="19" name="Develop / Code Beaglebone Interface + Basilisk Simulation" color="#8cb6ce" meeting="false" start="2023-04-07" duration="22" complete="0" thirdDate="2023-03-27" thirdDate-constraint="0" expand="true">
+            <task id="46" name="Working Basilisk Model" color="#8cb6ce" meeting="false" start="2023-04-07" duration="11" complete="0" thirdDate="2023-05-08" thirdDate-constraint="0" expand="true"/>
+            <task id="45" name="Beaglebone Interface" color="#8cb6ce" meeting="false" start="2023-04-07" duration="22" complete="0" thirdDate="2023-05-08" thirdDate-constraint="0" expand="true">
+                <task id="47" name="Communication" color="#8cb6ce" meeting="false" start="2023-04-07" duration="22" complete="0" thirdDate="2023-05-08" thirdDate-constraint="0" expand="true"/>
+                <task id="48" name="Dockerization" color="#8cb6ce" meeting="false" start="2023-05-02" duration="5" complete="0" thirdDate="2023-05-08" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="5" name="2nd Prototype: Dimming Circuit + Sensors" color="#8cb6ce" meeting="false" start="2023-04-07" duration="16" complete="0" thirdDate="2023-01-24" thirdDate-constraint="0" expand="true">
+            <task id="33" name="Preliminary Research and Design" color="#000000" meeting="false" start="2023-04-07" duration="11" complete="0" thirdDate="2023-04-07" thirdDate-constraint="0" expand="true">
+                <task id="23" name="Design: PCB Layout" color="#8cb6ce" meeting="false" start="2023-04-07" duration="7" complete="0" thirdDate="2023-04-10" thirdDate-constraint="0" expand="true"/>
+                <task id="26" name="Parts Shipment" color="#8cb6ce" meeting="false" start="2023-04-17" duration="5" complete="0" thirdDate="2023-03-27" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="13" name="Assembly / Verification / Validation" color="#8cb6ce" meeting="false" start="2023-04-18" duration="9" complete="0" thirdDate="2023-01-23" thirdDate-constraint="0" expand="true">
+                <task id="27" name="Write Test Code for DAC + Sensors" color="#8cb6ce" meeting="false" start="2023-04-18" duration="4" complete="0" thirdDate="2023-03-27" thirdDate-constraint="0" expand="true"/>
+                <task id="25" name="Assembly: PCB Soldering and Circuit Construction" color="#8cb6ce" meeting="false" start="2023-04-21" duration="3" complete="0" thirdDate="2023-04-17" thirdDate-constraint="0" expand="true"/>
+                <task id="24" name="Verify / Validate System w/ Test Code" color="#8cb6ce" meeting="false" start="2023-04-21" duration="6" complete="0" thirdDate="2023-04-17" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="15" name="Design Documentation" color="#8cb6ce" meeting="false" start="2023-04-07" duration="16" complete="0" thirdDate="2023-01-23" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="7" name="3rd (Final) Prototype: Dimming Circuit + Sensors w/ Spectral Match; Scaling; Final Code" color="#8cb6ce" meeting="false" start="2023-04-28" duration="23" complete="0" thirdDate="2023-01-24" thirdDate-constraint="0" expand="true">
+            <task id="31" name="Preliminary Research and Design" color="#8cb6ce" meeting="false" start="2023-04-28" duration="11" complete="0" thirdDate="2023-04-10" thirdDate-constraint="0" expand="true">
+                <task id="28" name="Research: Spectral Match, Diffusion Plate" color="#8cb6ce" meeting="false" start="2023-04-28" duration="6" complete="0" thirdDate="2023-03-27" thirdDate-constraint="0" expand="true"/>
+                <task id="29" name="Design: PCB Layout" color="#8cb6ce" meeting="false" start="2023-04-28" duration="6" complete="0" thirdDate="2023-04-10" thirdDate-constraint="0" expand="true"/>
+                <task id="30" name="Parts Shipment" color="#8cb6ce" meeting="false" start="2023-05-05" duration="6" complete="0" thirdDate="2023-04-10" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="34" name="Assembly / Verification / Validation" color="#8cb6ce" meeting="false" start="2023-05-09" duration="16" complete="0" thirdDate="2023-04-10" thirdDate-constraint="0" expand="true">
+                <task id="36" name="Finalize Code" color="#8cb6ce" meeting="false" start="2023-05-09" duration="9" complete="0" thirdDate="2023-04-10" thirdDate-constraint="0" expand="true"/>
+                <task id="35" name="Assembly: PCB Soldering and Circuit Construction" color="#8cb6ce" meeting="false" start="2023-05-12" duration="8" complete="0" thirdDate="2023-04-10" thirdDate-constraint="0" expand="true"/>
+                <task id="37" name="Verify / Validate System w/ Final Code" color="#8cb6ce" meeting="false" start="2023-05-23" duration="6" complete="0" thirdDate="2023-04-10" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="20" name="Design: CAD Enclosure (Lower Priority, Purely Aesthetic)" color="#8cb6ce" meeting="false" start="2023-04-28" duration="23" complete="0" thirdDate="2023-04-03" thirdDate-constraint="0" expand="true"/>
+            <task id="38" name="User Manual / Design Documentation" color="#8cb6ce" meeting="false" start="2023-04-28" duration="23" complete="0" thirdDate="2023-04-10" thirdDate-constraint="0" expand="true">
+                <task id="44" name="User Manual" color="#8cb6ce" meeting="false" start="2023-04-28" duration="23" complete="0" thirdDate="2023-05-08" thirdDate-constraint="0" expand="true"/>
+                <task id="43" name="Code Documentation" color="#8cb6ce" meeting="false" start="2023-05-09" duration="16" complete="0" thirdDate="2023-04-10" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="39" name="Final Documentation / Poster" meeting="false" start="2023-05-26" duration="16" complete="0" expand="true">
+            <task id="40" name="Rough Draft: Final Project Report" color="#8cb6ce" meeting="false" start="2023-05-26" duration="6" complete="0" thirdDate="2023-05-08" thirdDate-constraint="0" expand="true"/>
+            <task id="41" name="Signed Final Report" color="#8cb6ce" meeting="false" start="2023-06-02" duration="11" complete="0" thirdDate="2023-05-08" thirdDate-constraint="0" expand="true"/>
+            <task id="42" name="Poster" color="#8cb6ce" meeting="false" start="2023-06-02" duration="11" complete="0" thirdDate="2023-05-08" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Charles" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

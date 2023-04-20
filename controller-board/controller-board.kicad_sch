@@ -3430,7 +3430,7 @@
     (pin "4" (uuid 3fe98e12-7c5c-4dc0-b2af-cb12ec5c2243))
     (pin "5" (uuid da11ccae-2910-4672-93b4-75b057a49a25))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "U6") (unit 1)
         )
@@ -3455,7 +3455,7 @@
     )
     (pin "1" (uuid 28bff365-9bca-4d79-a327-c32764360606))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR02") (unit 1)
         )
@@ -3481,7 +3481,7 @@
     (pin "1" (uuid 104450f5-1e1d-4be6-b382-2ac214169415))
     (pin "2" (uuid 42afe465-2f76-4b6e-ace8-2b2088d16668))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "L1") (unit 1)
         )
@@ -3506,7 +3506,7 @@
     )
     (pin "1" (uuid bb5a4c33-02a0-4fc6-a906-8af0f5fe0fd8))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR019") (unit 1)
         )
@@ -3533,7 +3533,7 @@
     (pin "2" (uuid 77a59d9e-a004-4576-9c0f-bbe84b939360))
     (pin "3" (uuid 1b376647-0b94-4d91-9ffd-9992951c1776))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "J5") (unit 1)
         )
@@ -3560,7 +3560,7 @@
     (pin "2" (uuid 62d3653c-b078-4b44-be3b-e2667d7eccee))
     (pin "3" (uuid f4e5eb75-6148-4aaa-8f29-a938bdab3b6b))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D10") (unit 1)
         )
@@ -3586,7 +3586,7 @@
     (pin "1" (uuid d4ba5abe-90a8-4f66-9943-adcee19beb60))
     (pin "2" (uuid 165f9f00-c647-47b9-b732-f5f47d378239))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C17") (unit 1)
         )
@@ -3612,7 +3612,7 @@
     (pin "1" (uuid 098a363a-8b1a-4a77-877e-9450a59c9c14))
     (pin "2" (uuid 75988f37-702d-4c97-9768-be2e032e82cb))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C2") (unit 1)
         )
@@ -3637,7 +3637,7 @@
     )
     (pin "1" (uuid 423a6cb9-480f-4547-aba3-5398d46a4dfd))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR028") (unit 1)
         )
@@ -3662,7 +3662,7 @@
     )
     (pin "1" (uuid 31890da9-395a-4c53-826b-3f4f13ffed8e))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR050") (unit 1)
         )
@@ -3687,7 +3687,7 @@
     )
     (pin "1" (uuid 7a0292e2-1fd2-44eb-ae8d-42c95be5710b))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "TP4") (unit 1)
         )
@@ -3712,7 +3712,7 @@
     )
     (pin "1" (uuid 3d41a548-9f6b-4973-8c9c-3edfa66a6a6a))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR016") (unit 1)
         )
@@ -3739,7 +3739,7 @@
     (pin "2" (uuid 91f5065f-f1f3-4c63-9b8e-8d70b24e02f7))
     (pin "3" (uuid 7fd71e32-5c0a-4bc7-910b-047642870c19))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D12") (unit 1)
         )
@@ -3765,7 +3765,7 @@
     (pin "1" (uuid 89e6d44c-14e6-4b4a-b1e8-f18c9acbd72d))
     (pin "2" (uuid 39f60f34-e32a-46e7-a4c2-21fcca80a585))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "R15") (unit 1)
         )
@@ -3791,7 +3791,7 @@
     (pin "1" (uuid 4096afa1-90b9-484d-a372-d26f10a41a51))
     (pin "2" (uuid 5aad52aa-6c33-4d1d-bfe7-52d05918472c))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "J1") (unit 1)
         )
@@ -3816,7 +3816,7 @@
     )
     (pin "1" (uuid 1f39e371-9da0-4539-866c-5ff5c48b8015))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR029") (unit 1)
         )
@@ -3842,7 +3842,7 @@
     (pin "1" (uuid 835fba6c-1a32-4bbc-9c4c-08b60c0c5f51))
     (pin "2" (uuid fccce264-0bfd-4866-80bc-4d0f6c7b006e))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D4") (unit 1)
         )
@@ -3867,7 +3867,7 @@
     )
     (pin "1" (uuid 63b5715a-1ee1-42ae-b2b2-256b15301b04))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "TP1") (unit 1)
         )
@@ -3896,7 +3896,7 @@
     (pin "4" (uuid 300e0439-181c-4411-96fc-1459f662c853))
     (pin "5" (uuid 912beeed-b928-4e18-be90-3cddf56000ad))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "U1") (unit 1)
         )
@@ -3921,7 +3921,7 @@
     )
     (pin "1" (uuid 88ce6507-5b21-4477-959f-62c23176fe42))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR022") (unit 1)
         )
@@ -3946,7 +3946,7 @@
     )
     (pin "1" (uuid 7454428f-882c-4a35-8d26-8aff81d30895))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR048") (unit 1)
         )
@@ -3971,7 +3971,7 @@
     )
     (pin "1" (uuid e0c742fc-ee69-44f6-a37c-bedc03518dab))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR036") (unit 1)
         )
@@ -3996,7 +3996,7 @@
     )
     (pin "1" (uuid 46aee858-0ee4-400f-99eb-67eaf36b4177))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR03") (unit 1)
         )
@@ -4021,7 +4021,7 @@
     )
     (pin "1" (uuid b1964e0b-cb3a-4de9-bf6e-b8df58f242b5))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR015") (unit 1)
         )
@@ -4047,7 +4047,7 @@
     (pin "1" (uuid 22e25dac-6fb4-4f4f-9ec9-fa891f83d542))
     (pin "2" (uuid 87dec30b-bb7e-43d5-bd15-5ba3afc11e0d))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C11") (unit 1)
         )
@@ -4072,7 +4072,7 @@
     )
     (pin "1" (uuid 2445028d-8bd5-4c18-aa87-19d42b3b9d62))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR08") (unit 1)
         )
@@ -4098,7 +4098,7 @@
     (pin "1" (uuid 34284df3-8d9b-4198-9c58-b1e92f54fd41))
     (pin "2" (uuid ab73bbb0-5f8e-4635-96fa-d28dd0186715))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "R2") (unit 1)
         )
@@ -4127,7 +4127,7 @@
     (pin "4" (uuid 5eacddd2-ed24-477b-9f29-70569791a622))
     (pin "5" (uuid c8b2d1fc-55ee-4e66-9252-4bfbdf406eef))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "Q3") (unit 1)
         )
@@ -4152,7 +4152,7 @@
     )
     (pin "1" (uuid 0cf23a01-3bab-4588-bffb-a6bea4209967))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR014") (unit 1)
         )
@@ -4178,7 +4178,7 @@
     (pin "1" (uuid 0776a7c7-4269-4600-a827-40063982e9dc))
     (pin "2" (uuid e1c0bac8-fd4b-4bf1-b7d1-fbcf898641e4))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C9") (unit 1)
         )
@@ -4203,7 +4203,7 @@
     )
     (pin "1" (uuid 524d061d-d4ed-47b6-a7f9-c5d4cb6730c2))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR052") (unit 1)
         )
@@ -4229,7 +4229,7 @@
     (pin "1" (uuid dd5e8411-ade9-41ba-a3ec-f2de09b28608))
     (pin "2" (uuid 5cc7e6a7-1815-407d-8b51-952cae08ca36))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "J3") (unit 1)
         )
@@ -4256,7 +4256,7 @@
     (pin "2" (uuid ae0a0719-4832-4515-9216-36a5a67c079f))
     (pin "3" (uuid 41084e92-7c88-4b7a-99e2-9ef6ffbbde07))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D5") (unit 1)
         )
@@ -4281,7 +4281,7 @@
     )
     (pin "1" (uuid b7929eb2-613a-4863-880c-5c143e9a40c1))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR012") (unit 1)
         )
@@ -4307,7 +4307,7 @@
     (pin "1" (uuid 7d88fef6-7b30-487d-b10c-6d8ca987ad1d))
     (pin "2" (uuid d8ef691c-1908-4f87-bef7-4b213f7a41a1))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "R7") (unit 1)
         )
@@ -4332,7 +4332,7 @@
     )
     (pin "1" (uuid 8a85af7f-2b02-40a2-b1aa-0b6e7e6d37b4))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR044") (unit 1)
         )
@@ -4357,7 +4357,7 @@
     )
     (pin "1" (uuid bf7715cf-d179-4024-a99f-9f12e190eab6))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR037") (unit 1)
         )
@@ -4382,7 +4382,7 @@
     )
     (pin "1" (uuid 7ca7316a-5ec3-4dc9-aed3-f52a3994660a))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR018") (unit 1)
         )
@@ -4408,7 +4408,7 @@
     (pin "1" (uuid eee34cab-87e5-4095-85ef-4b61f619d8d1))
     (pin "2" (uuid 6afbdfa4-4cd3-4384-8a94-c93b31e9a85e))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C8") (unit 1)
         )
@@ -4504,7 +4504,7 @@
     (pin "8" (uuid 2661e6cc-28d1-4620-aa3f-86628fedb970))
     (pin "9" (uuid c81e09ef-1abe-4173-b76e-4838012bcc27))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "U2") (unit 1)
         )
@@ -4529,7 +4529,7 @@
     )
     (pin "1" (uuid d1da7311-c284-495a-8311-ff671eb403dc))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR051") (unit 1)
         )
@@ -4555,7 +4555,7 @@
     (pin "1" (uuid fd53392f-63a2-4e5f-a551-ee3d88589b4d))
     (pin "2" (uuid 4fa47593-361a-494e-8993-d6541060348d))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C18") (unit 1)
         )
@@ -4581,7 +4581,7 @@
     (pin "1" (uuid 9fab89d0-51ab-4eb6-9891-fdd81d0ea648))
     (pin "2" (uuid 66f6dc82-3670-4d86-8601-74366f69ad2b))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "R10") (unit 1)
         )
@@ -4606,7 +4606,7 @@
     )
     (pin "1" (uuid 2cedcf46-d9e2-4769-b401-c223d1aefbe5))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR061") (unit 1)
         )
@@ -4631,7 +4631,7 @@
     )
     (pin "1" (uuid e3077c57-8e31-4516-a7e6-50c1d8d014a7))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "TP5") (unit 1)
         )
@@ -4657,7 +4657,7 @@
     (pin "1" (uuid 84166e1b-a043-4820-99b0-c5f2ec18f9f9))
     (pin "2" (uuid cafe2119-b2ae-4937-aa93-20045ee72ad2))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "L3") (unit 1)
         )
@@ -4682,7 +4682,7 @@
     )
     (pin "1" (uuid e1c06952-ea1d-4410-8250-6f247a4e8534))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR034") (unit 1)
         )
@@ -4708,7 +4708,7 @@
     (pin "1" (uuid 8370f7a7-ffac-4728-b72d-d07dcc6a8d41))
     (pin "2" (uuid 07d12b71-4299-45f8-aad1-98bc8756fa77))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C4") (unit 1)
         )
@@ -4734,7 +4734,7 @@
     (pin "1" (uuid 2d7b2a8f-5e3b-45d0-b663-5e9fd4996c43))
     (pin "2" (uuid 404d39c0-5630-473d-a269-0282d0227d53))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C20") (unit 1)
         )
@@ -4760,7 +4760,7 @@
     (pin "1" (uuid 77df7566-26fa-42b7-ba31-a9e7f87a5307))
     (pin "2" (uuid bf768fc2-316e-4d04-8b14-7270f6d66a6b))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "R8") (unit 1)
         )
@@ -4794,7 +4794,7 @@
     (pin "8" (uuid a331e596-98a9-4ba2-879e-cbfa081b20f5))
     (pin "9" (uuid 3cf46d86-7afd-4663-b86b-9820fe5508e0))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "U7") (unit 1)
         )
@@ -4819,7 +4819,7 @@
     )
     (pin "1" (uuid 1072ad18-3d60-49a7-8bab-00e6d5a45cf3))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR06") (unit 1)
         )
@@ -4859,7 +4859,7 @@
     (pin "8" (uuid b8e667fb-514e-403e-a6b5-a78aa44e39de))
     (pin "9" (uuid 7acb454c-5eec-4277-a029-042c30e2c0ce))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "U8") (unit 1)
         )
@@ -4885,7 +4885,7 @@
     (pin "1" (uuid 3c76a133-c9ca-426b-b0d6-c9394469744a))
     (pin "2" (uuid d020c761-1e04-4239-8a24-c86065f24b34))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "R6") (unit 1)
         )
@@ -4910,7 +4910,7 @@
     )
     (pin "1" (uuid 582ac560-204c-4dce-9c19-86ae53865538))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR054") (unit 1)
         )
@@ -4936,7 +4936,7 @@
     (pin "1" (uuid cc20a43a-4f08-4a46-9e8f-18c44e3edb60))
     (pin "2" (uuid 58af5d1c-12ee-4774-9d0e-87ac41702386))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C19") (unit 1)
         )
@@ -4962,7 +4962,7 @@
     (pin "1" (uuid 2d875c7b-2e77-42f4-86e5-c06fadc1d57d))
     (pin "2" (uuid 95e6ff5f-5d6e-41af-a3ab-dc32df58994b))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D18") (unit 1)
         )
@@ -4989,7 +4989,7 @@
     (pin "2" (uuid 8f07d28a-21fb-4687-80a3-56b02a9bcbe8))
     (pin "3" (uuid 030a1185-5d3c-4de6-8846-e19477632995))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "Q1") (unit 1)
         )
@@ -5014,7 +5014,7 @@
     )
     (pin "1" (uuid 3d62754c-5667-46d8-9198-1a794384dfca))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR07") (unit 1)
         )
@@ -5039,7 +5039,7 @@
     )
     (pin "1" (uuid 5c169af1-db81-471e-a380-f69319b679b1))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR055") (unit 1)
         )
@@ -5065,7 +5065,7 @@
     (pin "1" (uuid 00b0dd3d-f3f8-4289-83a4-7bffac4b34f6))
     (pin "2" (uuid 3285e58b-2bb4-44a9-8c8e-25b05c4d0601))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C21") (unit 1)
         )
@@ -5090,7 +5090,7 @@
     )
     (pin "1" (uuid 2c3634ca-879b-4019-9c10-99f685525a52))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR031") (unit 1)
         )
@@ -5115,7 +5115,7 @@
     )
     (pin "1" (uuid f64a78f6-71f1-421f-bf2e-76f27a8b27cb))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR058") (unit 1)
         )
@@ -5140,7 +5140,7 @@
     )
     (pin "1" (uuid 4109687f-2676-4580-96c7-396d66f18572))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR043") (unit 1)
         )
@@ -5166,7 +5166,7 @@
     (pin "1" (uuid 16d64c7d-30cc-427b-b841-ef70d47b6050))
     (pin "2" (uuid e172cdc0-952b-4f40-ab80-027926b93e25))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D17") (unit 1)
         )
@@ -5195,7 +5195,7 @@
     (pin "4" (uuid 6c79f7f7-ea01-42a4-9d99-cec85240d187))
     (pin "5" (uuid 63ebc296-1450-4676-834e-18ceb739f843))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "U5") (unit 1)
         )
@@ -5221,7 +5221,7 @@
     (pin "1" (uuid af21ae8f-a0f9-4e3e-8444-45b018ad7b96))
     (pin "2" (uuid 32d6520b-8f81-46d0-81a2-08e3bb5721fc))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C6") (unit 1)
         )
@@ -5247,7 +5247,7 @@
     (pin "1" (uuid fb470a6f-31e2-4b06-bd02-43367577c58b))
     (pin "2" (uuid 16d90c6b-6514-4e04-b8f1-57303ca0ed88))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D1") (unit 1)
         )
@@ -5273,7 +5273,7 @@
     (pin "1" (uuid e9e277f9-f094-4922-a4df-dc63c3d00f07))
     (pin "2" (uuid 67db4929-8be0-4342-9d6f-3f2e0feb0009))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C1") (unit 1)
         )
@@ -5299,7 +5299,7 @@
     (pin "1" (uuid 0fb742af-4930-42b8-97b0-ee58bab30193))
     (pin "2" (uuid 8016e0a9-717e-437b-b143-770fcc23df30))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D23") (unit 1)
         )
@@ -5325,7 +5325,7 @@
     (pin "1" (uuid d994649c-4a65-4da5-bed8-60a071426055))
     (pin "2" (uuid 90130970-156d-4305-b891-d9d1f302cfce))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D21") (unit 1)
         )
@@ -5350,7 +5350,7 @@
     )
     (pin "1" (uuid abb76a79-f2ac-4f03-a281-ca9a30ebf666))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR033") (unit 1)
         )
@@ -5376,7 +5376,7 @@
     (pin "1" (uuid 4d7a7347-afde-413f-9505-a8276af48e14))
     (pin "2" (uuid 49c24539-dfb3-42f3-9522-c0083a0ca701))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "J6") (unit 1)
         )
@@ -5401,7 +5401,7 @@
     )
     (pin "1" (uuid df47f522-2b99-4c43-852c-f753a379c650))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR066") (unit 1)
         )
@@ -5426,7 +5426,7 @@
     )
     (pin "1" (uuid d4be2bee-5a85-46be-af40-1a431a1a7548))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR053") (unit 1)
         )
@@ -5451,7 +5451,7 @@
     )
     (pin "1" (uuid 3f1ef390-4a5c-4720-9741-e3d3e086b5ac))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR013") (unit 1)
         )
@@ -5476,7 +5476,7 @@
     )
     (pin "1" (uuid 5d24184e-2e36-4461-9f2b-17020309658f))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR046") (unit 1)
         )
@@ -5502,7 +5502,7 @@
     (pin "1" (uuid 228a8572-1416-4109-8e5a-14e8977f1a6d))
     (pin "2" (uuid 9ab762e6-b836-4a46-ab7e-0006305cb04e))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D2") (unit 1)
         )
@@ -5529,7 +5529,7 @@
     (pin "2" (uuid ffaf6dfd-86f9-453a-bcfd-9edd29a1ac84))
     (pin "3" (uuid 33bf8ea9-c39f-4d21-b560-8c768b727782))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D13") (unit 1)
         )
@@ -5554,7 +5554,7 @@
     )
     (pin "1" (uuid 83442c19-4750-4114-9988-c5b3d5316ce4))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR024") (unit 1)
         )
@@ -5581,7 +5581,7 @@
     (pin "2" (uuid ef70a4e0-25b6-467c-bbef-46926f12513c))
     (pin "3" (uuid ddcc2896-356e-4f24-9e61-d954a34ffb02))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D8") (unit 1)
         )
@@ -5606,7 +5606,7 @@
     )
     (pin "1" (uuid 34b3a5c3-50b2-4d14-b491-d1f665bcda31))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#FLG01") (unit 1)
         )
@@ -5632,7 +5632,7 @@
     (pin "1" (uuid 6d6cdb88-7242-4768-87cf-79c09c7a30be))
     (pin "2" (uuid 51299a34-df62-44e9-aab7-2ba5882423ac))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D22") (unit 1)
         )
@@ -5658,7 +5658,7 @@
     (pin "1" (uuid 3bd6c95f-9c6f-4d0f-8755-78f7a7708736))
     (pin "2" (uuid 8873d80b-edde-40e3-836d-295c41858cef))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "J4") (unit 1)
         )
@@ -5684,7 +5684,7 @@
     (pin "1" (uuid 645da498-b551-413e-b1c2-6c520faafad4))
     (pin "2" (uuid 173d4ff7-5645-40df-b961-4085d1a0f1fb))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C3") (unit 1)
         )
@@ -5717,7 +5717,7 @@
     (pin "8" (uuid 2c7e6b6b-df9b-44fc-885d-9cb7c10e6642))
     (pin "9" (uuid 28eaf9e7-8826-4ad9-b9ec-172637b9ead3))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "U3") (unit 1)
         )
@@ -5742,7 +5742,7 @@
     )
     (pin "1" (uuid 1b741573-56da-41f4-ab20-9e6ee5215359))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR059") (unit 1)
         )
@@ -5767,7 +5767,7 @@
     )
     (pin "1" (uuid e82e6b0b-4fe4-44f3-8b07-dc2a49310b8c))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR010") (unit 1)
         )
@@ -5792,7 +5792,7 @@
     )
     (pin "1" (uuid 71e5a310-599c-48f1-96cb-ff7556c536c3))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "TP2") (unit 1)
         )
@@ -5817,7 +5817,7 @@
     )
     (pin "1" (uuid 85c3171c-ea74-4c8c-8903-eea5716c99b0))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR09") (unit 1)
         )
@@ -5843,7 +5843,7 @@
     (pin "1" (uuid 27bfe666-7cc6-4b43-8869-bd17789b5566))
     (pin "2" (uuid 83baf102-7a16-46b8-b017-9ed0a590ee77))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "R12") (unit 1)
         )
@@ -5868,7 +5868,7 @@
     )
     (pin "1" (uuid 958dd740-fe34-4d56-b200-930913f5e82b))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR023") (unit 1)
         )
@@ -5894,7 +5894,7 @@
     (pin "1" (uuid c6db0614-696e-4c39-9df9-9078fac38b60))
     (pin "2" (uuid 14777afe-e3a5-415a-9da2-cfbb2e862c5b))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "L5") (unit 1)
         )
@@ -5919,7 +5919,7 @@
     )
     (pin "1" (uuid e122f6b9-7c41-429e-b068-e9f084687a17))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR040") (unit 1)
         )
@@ -5944,7 +5944,7 @@
     )
     (pin "1" (uuid 6cbd297b-d385-48f6-a0dc-ec4d3336f657))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR021") (unit 1)
         )
@@ -5970,7 +5970,7 @@
     (pin "1" (uuid ca6b482f-c485-4653-b306-98ebe7e6e362))
     (pin "2" (uuid 9d1bff4e-5ed6-48be-8747-3e68d0c310b9))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "R1") (unit 1)
         )
@@ -5996,7 +5996,7 @@
     (pin "1" (uuid c603db2a-56e3-4288-9a5c-0e20c73e7bfa))
     (pin "2" (uuid 43f4a2ea-aa87-4f8c-8793-338162d16090))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "L4") (unit 1)
         )
@@ -6021,7 +6021,7 @@
     )
     (pin "1" (uuid 7a2b1241-577f-46ba-a5be-59367e7b64e7))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR026") (unit 1)
         )
@@ -6050,7 +6050,7 @@
     (pin "4" (uuid f2804bd2-dadc-491d-84e8-be882ee7256e))
     (pin "5" (uuid 164f28b7-0d02-4d41-ae02-a6f81bd97f82))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "U4") (unit 1)
         )
@@ -6075,7 +6075,7 @@
     )
     (pin "1" (uuid 90bfb934-2bfe-4d9e-b9a0-8edb7b8d9dd0))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR065") (unit 1)
         )
@@ -6100,7 +6100,7 @@
     )
     (pin "1" (uuid 961d0452-bc10-4794-9017-a2566c5f097a))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR062") (unit 1)
         )
@@ -6125,7 +6125,7 @@
     )
     (pin "1" (uuid 7e4ecfdd-1e85-4822-926b-2794ddfeb667))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR045") (unit 1)
         )
@@ -6150,7 +6150,7 @@
     )
     (pin "1" (uuid d5b872b2-2971-4c80-a8b6-f690962feffe))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR060") (unit 1)
         )
@@ -6175,7 +6175,7 @@
     )
     (pin "1" (uuid 10095bca-69ac-4929-af52-8878952e13c3))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR063") (unit 1)
         )
@@ -6201,7 +6201,7 @@
     (pin "1" (uuid 604648e3-ff3b-47e8-aba9-67fc6524902c))
     (pin "2" (uuid 321d660a-3698-4a89-b2fb-c8f1c0d2e0b7))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "L2") (unit 1)
         )
@@ -6226,7 +6226,7 @@
     )
     (pin "1" (uuid abb9a53e-b417-4eb5-b22b-a7cc6746e7c2))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR056") (unit 1)
         )
@@ -6251,7 +6251,7 @@
     )
     (pin "1" (uuid e3f1b223-68cd-4c35-9227-1104f047ff47))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "TP6") (unit 1)
         )
@@ -6276,7 +6276,7 @@
     )
     (pin "1" (uuid 1fcd3748-a0db-4364-a08d-593e2ac9d6c8))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR064") (unit 1)
         )
@@ -6302,7 +6302,7 @@
     (pin "1" (uuid c82413aa-3525-4fcf-a582-1bad2dfb9482))
     (pin "2" (uuid b19c952e-2815-4145-be02-d5a5d0b40bfb))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D24") (unit 1)
         )
@@ -6327,7 +6327,7 @@
     )
     (pin "1" (uuid 0bdfe9ee-f471-4f1e-a3fb-969a12b59dad))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR020") (unit 1)
         )
@@ -6352,7 +6352,7 @@
     )
     (pin "1" (uuid 53ec426f-365d-43d0-87d1-d7a163fdc611))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR039") (unit 1)
         )
@@ -6378,7 +6378,7 @@
     (pin "1" (uuid abc55b08-9380-4a76-be7b-3091652055ba))
     (pin "2" (uuid f7ac20a9-b4dd-4d42-87c4-dd0b2eb1cc20))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "R4") (unit 1)
         )
@@ -6404,7 +6404,7 @@
     (pin "1" (uuid 60ab90f6-c795-4891-8d7a-055841f42eaa))
     (pin "2" (uuid 65e188d8-dd40-4971-ad96-d490e022da50))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D3") (unit 1)
         )
@@ -6429,7 +6429,7 @@
     )
     (pin "1" (uuid 53c4574a-a916-4c99-aed0-53cdc36656ec))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR04") (unit 1)
         )
@@ -6454,7 +6454,7 @@
     )
     (pin "1" (uuid 08e6ee11-d95c-4546-946b-97762cfbade1))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "TP3") (unit 1)
         )
@@ -6479,7 +6479,7 @@
     )
     (pin "1" (uuid cfa516ce-6673-4d9e-83ff-63b0066eaf24))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR017") (unit 1)
         )
@@ -6504,7 +6504,7 @@
     )
     (pin "1" (uuid 3fca4d53-306a-40e0-852b-8f9807f5ec7b))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR042") (unit 1)
         )
@@ -6529,7 +6529,7 @@
     )
     (pin "1" (uuid d403df3d-333f-4e98-be17-95d2cd981bc3))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR057") (unit 1)
         )
@@ -6554,7 +6554,7 @@
     )
     (pin "1" (uuid 4c7ea95b-16b3-402c-98c6-52dbe77e54c1))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR01") (unit 1)
         )
@@ -6580,7 +6580,7 @@
     (pin "1" (uuid 3aed41d5-dfc7-4557-aa59-a79f4cc85b6a))
     (pin "2" (uuid cea9cd35-5c5e-47cd-884b-37687af4d79a))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D20") (unit 1)
         )
@@ -6606,7 +6606,7 @@
     (pin "1" (uuid 5242de91-df67-43cc-baf9-bc7784d138a5))
     (pin "2" (uuid 9537bb04-1d54-4764-b3d6-76f9d2a44d81))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C22") (unit 1)
         )
@@ -6631,7 +6631,7 @@
     )
     (pin "1" (uuid fc527680-a7f6-4f79-908c-773c9fe93629))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR030") (unit 1)
         )
@@ -6645,7 +6645,7 @@
     (property "Reference" "R5" (at 340.36 212.725 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "25k" (at 340.36 215.265 0)
+    (property "Value" "24.9k" (at 340.36 215.265 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 337.82 213.36 0)
@@ -6657,7 +6657,7 @@
     (pin "1" (uuid 9b240b01-0448-45f9-bba4-e1c24589dfa7))
     (pin "2" (uuid b8268907-acbb-4a10-b96a-0660e6824f93))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "R5") (unit 1)
         )
@@ -6682,7 +6682,7 @@
     )
     (pin "1" (uuid 8bff410a-adf5-473f-9439-52d414357a01))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "TP7") (unit 1)
         )
@@ -6708,7 +6708,7 @@
     (pin "1" (uuid f62c9a48-d0de-4b7b-b2e4-73158b2225e0))
     (pin "2" (uuid 4560c1e9-954a-4ecf-b3ed-00c93eff1488))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C24") (unit 1)
         )
@@ -6734,7 +6734,7 @@
     (pin "1" (uuid 1f2e81e5-867d-4edb-a2f7-10241db9e154))
     (pin "2" (uuid 6f087801-187e-4637-b09b-526258c744f7))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C10") (unit 1)
         )
@@ -6760,7 +6760,7 @@
     (pin "1" (uuid 6c0f89a8-d42f-4ee8-b144-667b448cb2eb))
     (pin "2" (uuid f70eaa44-e1d2-4798-81ab-7cb14d361d72))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "R9") (unit 1)
         )
@@ -6785,7 +6785,7 @@
     )
     (pin "1" (uuid 33344ca9-7506-438a-a0f9-15d80c186c7d))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR041") (unit 1)
         )
@@ -6810,7 +6810,7 @@
     )
     (pin "1" (uuid 2a77ae4e-fba4-41bb-918e-61ccf90b4d17))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR049") (unit 1)
         )
@@ -6837,7 +6837,7 @@
     (pin "2" (uuid ff7cceb8-30b7-49e6-b7ab-e356bad5eb82))
     (pin "3" (uuid 63fce9df-4538-408e-94b7-6d2db4cb1fb6))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D6") (unit 1)
         )
@@ -6862,7 +6862,7 @@
     )
     (pin "1" (uuid 83ba274c-79fb-4bff-b999-2431f06d9c7b))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR025") (unit 1)
         )
@@ -6887,7 +6887,7 @@
     )
     (pin "1" (uuid 7fdc2081-d534-487c-8232-bb4b3b8691fb))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR027") (unit 1)
         )
@@ -6912,7 +6912,7 @@
     )
     (pin "1" (uuid f8681039-8318-40fe-93f2-ac98727e4893))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR05") (unit 1)
         )
@@ -6938,7 +6938,7 @@
     (pin "1" (uuid aa258a06-8588-4d77-813e-0de9d578dccf))
     (pin "2" (uuid 9612b2a5-5cbb-441c-93c1-08fb69cef14b))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C23") (unit 1)
         )
@@ -6965,7 +6965,7 @@
     (pin "2" (uuid 0ffb4e38-a937-4504-a83d-22a24ea0fa00))
     (pin "3" (uuid 4bbcc088-9c8c-4ca8-af74-5ac74cd7787b))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D15") (unit 1)
         )
@@ -6991,7 +6991,7 @@
     (pin "1" (uuid adcb9b9b-9824-4a63-a30c-a5208e91cfb3))
     (pin "2" (uuid 518a8c4c-e8de-487e-a903-2a8bed0af9ee))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C16") (unit 1)
         )
@@ -7017,7 +7017,7 @@
     (pin "1" (uuid 17f063a1-8a0e-43e1-99ef-d381932d3a91))
     (pin "2" (uuid 5d1bf4bb-4ebd-4f9e-afe8-14e81abcf8f9))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "F1") (unit 1)
         )
@@ -7042,7 +7042,7 @@
     )
     (pin "1" (uuid 07dbb629-9465-43ec-b1ad-7c6c258f639d))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR011") (unit 1)
         )
@@ -7068,7 +7068,7 @@
     (pin "1" (uuid cb53b585-5300-42cc-8fe8-96650b7a8c6a))
     (pin "2" (uuid ec5bf985-d14d-44a5-814d-c67e982fda24))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C14") (unit 1)
         )
@@ -7094,7 +7094,7 @@
     (pin "1" (uuid 1c4ceac6-4cbb-4c41-bb3f-f2664ed39951))
     (pin "2" (uuid b5ce6fee-896c-4d81-9d88-e23a9401aeeb))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "J7") (unit 1)
         )
@@ -7120,7 +7120,7 @@
     (pin "1" (uuid 8a4aafc3-beaa-45d9-96c6-bff159ecb9d8))
     (pin "2" (uuid bfa3275e-1606-4d4d-84f7-f526e6444dad))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C5") (unit 1)
         )
@@ -7146,7 +7146,7 @@
     (pin "1" (uuid 948f3d8e-e28c-41b0-a6ea-b204ca5958fe))
     (pin "2" (uuid dd7eeb23-0cb6-44ea-8f50-6d4a75bbb370))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C7") (unit 1)
         )
@@ -7173,7 +7173,7 @@
     (pin "2" (uuid 6ea9b2cd-83a8-4176-8c80-cb6876bbee6d))
     (pin "3" (uuid 7403b0dc-0510-48d7-b429-67eba1f55bc9))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D14") (unit 1)
         )
@@ -7198,7 +7198,7 @@
     )
     (pin "1" (uuid 42bc4611-f4aa-4528-9086-77fe515a6fd7))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR035") (unit 1)
         )
@@ -7224,7 +7224,7 @@
     (pin "1" (uuid d38e3116-695e-4422-baf5-923361374d7f))
     (pin "2" (uuid 9d057e61-8c2d-4dce-8c62-eb323ea2b53d))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D19") (unit 1)
         )
@@ -7250,7 +7250,7 @@
     (pin "1" (uuid da80dca4-311c-4cc3-9895-43ec18c9f291))
     (pin "2" (uuid bc86ed8f-d711-4edd-bae9-34dfc643b72e))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "R3") (unit 1)
         )
@@ -7276,7 +7276,7 @@
     (pin "1" (uuid b25e44cf-7dab-4aae-b92d-513a45f56d88))
     (pin "2" (uuid b9897bc8-bd86-49bb-b8ea-ba190900285d))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "R13") (unit 1)
         )
@@ -7301,7 +7301,7 @@
     )
     (pin "1" (uuid ef9716a1-a1dd-4ad2-a20a-1d34b96b3d61))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR047") (unit 1)
         )
@@ -7326,7 +7326,7 @@
     )
     (pin "1" (uuid 81ba42f3-efb0-4628-a5e7-c6e85bd6df09))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR038") (unit 1)
         )
@@ -7352,7 +7352,7 @@
     (pin "1" (uuid 69eafe66-f7f3-4f80-866e-c2a374b2dead))
     (pin "2" (uuid 105f00eb-4eca-4265-a598-ad3cce04a5db))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C15") (unit 1)
         )
@@ -7378,7 +7378,7 @@
     (pin "1" (uuid 16ea096c-1a46-4946-87d3-d32791fd5488))
     (pin "2" (uuid 342516ff-04fc-4cfb-aa52-7c0bef77bbee))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "R11") (unit 1)
         )
@@ -7405,7 +7405,7 @@
     (pin "2" (uuid 0f77ad9c-aba2-4916-a07c-4d811219bcfe))
     (pin "3" (uuid aaeaeaa9-45f8-4981-a2f0-35cb6c761de0))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D7") (unit 1)
         )
@@ -7431,7 +7431,7 @@
     (pin "1" (uuid a3fd26c7-03b0-476f-b163-bdc2febc7c78))
     (pin "2" (uuid 2c8995f0-8c9d-4590-bff6-5bc85b85ef9e))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C12") (unit 1)
         )
@@ -7457,7 +7457,7 @@
     (pin "1" (uuid a8dc23c3-893d-49d9-94c6-e33ee0989832))
     (pin "2" (uuid b28e17f3-106e-43c4-8119-7352086cb6c0))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "C13") (unit 1)
         )
@@ -7483,7 +7483,7 @@
     (pin "1" (uuid 76185148-11c4-4b2d-ada2-489208c16cbf))
     (pin "2" (uuid 18c42ec1-d31f-4f63-904e-e859d6a5c0af))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "J2") (unit 1)
         )
@@ -7510,7 +7510,7 @@
     (pin "2" (uuid 1fc5d8dd-e9b5-4a49-8414-6fb0072c9fd5))
     (pin "3" (uuid af3327b4-e56b-4094-8a48-d90be3da5117))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D9") (unit 1)
         )
@@ -7535,7 +7535,7 @@
     )
     (pin "1" (uuid 88726490-e888-44bf-ac2a-1e8457f4553c))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "#PWR032") (unit 1)
         )
@@ -7562,7 +7562,7 @@
     (pin "2" (uuid 51342603-de2b-45ba-89fc-0ac11e6ef4a5))
     (pin "3" (uuid d7326737-aa71-4574-849b-d0789906de9c))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D16") (unit 1)
         )
@@ -7589,7 +7589,7 @@
     (pin "2" (uuid b7a415ba-dfcb-4177-a47a-59d283ef941f))
     (pin "3" (uuid 342da0da-08d8-48e5-b9b8-6fb6b88215b5))
     (instances
-      (project "light-board"
+      (project "controller-board"
         (path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
           (reference "D11") (unit 1)
         )

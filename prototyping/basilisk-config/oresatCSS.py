@@ -344,7 +344,7 @@ def run(show_plots, useCSSConstellation, usePlatform, useEclipse, useKelly):
         css1Log = CSS1.cssDataOutMsg.recorder()
         css2Log = CSS2.cssDataOutMsg.recorder()
         css3Log = CSS3.cssDataOutMsg.recorder()
-        css3Log = CSS4.cssDataOutMsg.recorder()
+        css4Log = CSS4.cssDataOutMsg.recorder()
         scSim.AddModelToTask(simTaskName, css1Log)
         scSim.AddModelToTask(simTaskName, css2Log)
         scSim.AddModelToTask(simTaskName, css3Log)

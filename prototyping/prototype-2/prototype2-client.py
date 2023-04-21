@@ -1,86 +1,62 @@
+
 import socketio
+import uuid
+import eventlet
 import time
 import Adafruit_BBIO.PWM as PWM
 import Adafruit_BBIO.GPIO as GPIO
 from time import sleep
 
-
 BB_FREQ = 250e3
 LED_PIN = "P9_14"
-IP = '192.168.50.114'
-PORT = '8000'
-address = 'ws://' + IP + ':' + PORT
-#get mac address
 
-sio = socketio.Client(logger=False, engineio_logger=False)
-GPIO.setup(LED_PIN, GPIO.OUT)
-print(address)
+sio = socketio.Client()
 
 @sio.event
 def connect():
-    print("connected")
-    #print(f"connected to server {sio.sid}")
-    print('my sid is', sio.sid)
-@sio.event
-def connect_error(data):
-    print("The connection failed!")
-
+    print("Connected to the server")
+    mac_address = uuid.UUID(int=uuid.getnode()).hex[-12:]
+    sio.emit('my_event', {'mac_address': mac_address}) #sending mac address to server
 @sio.event
 def disconnect():
-    print('disconnected from server')
-
-# Define an event for receiving a message from the server
-@sio.event
-def response(data):
-    print('Received response:', data)
-@sio.on('message')
-def send_it(data):
-    print("im here")
-    sio.emit('message', 'Hello, server!')
- #event to gete the temperature   
-@sio.on('GET_TEMP')
-def get_temp(data):
-        print('message',data)
-        dummyTemp = 34
-        print('Sending temp...')
-        print(dummyTemp)
-        message = 'Hello, server!'
-        sio.emit('my_message', message)
+    print("Disconnected from the server")
 
 @sio.event
-def cmd(msg):
-    print(msg)
-    if msg == 'ON':
-        print("LED Should Be on")
-        # Turn LED on
-        GPIO.setup(LED_PIN, GPIO.OUT)
-        GPIO.output(LED_PIN, GPIO.HIGH)
-        time.sleep(0.5)
-    if msg == 'PWM':
-        print("LED Should Be PWM'ing")
-        # Simulate Transition
-        # Gradually adjust the PWM to 0
-        for i in range(100, 0, -1):
-            PWM.start(LED_PIN, i, BB_FREQ)
-            sleep(0.1)
-        sleep(.5)
-        PWM.cleanup(LED_PIN)
-    if msg == 'OFF':
+def message(data):
+    command = data['command']
+    if command == 'getTemp':
+        response = 23
+        ##The sensor code going to be here
+        
+    if command == 'getIntensity':
+        response = 44
+        #the photoresistor code gonna be here
+        
+    if command == 'OFF':
         print("LED Should Be OFF")
         time.sleep(0.5)
         PWM.stop(LED_PIN)
         PWM.cleanup(LED_PIN)
         GPIO.setup(LED_PIN, GPIO.OUT)
         GPIO.output(LED_PIN, GPIO.LOW)
+        response = 0 
+    if command == 'ON':
+        print("LED Should Be on")
+        # Turn LED on
+        GPIO.setup(LED_PIN, GPIO.OUT)
+        GPIO.output(LED_PIN, GPIO.HIGH)
+        time.sleep(0.5)
+        response = 0
+    else:
+        response = "Invalid command"
     
-    if msg == 'GET_LIGHT_LEVEL':
-        print('Sending intensity')
+    # Add a small delay to ensure the client is fully connected
+    eventlet.sleep(0.5)
     
+    sio.emit('response', {'command': command, 'value': response})
+    print(f"Sent '{command}' response to the server")
+
 
 if __name__ == '__main__':
     sio.connect('http://192.168.50.114:8000')
-
-    #sio.connect('ws://192.168.50.114:8000', transports=['websocket'])
-    #sio.connect(str(address))
     sio.wait()
- 

@@ -5961,6 +5961,10 @@
 
   (gr_rect (start 198.4 131.3) (end 206.4 139.3)
     (stroke (width 0.15) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 54cee7f3-652c-474e-8189-ae089faa5249))
+  (gr_rect (start 179.8 88.4) (end 196.8 105.4)
+    (stroke (width 0.15) (type solid)) (fill solid) (layer "F.Mask") (tstamp 362c724c-bde9-4ce2-997f-9c75f16d0671))
+  (gr_rect (start 90.6 73) (end 107.6 90)
+    (stroke (width 0.15) (type solid)) (fill solid) (layer "F.Mask") (tstamp 6fb2cba2-8268-4345-8f37-5b5244aa5808))
   (gr_line (start 210 57.5) (end 210 147.5)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 1a6994cc-ef70-45f5-96ad-26b3dfa28ccf))
   (gr_line (start 82.5 55) (end 207.5 55)

@@ -160,7 +160,7 @@ The resulting simulation results are shown below to be identical to the first se
 #
 
 import os
-
+import csv
 import matplotlib.pyplot as plt
 import numpy as np
 # The path to the location of Basilisk
@@ -202,7 +202,7 @@ def run(show_plots, useCSSConstellation, usePlatform, useEclipse, useKelly):
     scSim = SimulationBaseClass.SimBaseClass()
 
     # set the simulation time variable used later on
-    simulationTime = macros.sec2nano(5000.)
+    simulationTime = macros.sec2nano(360.)
 
     #
     #  create the simulation process
@@ -386,7 +386,13 @@ def run(show_plots, useCSSConstellation, usePlatform, useEclipse, useKelly):
         dataCSS3 = css3Log.OutputData
         dataCSS4 = css4Log.OutputData
     np.set_printoptions(precision=16)
+    print_data = [dataCSS1.tolist(), dataCSS2.tolist(), dataCSS3.tolist(), dataCSS4.tolist()]
 
+    with open('output.csv', 'w', newline='') as csvfile:
+        fout = csv.writer(csvfile)
+        fout.writerow(print_data)
+        print('outputdone')
+    
     #
     #   plot the results
     #
@@ -396,7 +402,7 @@ def run(show_plots, useCSSConstellation, usePlatform, useEclipse, useKelly):
     if useCSSConstellation:
         for idx in range(len(cssList)):
             plt.plot(cssConstLog.times()*macros.NANO2SEC, dataCSSArray[:, idx],
-                         color=unitTestSupport.getLineColor(idx,3),
+                         color=unitTestSupport.getLineColor(idx,4),
                          label='CSS$_{'+str(idx)+'}$')
     else:
         timeAxis = css1Log.times()

@@ -55,9 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|86015404|144638647|85ed1103-b2a4-4142-9e31-f3be69d99f4c|bb684672-6ab2-4342-aa44-fcd6bfc100b5"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -455,7 +453,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "controller-board.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

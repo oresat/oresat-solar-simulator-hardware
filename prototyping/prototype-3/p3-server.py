@@ -47,6 +47,9 @@ for o, a in opts:
         assert False, "unhandled option"
 
 def ping_in_intervals():
+    '''
+    Primary server loop. Reads data from the source and emits a message to each client to set their PWM value.
+    '''
     i = 0
     while True:
         if len(client_sids) == 4:
@@ -69,10 +72,16 @@ def ping_in_intervals():
 
 @sio.event
 def connect(sid, environ):
+    '''
+    Executred upon client connect.
+    '''
     print('Client connected:', sid)
 
 @sio.event
-def disconnect(sid):
+def disconnect(sid):    
+    '''
+    Executred upon client disconnect.
+    '''
     global client_sids
     print('Client disconnected:', sid)
     command_list = '' #clean up
@@ -81,14 +90,21 @@ def disconnect(sid):
     
 @sio.event
 def set_sid(sid, client_id):
+    '''
+    Message sent by client to set its client_id.
+    '''
     print('Setting sid for client:', client_id)
     client_sids[client_id] = sid
-    print(client_sids)
+    # print(client_sids)
     sio.emit('response',f'User {client_id} was added succesfully!!', room=sid)
         
     
 @sio.event
 def sim_response(sid, data):
+    '''
+    Message sent by client with photodiode and thermister data.
+    TODO: Will need to do processing here.
+    '''
     print(data)
 
 if __name__ == '__main__':

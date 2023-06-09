@@ -29,6 +29,21 @@ The mechanical components were developed by Zeus Ayala using onShape.
 
 ![housing](housing-render.png)
 
+## Server-Client Communication
+
+```mermaid
+sequenceDiagram
+    participant Server
+    participant Client
+    Client->>Server: Set client_id
+    loop ping_in_interval
+        Server->>Server: Read positional data
+        Server->>Client: set_pwm
+    end
+    Client->>Server: Thermister and Photodiode data
+    Server->>Server: Verify safe response
+```
+
 ## License
 
 All materials in this repo are copyright Portland State Aerospace Society and are licensed under the CERN Open Hardware Licence Version 2 -

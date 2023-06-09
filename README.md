@@ -10,6 +10,7 @@ The work for this was done as an MCECS Capstone Project from January to June of 
 ## Hardware
 
 ![boardlayout](board-render.png)
+
 The schematic and pcb layout were designed in kiCADv7. The boards we used were fabricated by [OSHPark](https://oshpark.com/) in Lake Oswego, OR.
 
 The simulators are driven by a PocketBeagle Rev. A2b attached to the board.
@@ -25,6 +26,7 @@ TODO: Fill this out
 ## Mechanical
 
 The mechanical components were developed by Zeus Ayala using onShape.
+
 ![housing](housing-render.png)
 
 ## License

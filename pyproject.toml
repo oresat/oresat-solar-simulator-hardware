@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oresat-solar-simulator"
+version = "0.9.1"
+authors = [
+  { name="Adam Martinez", email="adammartinez@protonmail.com" },
+]
+description = "A solar simulator designed to text power delivery to CubeSat solar panels"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: POSIX :: Linux",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/oresat/oresat-solar-simulator"

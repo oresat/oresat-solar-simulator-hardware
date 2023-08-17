@@ -22,7 +22,6 @@ The software consists of a hub and client modules, both written in Python3.9. Th
 
 ### Libraries
 
-TODO: Fill this out
 * [Python Socketio](https://python-socketio.readthedocs.io/en/latest/server.html#installation)
 * [Adafruit Python ADS1X15](https://github.com/Ayush2309/Adafruit_ADS)
 * [Adafruit Python MCP4728](https://github.com/adafruit/Adafruit_CircuitPython_MCP4728)
@@ -58,4 +57,4 @@ participant Basilisk
 ## License
 
 All materials in this repo are copyright Portland State Aerospace Society and are licensed under the CERN Open Hardware Licence Version 2 -
-Strongly Reciprocal (CERN-OHL-S v2) and the GNU General Public License v3.0, or any later versions. A copy of the license is located in [here](LICENSE.md). TODO: Add CERN License
+Strongly Reciprocal (CERN-OHL-S v2) and the GNU General Public License v3.0, or any later versions. A copy of the license is located in [here](LICENSE.md).

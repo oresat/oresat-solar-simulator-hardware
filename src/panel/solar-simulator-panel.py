@@ -7,7 +7,6 @@ import json
 import os
 import busio
 import time
-import Adafruit_BBIO.PWM as PWM
 from numpy import linspace, uint16
 GAIN = 1
 global system_state
@@ -54,12 +53,21 @@ args = parser.parse_args()
 # Setup I2C
 i2c = busio.I2C('I2C1_SCL', 'I2C1_SDA')
 mcp4728 = adafruit_mcp4728.MCP4728(i2c)
-adc = Adafruit_ADS1x15.ADS1015()
+adc = Adafruit_ADS1x15.ADS1015(busnum=1)
 
 # Setup PWM
-BB_FREQ = 250e3
+BB_PER = 4000
 PWM_PIN = "P2_1"
-PWM.start(PWM_PIN, 0, BB_FREQ)
+PWM_PATH = '/dev/bone/pwm/1/a'
+
+print('Setting Period')
+os.system(f'sudo echo {BB_PER} >> {PWM_PATH}/period')
+print('Setting enable')
+if os.system(f'cat {PWM_PATH}/enable') == 0:
+    os.system(f'sudo echo 1 >> {PWM_PATH}/enable')
+print('Setting duty_cycle')
+os.system(f'echo 0 >> {PWM_PATH}/duty_cycle')
+
 
 @sio.event
 def connect():
@@ -102,7 +110,9 @@ def set_panel(level):
             mcp4728.channel_b.value = steps[1][level]
             mcp4728.channel_c.value = steps[2][level]
             mcp4728.channel_d.value = steps[3][level]
-            PWM.set_duty_cycle(PWM_PIN, steps[4][level])
+            
+            os.system(f'echo {steps[4][level]} >> {PWM_PATH}/duty_cycle')
+            print(f'PWM duty_cycle is: {steps[4][level]}')
         except Exception as e:
             print(e)
             print('Failed to set light levels')
@@ -118,7 +128,7 @@ def set_panel(level):
             temp_values = (0, 0, 0)
             photo_value = 0
         else:
-            # print(values)
+            print(values)
             temp_values = (values[0], values[1], values[2])
             photo_value = values[3]
             
@@ -172,12 +182,12 @@ def calc_steps(limiter):
     grn_start = data['grn_start']
     blu_start = data['blu_start']
     UV_start  = data['UV_start']
-    PWM_start = data['PWM_start']
+    PWM_start = data['PWM_start'] * BB_PER / 100
     red_max = int(data['red_max'] * limiter)
     grn_max = int(data['grn_max'] * limiter)
     blu_max = int(data['blu_max'] * limiter)
     UV_max  = int(data['UV_max'] * limiter)
-    PWM_max = int(data['PWM_max'] * limiter)
+    PWM_max = int(data['PWM_max'] * limiter * BB_PER / 100)
     red_steps = linspace(red_start, red_max, num=101, dtype=uint16)
     grn_steps = linspace(grn_start, grn_max, num=101, dtype=uint16)
     blu_steps = linspace(blu_start, blu_max, num=101, dtype=uint16)

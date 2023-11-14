@@ -18,16 +18,7 @@ The simulators are driven by a PocketBeagle Rev. A2b attached to the board.
 
 ## Software
 
-The software consists of a hub and client modules, both written in Python3.9. The hub utilizes the [Basilisk Simulation Framework](http://hanspeterschaub.info/basilisk/) to determine which sides of the CubeSat would be exposed to light and transmits that data to the client simulators to drive their light output by a WebSocket connection.
-
-### Libraries
-
-* [Python Socketio](https://python-socketio.readthedocs.io/en/latest/server.html#installation)
-* [Adafruit Python ADS1X15](https://github.com/Ayush2309/Adafruit_ADS)
-* [Adafruit Python MCP4728](https://github.com/adafruit/Adafruit_CircuitPython_MCP4728)
-* [Adafruit-Blinka](https://github.com/adafruit/circuitpython)
-* [Adafruit-BBIO](https://github.com/adafruit/adafruit-beaglebone-io-python)
-* [python-argparse](https://docs.python.org/3/library/argparse.html)
+The software for this project lives in the [oresat-solar-simulator-software](https://github.com/oresat/oresat-solar-simulator-software) repository.
 
 ## Mechanical
 

@@ -1,6 +1,7 @@
-# oresat-solar-simulator
+# oresat-solar-simulator-hardware
 
-Solar simulator for testing 1U solar panels
+The hardware repository for our solar simulator for testing 1U solar panels
+[Software Repo](https://github.com/oresat/oresat-solar-simulator-software)
 
 ## General Information
 

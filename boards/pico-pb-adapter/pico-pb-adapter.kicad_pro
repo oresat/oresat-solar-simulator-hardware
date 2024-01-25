@@ -50,10 +50,10 @@
       },
       "diff_pair_dimensions": [],
       "drc_exclusions": [
+        "clearance|121275386|63500000|6256ebe9-21ed-443d-99c8-b933777050c2|53cb4996-c094-4ed9-b555-52718f807365",
+        "clearance|121318106|63542720|63a0be1a-c06b-4728-ad48-77e2976a0744|53cb4996-c094-4ed9-b555-52718f807365",
         "clearance|121807323|63480723|3f6f5104-2d98-4f3c-a12c-b8c2de4346cc|d6fd3337-387d-4b42-8d88-e0a647c1528e",
-        "clearance|121807709|63480723|6256ebe9-21ed-443d-99c8-b933777050c2|e85d3fc5-1c7b-4fab-8284-086f98bd2d9c",
-        "clearance|121920000|64145000|0698c347-7600-41ee-9c3a-d6ea1c3fc5b7|d6fd3337-387d-4b42-8d88-e0a647c1528e",
-        "clearance|121920386|64145000|63a0be1a-c06b-4728-ad48-77e2976a0744|e85d3fc5-1c7b-4fab-8284-086f98bd2d9c",
+        "clearance|122470703|64979866|0698c347-7600-41ee-9c3a-d6ea1c3fc5b7|f2696a18-b3fd-4b06-b7a6-844f1360894b",
         "clearance|124460000|68580000|6f241adb-195b-4780-8188-faeb07c54668|4c68d153-103c-4e07-994f-c3552d70e568",
         "clearance|124460000|68580000|6f241adb-195b-4780-8188-faeb07c54668|b0a731c7-0cc1-4e1f-8e69-c8e411416e8b",
         "clearance|124460000|68580000|ce946966-0d3a-4eee-9d31-913ca6c13f8e|4c68d153-103c-4e07-994f-c3552d70e568",
@@ -66,10 +66,7 @@
         "starved_thermal|128250000|66040000|97cd09f6-703b-479b-8e9c-8908f4a6a41d|a705b7e4-fb5e-4c64-80a1-5531f6664ec8|F.Cu",
         "track_dangling|121920000|64145000|0698c347-7600-41ee-9c3a-d6ea1c3fc5b7|00000000-0000-0000-0000-000000000000",
         "track_dangling|121920386|64145000|63a0be1a-c06b-4728-ad48-77e2976a0744|00000000-0000-0000-0000-000000000000",
-        "unconnected_items|124048299|68580000|ce946966-0d3a-4eee-9d31-913ca6c13f8e|63a0be1a-c06b-4728-ad48-77e2976a0744",
-        "unconnected_items|134620000|45720000|02a5cf97-9aa6-436d-b828-171aca53a63c|97cd09f6-703b-479b-8e9c-8908f4a6a41d",
-        "unconnected_items|134620000|45720000|02a5cf97-9aa6-436d-b828-171aca53a63c|c2073470-2c41-417b-85a6-ab7e903dde04",
-        "unconnected_items|134620000|68580000|e623c582-3a44-4625-ac35-a4d4498a807c|97cd09f6-703b-479b-8e9c-8908f4a6a41d"
+        "unconnected_items|124048299|68580000|ce946966-0d3a-4eee-9d31-913ca6c13f8e|63a0be1a-c06b-4728-ad48-77e2976a0744"
       ],
       "meta": {
         "version": 2
@@ -198,7 +195,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|838200|927100|4be7c2cd-361c-42f6-adf8-19a101e6afe9|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -447,7 +446,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""

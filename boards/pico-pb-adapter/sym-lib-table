@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "oresat-misc")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-misc.kicad_sym")(options "")(descr ""))
+)

@@ -243,7 +243,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "power_pin_not_driven|2133600|1447800|74a1285e-b59a-4128-9cfc-a8827de727b1|00000000-0000-0000-0000-000000000000|/ab186ba7-5fdc-41ea-88f4-a283b73948bc|/ab186ba7-5fdc-41ea-88f4-a283b73948bc|",
+      "power_pin_not_driven|952500|1397000|e78c79f3-34b7-4f52-b3e2-df5921a990ca|00000000-0000-0000-0000-000000000000|/ab186ba7-5fdc-41ea-88f4-a283b73948bc|/ab186ba7-5fdc-41ea-88f4-a283b73948bc|"
+    ],
     "meta": {
       "version": 0
     },
@@ -446,7 +449,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -479,6 +482,23 @@
         "via_diameter": 0.508,
         "via_drill": 0.254,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "{RED_LIM, GREEN_LIM, BLUE_LIM, UV_LIM}",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.508,
+        "via_drill": 0.254,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -486,7 +506,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "{RED_LIM, GREEN_LIM, BLUE_LIM, UV_LIM}"
+      },
+      {
+        "netclass": "{RED_LIM, GREEN_LIM, BLUE_LIM, UV_LIM}",
+        "pattern": "/<NO NET>"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -590,6 +619,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,

@@ -11487,15 +11487,18 @@
 		)
 		(uuid "b22a1dc6-ce62-4769-9f11-a8e0309d2676")
 	)
-	(text "fix, gets weird votlage spikes and kills transistor\nmaybe add capacitor from Vcc to ground?"
+	(text "double check PMV45EN symbol vs footprint - view datasheet pinout "
 		(exclude_from_sim no)
-		(at 292.1 239.522 0)
+		(at 267.716 245.872 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+				(color 255 9 47 1)
 			)
 		)
-		(uuid "d205da48-dfaa-462e-90d2-cdef6423d64f")
+		(uuid "b4a1b356-79bc-40a1-bca9-6a2ee0c95f17")
 	)
 	(text "UV LED Channel"
 		(exclude_from_sim no)
@@ -16611,7 +16614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b3da127-abc4-4223-a8c8-4ac53e56ef7d")
-		(property "Reference" "U16"
+		(property "Reference" "U25"
 			(at 191.77 144.78 0)
 			(effects
 				(font
@@ -16786,7 +16789,7 @@
 		(instances
 			(project "controller-board"
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
-					(reference "U16")
+					(reference "U25")
 					(unit 1)
 				)
 			)
@@ -21992,7 +21995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 266.7 213.36 0)
 			(effects
 				(font
@@ -22001,7 +22004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV45EN2.pdf"
 			(at 261.62 215.9 0)
 			(effects
 				(font
@@ -31853,7 +31856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 264.16 205.74 0)
 			(effects
 				(font

@@ -4739,10 +4739,10 @@
 		(uuid "558b4942-90df-4fea-951a-386f64b80d4e")
 	)
 	(junction
-		(at 158.75 194.31)
+		(at 147.32 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "55b6e2e0-d190-4a68-8323-b45b813fa097")
+		(uuid "55e53629-ab0e-49e9-86ec-f97d89058090")
 	)
 	(junction
 		(at 332.74 170.18)
@@ -5075,6 +5075,12 @@
 		(uuid "edac39b9-62b6-4a78-9bfd-d5f1c3ef3716")
 	)
 	(junction
+		(at 147.32 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee7622c8-9e8a-40c1-abf8-f9a3a1189e3c")
+	)
+	(junction
 		(at 40.64 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5099,12 +5105,6 @@
 		(uuid "fbb55ea7-8779-4f39-9211-bbc49a233a75")
 	)
 	(junction
-		(at 158.75 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe5cf9c2-17df-43fb-8007-1b0014312a55")
-	)
-	(junction
 		(at 332.74 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5119,10 +5119,6 @@
 	(no_connect
 		(at 163.83 173.99)
 		(uuid "0c355d85-08e1-4622-9bc3-5381c5b61fc7")
-	)
-	(no_connect
-		(at 163.83 163.83)
-		(uuid "16e395db-28f5-4e56-8d6a-bd74e0c01e81")
 	)
 	(no_connect
 		(at 199.39 191.77)
@@ -5181,10 +5177,6 @@
 		(uuid "8528352d-e421-45c5-8b38-9ce2223e0007")
 	)
 	(no_connect
-		(at 163.83 153.67)
-		(uuid "8560c7c1-4929-419d-b062-54a8b593cb76")
-	)
-	(no_connect
 		(at 95.25 271.78)
 		(uuid "9018b898-76c0-4a0b-82a2-a88fb861abde")
 	)
@@ -5213,10 +5205,6 @@
 		(uuid "dee8bd68-50f0-44f9-8b3a-7fbad639315a")
 	)
 	(no_connect
-		(at 163.83 151.13)
-		(uuid "e1fd2109-8e4b-4426-935e-8f8b55bfd8a5")
-	)
-	(no_connect
 		(at 199.39 184.15)
 		(uuid "e2ebfbd6-e66c-49ae-bb7d-cb6bfe75ec47")
 	)
@@ -5227,14 +5215,6 @@
 	(no_connect
 		(at 163.83 184.15)
 		(uuid "f0d3b134-f689-4b60-9e8f-05d7c8e62760")
-	)
-	(no_connect
-		(at 163.83 158.75)
-		(uuid "f4346b59-570a-4394-b6b0-1eed66e93fa5")
-	)
-	(no_connect
-		(at 163.83 161.29)
-		(uuid "f6585968-d228-4894-8799-97eac2c01642")
 	)
 	(no_connect
 		(at 199.39 179.07)
@@ -5742,6 +5722,16 @@
 			(type default)
 		)
 		(uuid "0fcaae61-3b7c-4e92-bb38-4d785cb856c0")
+	)
+	(wire
+		(pts
+			(xy 147.32 194.31) (xy 163.83 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fcf2032-cbe8-4b53-aeca-afb476d8e601")
 	)
 	(wire
 		(pts
@@ -7065,7 +7055,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 181.61) (xy 158.75 194.31)
+			(xy 147.32 181.61) (xy 147.32 194.31)
 		)
 		(stroke
 			(width 0)
@@ -7155,7 +7145,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 156.21) (xy 158.75 181.61)
+			(xy 147.32 156.21) (xy 147.32 181.61)
 		)
 		(stroke
 			(width 0)
@@ -7392,16 +7382,6 @@
 			(type default)
 		)
 		(uuid "66afc8d2-940d-4823-9145-359fd2e6ca87")
-	)
-	(wire
-		(pts
-			(xy 158.75 181.61) (xy 163.83 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66ddbfc6-86b2-46c4-9b3b-8978d64001f6")
 	)
 	(wire
 		(pts
@@ -7945,6 +7925,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 151.13) (xy 163.83 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d5a3825-fd4f-420d-80e7-037113114f32")
+	)
+	(wire
+		(pts
 			(xy 264.16 198.12) (xy 264.16 200.66)
 		)
 		(stroke
@@ -8165,7 +8155,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 194.31) (xy 158.75 205.74)
+			(xy 147.32 194.31) (xy 147.32 205.74)
 		)
 		(stroke
 			(width 0)
@@ -8425,16 +8415,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 194.31) (xy 163.83 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97ab6b08-c17d-4990-8037-3be0fc105f8b")
-	)
-	(wire
-		(pts
 			(xy 29.21 132.08) (xy 34.29 132.08)
 		)
 		(stroke
@@ -8442,6 +8422,16 @@
 			(type default)
 		)
 		(uuid "97de42cd-bdad-42e5-b82f-15e184381211")
+	)
+	(wire
+		(pts
+			(xy 152.4 158.75) (xy 163.83 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b2a8de-2a4b-4f0f-a187-9c2b3bd8c9c5")
 	)
 	(wire
 		(pts
@@ -8735,7 +8725,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 156.21) (xy 158.75 156.21)
+			(xy 163.83 156.21) (xy 147.32 156.21)
 		)
 		(stroke
 			(width 0)
@@ -9365,6 +9355,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 153.67) (xy 163.83 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c443d16f-f527-4937-9ab2-1fc676c5e4e7")
+	)
+	(wire
+		(pts
 			(xy 95.25 281.94) (xy 118.11 281.94)
 		)
 		(stroke
@@ -9532,6 +9532,16 @@
 			(type default)
 		)
 		(uuid "cc5a5720-8008-4351-af01-469aee6c6c3f")
+	)
+	(wire
+		(pts
+			(xy 147.32 181.61) (xy 163.83 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf9e750-0ea8-4d97-8a73-bfc809e03c3e")
 	)
 	(wire
 		(pts
@@ -10105,6 +10115,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 161.29) (xy 163.83 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef94d309-28be-4054-a54f-9c8748e6c96c")
+	)
+	(wire
+		(pts
 			(xy 439.42 284.48) (xy 439.42 276.86)
 		)
 		(stroke
@@ -10272,6 +10292,16 @@
 			(type default)
 		)
 		(uuid "fb2796cc-9da8-4553-8812-8d8e4798d773")
+	)
+	(wire
+		(pts
+			(xy 152.4 163.83) (xy 163.83 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb28f420-ae82-4cc4-b1c3-e70f325c6220")
 	)
 	(wire
 		(pts
@@ -12620,6 +12650,72 @@
 			(project "controller-board"
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:TestPoint-MinTH")
+		(at 152.4 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0caf941c-8b42-46bc-abe9-80dfac8b3711")
+		(property "Reference" "TP11"
+			(at 153.924 159.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint-MinTH"
+			(at 152.4 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-MinTH"
+			(at 152.4 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78e0b42a-2041-4219-8927-43b837d9b4ff")
+		)
+		(instances
+			(project "controller-board"
+				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -23362,7 +23458,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 205.74 0)
+		(at 147.32 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23371,7 +23467,7 @@
 		(fields_autoplaced yes)
 		(uuid "9bbaeb17-7e58-4cd9-80c4-35b65b7103c0")
 		(property "Reference" "#PWR0131"
-			(at 158.75 212.09 0)
+			(at 147.32 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23380,7 +23476,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 210.82 0)
+			(at 147.32 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23388,7 +23484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 205.74 0)
+			(at 147.32 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23397,7 +23493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 205.74 0)
+			(at 147.32 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23406,7 +23502,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 205.74 0)
+			(at 147.32 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24900,6 +24996,72 @@
 			(project "controller-board"
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:TestPoint-MinTH")
+		(at 152.4 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b11ac801-9d8d-46b8-90a8-dec360c579c2")
+		(property "Reference" "TP8"
+			(at 153.924 152.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint-MinTH"
+			(at 152.4 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-MinTH"
+			(at 152.4 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7773e2ca-218f-424b-901f-1c9f9d0ade82")
+		)
+		(instances
+			(project "controller-board"
+				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -27477,6 +27639,72 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-misc:TestPoint-MinTH")
+		(at 152.4 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d32de1f9-c27e-4639-9ddc-ba88e3c389d9")
+		(property "Reference" "TP12"
+			(at 153.924 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint-MinTH"
+			(at 152.4 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-MinTH"
+			(at 152.4 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d3ec7ce-6576-4031-bf1d-c433a16e20fc")
+		)
+		(instances
+			(project "controller-board"
+				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 452.12 261.62 0)
 		(unit 1)
@@ -28504,6 +28732,72 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-misc:TestPoint-MinTH")
+		(at 152.4 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2b70046-d095-415f-b58e-b1c3d6587ff4")
+		(property "Reference" "TP13"
+			(at 153.924 164.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint-MinTH"
+			(at 152.4 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-MinTH"
+			(at 152.4 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "572ef60a-23b6-4071-99be-fa0f192796c0")
+		)
+		(instances
+			(project "controller-board"
+				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 261.62 129.54 0)
 		(unit 1)
@@ -28638,6 +28932,72 @@
 			(project "controller-board"
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:TestPoint-MinTH")
+		(at 152.4 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e56efa97-aadc-401a-9d90-7775ebe14f55")
+		(property "Reference" "TP10"
+			(at 153.67 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint-MinTH"
+			(at 152.4 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-MinTH"
+			(at 152.4 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b20c743c-ed29-40ba-9ffb-8e471c5f0663")
+		)
+		(instances
+			(project "controller-board"
+				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc"
+					(reference "TP10")
 					(unit 1)
 				)
 			)

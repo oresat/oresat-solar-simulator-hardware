@@ -8869,6 +8869,16 @@
 		)
 		(uuid "b98f9deb-b831-43ff-a882-2d9937f8ac33")
 	)
+	(text "add 100k pull-down resistor for adim pins"
+		(exclude_from_sim no)
+		(at 100.33 40.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e4aee88a-50bd-4bb2-a3d1-550a23d2ca99")
+	)
 	(text "Red LED Channel"
 		(exclude_from_sim no)
 		(at 111.76 60.96 0)
@@ -9745,7 +9755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 170.18 160.02 0)
 			(effects
 				(font
@@ -10217,7 +10227,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".560"
+		(property "Value" ".576"
 			(at 163.322 214.6301 0)
 			(effects
 				(font
@@ -10226,7 +10236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 170.18 213.36 0)
 			(effects
 				(font
@@ -11732,7 +11742,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".560"
+		(property "Value" ".576	"
 			(at 322.072 220.9801 0)
 			(effects
 				(font
@@ -11741,7 +11751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 328.93 219.71 0)
 			(effects
 				(font
@@ -12337,7 +12347,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".560"
+		(property "Value" ".576"
 			(at 484.632 153.6701 0)
 			(effects
 				(font
@@ -12346,7 +12356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 491.49 152.4 0)
 			(effects
 				(font
@@ -14340,7 +14350,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".560"
+		(property "Value" ".576"
 			(at 484.632 279.4001 0)
 			(effects
 				(font
@@ -14349,7 +14359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 491.49 278.13 0)
 			(effects
 				(font
@@ -14888,7 +14898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 170.18 223.52 0)
 			(effects
 				(font
@@ -15029,7 +15039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 328.93 96.52 0)
 			(effects
 				(font
@@ -15164,7 +15174,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 328.93 292.1 0)
 			(effects
 				(font
@@ -16011,7 +16021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 491.49 288.29 0)
 			(effects
 				(font
@@ -16277,7 +16287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 170.18 95.25 0)
 			(effects
 				(font
@@ -17147,7 +17157,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".560"
+		(property "Value" ".576"
 			(at 484.632 215.9001 0)
 			(effects
 				(font
@@ -17156,7 +17166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 491.49 214.63 0)
 			(effects
 				(font
@@ -17550,7 +17560,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".560"
+		(property "Value" ".576"
 			(at 322.072 156.2101 0)
 			(effects
 				(font
@@ -17559,7 +17569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 328.93 154.94 0)
 			(effects
 				(font
@@ -17685,7 +17695,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".560"
+		(property "Value" ".576"
 			(at 163.322 151.1301 0)
 			(effects
 				(font
@@ -17694,7 +17704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 170.18 149.86 0)
 			(effects
 				(font
@@ -20446,7 +20456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 491.49 162.56 0)
 			(effects
 				(font
@@ -21155,7 +21165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 170.18 285.75 0)
 			(effects
 				(font
@@ -21551,7 +21561,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".560"
+		(property "Value" ".576	"
 			(at 163.322 86.3601 0)
 			(effects
 				(font
@@ -21560,7 +21570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 170.18 85.09 0)
 			(effects
 				(font
@@ -23567,7 +23577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 491.49 224.79 0)
 			(effects
 				(font
@@ -23767,7 +23777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 491.49 97.79 0)
 			(effects
 				(font
@@ -24859,7 +24869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 328.93 165.1 0)
 			(effects
 				(font
@@ -25727,7 +25737,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".560"
+		(property "Value" ".576"
 			(at 484.632 88.9001 0)
 			(effects
 				(font
@@ -25736,7 +25746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 491.49 87.63 0)
 			(effects
 				(font
@@ -25934,7 +25944,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".560"
+		(property "Value" ".576"
 			(at 322.072 283.2101 0)
 			(effects
 				(font
@@ -25943,7 +25953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 328.93 281.94 0)
 			(effects
 				(font
@@ -26944,7 +26954,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".560"
+		(property "Value" ".576"
 			(at 322.072 87.6301 0)
 			(effects
 				(font
@@ -26953,7 +26963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 328.93 86.36 0)
 			(effects
 				(font
@@ -27493,7 +27503,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".560"
+		(property "Value" ".576"
 			(at 163.322 276.8601 0)
 			(effects
 				(font
@@ -27502,7 +27512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 170.18 275.59 0)
 			(effects
 				(font
@@ -28784,7 +28794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0402-C"
+		(property "Footprint" "oresat-passives:0603-C"
 			(at 328.93 229.87 0)
 			(effects
 				(font

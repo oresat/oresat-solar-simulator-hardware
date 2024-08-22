@@ -642,7 +642,7 @@
           "group_by": false,
           "label": "Distributor",
           "name": "Distributor",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",

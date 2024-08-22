@@ -6503,6 +6503,16 @@
 		)
 		(uuid "814d1dd5-b688-4393-a1f8-6bc59e67e053")
 	)
+	(text "to Halogen"
+		(exclude_from_sim no)
+		(at 158.496 57.912 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "88153620-a689-4919-9170-0035b8dbfe1d")
+	)
 	(text "Output to SS"
 		(exclude_from_sim no)
 		(at 255.27 144.78 0)
@@ -6556,6 +6566,16 @@
 			(justify right bottom)
 		)
 		(uuid "e534533d-aba5-423d-9f97-dff8bb5b4ec8")
+	)
+	(text "to LED strings"
+		(exclude_from_sim no)
+		(at 179.324 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e71fe029-6c28-4904-ac47-fed02ad97927")
 	)
 	(text "Power Input"
 		(exclude_from_sim no)
@@ -10093,7 +10113,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
-		(at 180.34 64.77 90)
+		(at 132.08 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10101,15 +10121,15 @@
 		(dnp yes)
 		(uuid "5416f15b-6026-4cfc-8c1d-eee521db9b3a")
 		(property "Reference" "F4"
-			(at 178.435 66.675 90)
+			(at 130.175 65.405 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0452005"
-			(at 180.848 60.452 90)
+		(property "Value" "0452005 (for LEDs/F2)"
+			(at 132.588 59.182 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10117,7 +10137,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuseholder_Littelfuse_Nano2_154x"
-			(at 180.34 64.77 0)
+			(at 132.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10126,7 +10146,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=8c87aa93-80a7-4ea8-8749-a19ba03901c2&filename=littelfuse-fuse-452-454-datasheet"
-			(at 180.34 64.77 0)
+			(at 132.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10135,7 +10155,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 64.77 0)
+			(at 132.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10144,7 +10164,7 @@
 			)
 		)
 		(property "DPN" "F2607CT-ND"
-			(at 180.34 64.77 0)
+			(at 132.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10153,7 +10173,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 180.34 64.77 0)
+			(at 132.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10162,7 +10182,7 @@
 			)
 		)
 		(property "MFR" "Littelfuse Inc."
-			(at 180.34 64.77 0)
+			(at 132.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10171,7 +10191,7 @@
 			)
 		)
 		(property "MPN" "0452005.MRL"
-			(at 180.34 64.77 0)
+			(at 132.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14486,7 +14506,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
-		(at 154.94 63.5 90)
+		(at 132.08 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14494,15 +14514,15 @@
 		(dnp yes)
 		(uuid "cd50dc0f-46ba-4d81-bd86-68f410323918")
 		(property "Reference" "F3"
-			(at 153.035 65.405 90)
+			(at 130.175 51.435 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0452008"
-			(at 151.13 59.69 90)
+		(property "Value" "0452008 (for F1/Halogen)"
+			(at 128.27 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14510,7 +14530,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 63.5 0)
+			(at 132.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14519,7 +14539,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=8c87aa93-80a7-4ea8-8749-a19ba03901c2&filename=littelfuse-fuse-452-454-datasheet"
-			(at 154.94 63.5 0)
+			(at 132.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14528,7 +14548,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 63.5 0)
+			(at 132.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14537,7 +14557,7 @@
 			)
 		)
 		(property "DPN" "F4172CT-ND"
-			(at 154.94 63.5 0)
+			(at 132.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14546,7 +14566,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 154.94 63.5 0)
+			(at 132.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14555,7 +14575,7 @@
 			)
 		)
 		(property "MFR" "Littelfuse Inc."
-			(at 154.94 63.5 0)
+			(at 132.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14564,7 +14584,7 @@
 			)
 		)
 		(property "MPN" "0452008.MRL"
-			(at 154.94 63.5 0)
+			(at 132.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)

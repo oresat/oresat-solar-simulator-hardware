@@ -6474,19 +6474,6 @@
 		)
 		(uuid "0cecc575-d9a2-496f-9ac1-ae3aa7452035")
 	)
-	(text "should C15 and C1 have higher voltage ratings?"
-		(exclude_from_sim no)
-		(at 323.088 27.94 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 255 57 88 1)
-			)
-		)
-		(uuid "1152c018-7810-4254-9e62-b0899f633efb")
-	)
 	(text "Halogen Dimming"
 		(exclude_from_sim no)
 		(at 370.586 38.354 0)
@@ -6879,7 +6866,7 @@
 		(uuid "ce4122b4-a50c-40b3-98d1-6cf060cdeda0")
 	)
 	(label "BLUE_LIM"
-		(at 401.32 314.96 0)
+		(at 400.05 314.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8598,7 +8585,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "311-1446-1-ND"
+		(property "DPN" "1276-1102-1-ND"
 			(at 379.73 52.07 0)
 			(effects
 				(font
@@ -8616,7 +8603,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Samsung Electro-Mechanics"
 			(at 379.73 52.07 0)
 			(effects
 				(font
@@ -8625,7 +8612,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R7BB105 "
+		(property "MPN" "CL10A105KA8NNNC"
 			(at 379.73 52.07 0)
 			(effects
 				(font
@@ -11096,7 +11083,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "1276-CL32B226MOJVPNECT-ND"
+		(property "DPN" "1276-3392-1-ND"
 			(at 372.11 52.07 0)
 			(effects
 				(font
@@ -11123,7 +11110,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL32B226MOJVPNE"
+		(property "MPN" "CL32B226KAJNNNE"
 			(at 372.11 52.07 0)
 			(effects
 				(font
@@ -13552,7 +13539,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-6328-1-ND"
+		(property "DPN" "1276-1006-1-ND"
 			(at 199.39 71.12 0)
 			(effects
 				(font
@@ -13570,7 +13557,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R71C104KA88J"
+		(property "MPN" "CL10B104KA8NNNC"
 			(at 199.39 71.12 0)
 			(effects
 				(font
@@ -13579,7 +13566,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Samsung Electro-Mechanics"
 			(at 199.39 71.12 0)
 			(effects
 				(font
@@ -14567,7 +14554,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "1276-CL32B226MOJVPNECT-ND"
+		(property "DPN" "1276-3392-1-ND"
 			(at 191.77 71.12 0)
 			(effects
 				(font
@@ -14594,7 +14581,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL32B226MOJVPNE"
+		(property "MPN" "CL32B226KAJNNNE"
 			(at 191.77 71.12 0)
 			(effects
 				(font

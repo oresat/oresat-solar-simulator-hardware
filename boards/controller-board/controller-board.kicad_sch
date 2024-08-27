@@ -4108,7 +4108,7 @@
 		(uuid "3db58405-a0c6-4a3c-9daa-bc10f8b512da")
 	)
 	(junction
-		(at 356.87 317.5)
+		(at 354.33 317.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b1d0cf1-0098-47df-b573-f5df756b1aae")
@@ -4150,7 +4150,7 @@
 		(uuid "74d81288-a8f9-4734-a7e8-81135e4b7990")
 	)
 	(junction
-		(at 154.94 68.58)
+		(at 152.4 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75f36ac8-766f-4543-8823-d5d2647e6c8e")
@@ -4180,7 +4180,7 @@
 		(uuid "80563aad-fa5b-4d5d-8bb7-43ce8d820ea5")
 	)
 	(junction
-		(at 161.29 68.58)
+		(at 158.75 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8be12b6b-b583-4801-8d9e-778a6d06d75a")
@@ -4246,7 +4246,7 @@
 		(uuid "c1830970-1807-4b61-a4f5-2e6de9dd79b3")
 	)
 	(junction
-		(at 167.64 73.66)
+		(at 165.1 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1d507b0-ed8c-4819-961e-6d78e604b00d")
@@ -4264,7 +4264,7 @@
 		(uuid "d9d422d6-b4f4-42e9-bcd8-26923b855e35")
 	)
 	(junction
-		(at 167.64 71.12)
+		(at 165.1 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb1640a9-ef1c-4c36-a7c3-6832bc8a3c87")
@@ -4276,7 +4276,7 @@
 		(uuid "ee7622c8-9e8a-40c1-abf8-f9a3a1189e3c")
 	)
 	(junction
-		(at 167.64 68.58)
+		(at 165.1 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f012802c-01cc-4e92-97df-e964c80cd7bc")
@@ -4342,11 +4342,11 @@
 		(uuid "6595e9ea-ab54-4a61-b32e-92de60a04dc8")
 	)
 	(no_connect
-		(at 138.43 87.63)
+		(at 134.62 87.63)
 		(uuid "6a2a712e-d4cd-452d-b374-74703b4c9697")
 	)
 	(no_connect
-		(at 161.29 87.63)
+		(at 165.1 87.63)
 		(uuid "6f5ba95c-c6ba-47b5-9ba7-b893a47ced9a")
 	)
 	(no_connect
@@ -4402,7 +4402,7 @@
 		(uuid "f0d3b134-f689-4b60-9e8f-05d7c8e62760")
 	)
 	(no_connect
-		(at 161.29 92.71)
+		(at 165.1 92.71)
 		(uuid "f61f2d78-2a90-4af3-9d30-4de04137e1f2")
 	)
 	(no_connect
@@ -4410,7 +4410,7 @@
 		(uuid "f6dea31a-de75-47d7-8b69-44811afcf184")
 	)
 	(no_connect
-		(at 138.43 92.71)
+		(at 134.62 92.71)
 		(uuid "f75cb007-3996-4059-9b4f-f341a6387dca")
 	)
 	(wire
@@ -4475,7 +4475,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 284.48) (xy 356.87 292.1)
+			(xy 354.33 284.48) (xy 354.33 292.1)
 		)
 		(stroke
 			(width 0)
@@ -4495,7 +4495,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 317.5) (xy 369.57 317.5)
+			(xy 354.33 317.5) (xy 369.57 317.5)
 		)
 		(stroke
 			(width 0)
@@ -4635,7 +4635,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 68.58) (xy 167.64 68.58)
+			(xy 158.75 68.58) (xy 165.1 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4675,7 +4675,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 317.5) (xy 356.87 317.5)
+			(xy 304.8 317.5) (xy 354.33 317.5)
 		)
 		(stroke
 			(width 0)
@@ -4695,7 +4695,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 297.18) (xy 356.87 317.5)
+			(xy 354.33 297.18) (xy 354.33 317.5)
 		)
 		(stroke
 			(width 0)
@@ -4905,7 +4905,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 58.42) (xy 154.94 59.69)
+			(xy 152.4 58.42) (xy 152.4 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5415,7 +5415,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 71.12) (xy 167.64 71.12)
+			(xy 148.59 71.12) (xy 165.1 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5425,7 +5425,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 73.66) (xy 167.64 76.2)
+			(xy 165.1 73.66) (xy 165.1 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5485,7 +5485,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 64.77) (xy 154.94 68.58)
+			(xy 152.4 64.77) (xy 152.4 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5515,7 +5515,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 68.58) (xy 161.29 68.58)
+			(xy 152.4 68.58) (xy 158.75 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5545,7 +5545,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 284.48) (xy 384.81 284.48)
+			(xy 354.33 284.48) (xy 384.81 284.48)
 		)
 		(stroke
 			(width 0)
@@ -5605,7 +5605,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 68.58) (xy 167.64 64.77)
+			(xy 165.1 68.58) (xy 165.1 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5805,7 +5805,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 71.12) (xy 167.64 73.66)
+			(xy 165.1 71.12) (xy 165.1 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5905,7 +5905,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 68.58) (xy 154.94 68.58)
+			(xy 148.59 68.58) (xy 152.4 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6265,7 +6265,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 59.69) (xy 167.64 58.42)
+			(xy 165.1 59.69) (xy 165.1 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6394,8 +6394,8 @@
 		(uuid "ff4aa929-03de-403e-ae92-15cf9c642682")
 	)
 	(rectangle
-		(start 325.12 256.54)
-		(end 454.66 114.3)
+		(start 332.74 114.3)
+		(end 454.66 256.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -6406,8 +6406,8 @@
 		(uuid 0fff18fc-d67c-4d4f-b0a1-50c968cd5fad)
 	)
 	(rectangle
-		(start 338.455 272.034)
-		(end 475.996 344.805)
+		(start 334.01 272.034)
+		(end 464.82 344.805)
 		(stroke
 			(width 0)
 			(type default)
@@ -6430,8 +6430,8 @@
 		(uuid 6200c8bb-8a11-46bc-a2bd-12fb0c10102f)
 	)
 	(rectangle
-		(start 344.17 34.29)
-		(end 412.75 90.17)
+		(start 332.74 31.75)
+		(end 417.83 101.6)
 		(stroke
 			(width 0)
 			(type default)
@@ -6455,31 +6455,25 @@
 	)
 	(text "Sensors + ADC"
 		(exclude_from_sim no)
-		(at 333.502 125.476 0)
+		(at 334.01 119.38 0)
 		(effects
 			(font
 				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 		(uuid "0600a76f-7adc-428b-8b6e-e111ed0c90cb")
 	)
-	(text "switch places for 10k and thermistor\nnot photodiode though"
-		(exclude_from_sim no)
-		(at 402.082 132.842 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0cecc575-d9a2-496f-9ac1-ae3aa7452035")
-	)
 	(text "Halogen Dimming"
 		(exclude_from_sim no)
-		(at 370.586 38.354 0)
+		(at 334.01 36.83 0)
 		(effects
 			(font
 				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -6487,10 +6481,12 @@
 	)
 	(text "Quad DAC"
 		(exclude_from_sim no)
-		(at 349.25 276.86 0)
+		(at 336.55 278.13 0)
 		(effects
 			(font
 				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -6561,7 +6557,7 @@
 	)
 	(text "5V Supply"
 		(exclude_from_sim no)
-		(at 194.31 50.8 0)
+		(at 189.23 49.53 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -6572,7 +6568,7 @@
 	)
 	(text "+12V @ 6.25A\nto Halogen"
 		(exclude_from_sim no)
-		(at 153.162 51.816 0)
+		(at 150.622 51.816 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6604,7 +6600,7 @@
 	)
 	(text "+12V @ 3A\nto LED strings"
 		(exclude_from_sim no)
-		(at 163.83 53.594 0)
+		(at 161.29 53.594 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6613,15 +6609,25 @@
 		)
 		(uuid "b22a1dc6-ce62-4769-9f11-a8e0309d2676")
 	)
-	(text "Need 12V/11A power supply"
+	(text "12V @ 11A"
 		(exclude_from_sim no)
-		(at 129.54 52.578 0)
+		(at 135.89 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "b2b4789e-7739-4b00-865c-5850cb305b3a")
+	)
+	(text "TBD: R13 may need to be stuffed with something \nto slow down Q2 rise time to prevent ringing\nand overshoot and whatnot."
+		(exclude_from_sim no)
+		(at 378.46 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cce48cfd-ac89-42e0-9ef8-7f6bcd3f0c0e")
 	)
 	(text "Thermistor 3"
 		(exclude_from_sim no)
@@ -6640,6 +6646,8 @@
 		(effects
 			(font
 				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -7329,7 +7337,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:TestPoint-MinTH")
-		(at 167.64 68.58 0)
+		(at 165.1 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7337,7 +7345,7 @@
 		(dnp no)
 		(uuid "05fe2cf7-76c2-4107-bf58-f4de8b27026f")
 		(property "Reference" "TP1"
-			(at 168.91 69.215 0)
+			(at 166.37 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7346,7 +7354,7 @@
 			)
 		)
 		(property "Value" "TestPoint-MinTH"
-			(at 167.64 61.595 0)
+			(at 165.1 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7355,7 +7363,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-MinTH"
-			(at 167.64 63.5 0)
+			(at 165.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7364,7 +7372,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 68.58 0)
+			(at 165.1 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7373,7 +7381,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 68.58 0)
+			(at 165.1 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7382,7 +7390,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 167.64 68.58 0)
+			(at 165.1 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7391,7 +7399,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey "
-			(at 167.64 68.58 0)
+			(at 165.1 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7495,7 +7503,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 167.64 58.42 0)
+		(at 165.1 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7503,7 +7511,7 @@
 		(dnp no)
 		(uuid "0a9c7a82-7ef9-445b-ae44-d957104dbf5b")
 		(property "Reference" "#PWR09"
-			(at 167.64 62.23 0)
+			(at 165.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7512,7 +7520,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 166.116 54.864 0)
+			(at 163.576 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7520,7 +7528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 58.42 0)
+			(at 165.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7529,7 +7537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 58.42 0)
+			(at 165.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7538,7 +7546,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 167.64 58.42 0)
+			(at 165.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8364,7 +8372,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
-		(at 167.64 62.23 90)
+		(at 165.1 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8372,7 +8380,7 @@
 		(dnp no)
 		(uuid "1cf88832-87b3-4879-8142-ba92574c2db4")
 		(property "Reference" "F2"
-			(at 169.672 61.722 90)
+			(at 167.132 61.722 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8380,7 +8388,7 @@
 			)
 		)
 		(property "Value" "01550900DR"
-			(at 174.244 59.436 90)
+			(at 171.704 59.436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8388,7 +8396,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuseholder_Littelfuse_Nano2_154x"
-			(at 167.64 62.23 0)
+			(at 165.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8397,7 +8405,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=5ec5d985-39ad-44b5-9bdb-f49bf381a070&filename=littelfuse-fuse-block-1550900-datasheet"
-			(at 167.64 62.23 0)
+			(at 165.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8406,7 +8414,7 @@
 			)
 		)
 		(property "Description" "10A fuseholder"
-			(at 175.768 57.404 90)
+			(at 173.228 57.404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8414,7 +8422,7 @@
 			)
 		)
 		(property "DPN" "18-01550900DRCT-ND"
-			(at 167.64 62.23 0)
+			(at 165.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8423,7 +8431,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 167.64 62.23 0)
+			(at 165.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8432,7 +8440,7 @@
 			)
 		)
 		(property "MFR" "Littelfuse Inc."
-			(at 167.64 62.23 0)
+			(at 165.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8441,7 +8449,7 @@
 			)
 		)
 		(property "MPN" "01550900DR"
-			(at 167.64 62.23 0)
+			(at 165.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9818,7 +9826,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 161.29 68.58 0)
+		(at 158.75 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9826,7 +9834,7 @@
 		(dnp no)
 		(uuid "38f3bb83-3770-4b66-b852-63a487680550")
 		(property "Reference" "#FLG01"
-			(at 161.29 66.675 0)
+			(at 158.75 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9835,7 +9843,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 161.036 69.85 0)
+			(at 158.496 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9843,7 +9851,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 68.58 0)
+			(at 158.75 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9852,7 +9860,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 68.58 0)
+			(at 158.75 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9861,7 +9869,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 161.29 68.58 0)
+			(at 158.75 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10476,7 +10484,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
-		(at 161.29 90.17 90)
+		(at 165.1 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10484,7 +10492,7 @@
 		(dnp no)
 		(uuid "5416f15b-6026-4cfc-8c1d-eee521db9b3a")
 		(property "Reference" "F4"
-			(at 159.385 92.075 90)
+			(at 163.195 92.075 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10492,7 +10500,7 @@
 			)
 		)
 		(property "Value" "0452005"
-			(at 161.798 85.852 90)
+			(at 165.608 85.852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10500,7 +10508,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuseholder_Littelfuse_Nano2_154x"
-			(at 161.29 90.17 0)
+			(at 165.1 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10509,7 +10517,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=8c87aa93-80a7-4ea8-8749-a19ba03901c2&filename=littelfuse-fuse-452-454-datasheet"
-			(at 161.29 90.17 0)
+			(at 165.1 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10518,7 +10526,7 @@
 			)
 		)
 		(property "Description" "5A fuse for F2/LED strings"
-			(at 166.624 93.98 90)
+			(at 165.1 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10526,7 +10534,7 @@
 			)
 		)
 		(property "DPN" "F2607CT-ND"
-			(at 161.29 90.17 0)
+			(at 165.1 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10535,7 +10543,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 161.29 90.17 0)
+			(at 165.1 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10544,7 +10552,7 @@
 			)
 		)
 		(property "MFR" "Littelfuse Inc."
-			(at 161.29 90.17 0)
+			(at 165.1 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10553,7 +10561,7 @@
 			)
 		)
 		(property "MPN" "0452005.MRL"
-			(at 161.29 90.17 0)
+			(at 165.1 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12058,7 +12066,7 @@
 		(dnp no)
 		(uuid "834ae277-3c39-4440-a543-80acb643978a")
 		(property "Reference" "Q1"
-			(at 351.282 59.69 0)
+			(at 360.68 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12067,7 +12075,7 @@
 			)
 		)
 		(property "Value" "PMV45EN"
-			(at 344.17 56.642 0)
+			(at 360.68 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13099,7 +13107,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:TestPoint-MinTH")
-		(at 167.64 73.66 0)
+		(at 165.1 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13107,7 +13115,7 @@
 		(dnp no)
 		(uuid "a14b816e-e589-48be-ac47-af944ce48e6e")
 		(property "Reference" "TP3"
-			(at 168.91 74.295 0)
+			(at 166.37 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13116,7 +13124,7 @@
 			)
 		)
 		(property "Value" "TestPoint-MinTH"
-			(at 167.64 66.675 0)
+			(at 165.1 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13125,7 +13133,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-MinTH"
-			(at 167.64 68.58 0)
+			(at 165.1 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13134,7 +13142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 73.66 0)
+			(at 165.1 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13143,7 +13151,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 73.66 0)
+			(at 165.1 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13152,7 +13160,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 167.64 73.66 0)
+			(at 165.1 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13161,7 +13169,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey "
-			(at 167.64 73.66 0)
+			(at 165.1 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13316,7 +13324,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 146.05 71.12 180)
+		(at 143.51 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13324,7 +13332,7 @@
 		(dnp no)
 		(uuid "a7688693-0c3d-4ac9-9a6f-67e54e643241")
 		(property "Reference" "J1"
-			(at 146.05 66.04 0)
+			(at 143.51 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13332,7 +13340,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 151.13 73.66 0)
+			(at 148.59 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13340,7 +13348,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 146.05 71.12 0)
+			(at 143.51 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13349,7 +13357,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/909/1935161.pdf"
-			(at 146.05 71.12 0)
+			(at 143.51 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13358,7 +13366,7 @@
 			)
 		)
 		(property "Description" "1935161"
-			(at 146.05 71.12 0)
+			(at 143.51 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13367,7 +13375,7 @@
 			)
 		)
 		(property "DPN" "277-1667-ND"
-			(at 146.05 71.12 0)
+			(at 143.51 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13376,7 +13384,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 146.05 71.12 0)
+			(at 143.51 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13385,7 +13393,7 @@
 			)
 		)
 		(property "MFR" "Phoenix Contact"
-			(at 146.05 71.12 0)
+			(at 143.51 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13394,7 +13402,7 @@
 			)
 		)
 		(property "MPN" "1935161"
-			(at 146.05 71.12 0)
+			(at 143.51 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14284,7 +14292,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 76.2 0)
+		(at 165.1 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14293,7 +14301,7 @@
 		(fields_autoplaced yes)
 		(uuid "c73b8531-8145-4b29-b578-cb7d44656ba0")
 		(property "Reference" "#PWR010"
-			(at 167.64 82.55 0)
+			(at 165.1 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14302,7 +14310,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 81.28 0)
+			(at 165.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14310,7 +14318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 76.2 0)
+			(at 165.1 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14319,7 +14327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 76.2 0)
+			(at 165.1 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14328,7 +14336,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 76.2 0)
+			(at 165.1 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14975,7 +14983,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
-		(at 138.43 90.17 90)
+		(at 134.62 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14983,7 +14991,7 @@
 		(dnp no)
 		(uuid "cd50dc0f-46ba-4d81-bd86-68f410323918")
 		(property "Reference" "F3"
-			(at 136.525 92.075 90)
+			(at 132.715 92.075 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14999,7 +15007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 90.17 0)
+			(at 134.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15008,7 +15016,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=8c87aa93-80a7-4ea8-8749-a19ba03901c2&filename=littelfuse-fuse-452-454-datasheet"
-			(at 138.43 90.17 0)
+			(at 134.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15017,7 +15025,7 @@
 			)
 		)
 		(property "Description" "8A fuse for F1/Halogen"
-			(at 128.778 94.234 90)
+			(at 134.62 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15025,7 +15033,7 @@
 			)
 		)
 		(property "DPN" "F4172CT-ND"
-			(at 138.43 90.17 0)
+			(at 134.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15034,7 +15042,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 138.43 90.17 0)
+			(at 134.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15043,7 +15051,7 @@
 			)
 		)
 		(property "MFR" "Littelfuse Inc."
-			(at 138.43 90.17 0)
+			(at 134.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15052,7 +15060,7 @@
 			)
 		)
 		(property "MPN" "0452008.MRL"
-			(at 138.43 90.17 0)
+			(at 134.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15741,7 +15749,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 154.94 58.42 0)
+		(at 152.4 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15749,7 +15757,7 @@
 		(dnp no)
 		(uuid "da800099-7dbc-4ad4-8ae0-a342cc993368")
 		(property "Reference" "#PWR046"
-			(at 154.94 62.23 0)
+			(at 152.4 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15758,7 +15766,7 @@
 			)
 		)
 		(property "Value" "+12Vpwm"
-			(at 151.13 54.356 0)
+			(at 148.59 54.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15766,7 +15774,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 58.42 0)
+			(at 152.4 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15775,7 +15783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 58.42 0)
+			(at 152.4 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15784,7 +15792,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 154.94 58.42 0)
+			(at 152.4 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16039,7 +16047,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 356.87 294.64 0)
+		(at 354.33 294.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16047,7 +16055,7 @@
 		(dnp no)
 		(uuid "e48233ce-cc6f-45df-80fd-0c544669bd76")
 		(property "Reference" "R10"
-			(at 359.41 294.64 90)
+			(at 351.79 299.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16056,7 +16064,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 359.41 299.72 90)
+			(at 351.79 294.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16065,7 +16073,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 356.87 294.64 0)
+			(at 354.33 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16074,7 +16082,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 356.87 294.64 0)
+			(at 354.33 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16083,7 +16091,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 356.87 294.64 0)
+			(at 354.33 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16092,7 +16100,7 @@
 			)
 		)
 		(property "DPN" "311-100KHRCT-ND"
-			(at 356.87 294.64 0)
+			(at 354.33 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16101,7 +16109,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 356.87 294.64 0)
+			(at 354.33 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16110,7 +16118,7 @@
 			)
 		)
 		(property "MFR" "Yageo"
-			(at 356.87 294.64 0)
+			(at 354.33 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16119,7 +16127,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-07100KL"
-			(at 356.87 294.64 0)
+			(at 354.33 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17169,7 +17177,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
-		(at 154.94 62.23 90)
+		(at 152.4 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17177,7 +17185,7 @@
 		(dnp no)
 		(uuid "f7971e36-03fe-41b9-81a1-4cb2a622f17a")
 		(property "Reference" "F1"
-			(at 153.035 64.135 90)
+			(at 150.495 64.135 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17185,7 +17193,7 @@
 			)
 		)
 		(property "Value" "01550900DR"
-			(at 146.558 61.468 90)
+			(at 144.018 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17193,7 +17201,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuseholder_Littelfuse_Nano2_154x"
-			(at 154.94 62.23 0)
+			(at 152.4 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17202,7 +17210,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=5ec5d985-39ad-44b5-9bdb-f49bf381a070&filename=littelfuse-fuse-block-1550900-datasheet"
-			(at 154.94 62.23 0)
+			(at 152.4 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17211,7 +17219,7 @@
 			)
 		)
 		(property "Description" "10A fuseholder"
-			(at 145.796 59.182 90)
+			(at 143.256 59.182 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17219,7 +17227,7 @@
 			)
 		)
 		(property "DPN" "18-01550900DRCT-ND"
-			(at 154.94 62.23 0)
+			(at 152.4 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17228,7 +17236,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 154.94 62.23 0)
+			(at 152.4 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17237,7 +17245,7 @@
 			)
 		)
 		(property "MFR" "Littelfuse Inc."
-			(at 154.94 62.23 0)
+			(at 152.4 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17246,7 +17254,7 @@
 			)
 		)
 		(property "MPN" "01550900DR"
-			(at 154.94 62.23 0)
+			(at 152.4 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17590,7 +17598,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:TestPoint-MinTH")
-		(at 167.64 71.12 0)
+		(at 165.1 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17598,7 +17606,7 @@
 		(dnp no)
 		(uuid "fc9654a0-2d5b-4bf1-9753-716c83683020")
 		(property "Reference" "TP2"
-			(at 168.91 71.755 0)
+			(at 166.37 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17607,7 +17615,7 @@
 			)
 		)
 		(property "Value" "TestPoint-MinTH"
-			(at 167.64 64.135 0)
+			(at 165.1 64.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17616,7 +17624,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-MinTH"
-			(at 167.64 66.04 0)
+			(at 165.1 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17625,7 +17633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 71.12 0)
+			(at 165.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17634,7 +17642,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 71.12 0)
+			(at 165.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17643,7 +17651,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 167.64 71.12 0)
+			(at 165.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17652,7 +17660,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey "
-			(at 167.64 71.12 0)
+			(at 165.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -12440,7 +12440,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".576	"
+		(property "Value" ".576"
 			(at 322.072 214.6301 0)
 			(effects
 				(font
@@ -24759,7 +24759,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".576	"
+		(property "Value" ".576"
 			(at 163.322 87.6301 0)
 			(effects
 				(font

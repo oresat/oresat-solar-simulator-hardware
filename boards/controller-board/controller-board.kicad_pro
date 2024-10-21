@@ -58,7 +58,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|102055201|56295001|7552f82a-7adb-4c22-a138-e46800cbf769|7f11c830-1d5b-4638-a09f-7ba392bac948",
+        "courtyards_overlap|104595201|56295001|4c496b9c-2de3-4b7d-88f0-154d3d3ff502|7f11c830-1d5b-4638-a09f-7ba392bac948"
+      ],
       "meta": {
         "version": 2
       },
@@ -126,7 +129,7 @@
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.5,
-        "min_text_thickness": 0.125,
+        "min_text_thickness": 0.12,
         "min_through_hole_diameter": 0.254,
         "min_track_width": 0.127,
         "min_via_annular_width": 0.1016,
@@ -576,10 +579,10 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -738,7 +741,11 @@
     ],
     [
       "e7cdee32-82f6-44c4-a42b-6ebe9d2c5310",
-      "LED Drivers"
+      "LEDs and Drivers"
+    ],
+    [
+      "42a1061e-62cf-44f3-8caa-6fc9c5631a6d",
+      "Pico, sensors, and Halogen"
     ]
   ],
   "text_variables": {}

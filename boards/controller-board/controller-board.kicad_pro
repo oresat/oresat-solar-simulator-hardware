@@ -58,10 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|102055201|56295001|7552f82a-7adb-4c22-a138-e46800cbf769|7f11c830-1d5b-4638-a09f-7ba392bac948",
-        "courtyards_overlap|104595201|56295001|4c496b9c-2de3-4b7d-88f0-154d3d3ff502|7f11c830-1d5b-4638-a09f-7ba392bac948"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -128,8 +125,8 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.5,
-        "min_text_thickness": 0.12,
+        "min_text_height": 0.4,
+        "min_text_thickness": 0.075,
         "min_through_hole_diameter": 0.254,
         "min_track_width": 0.127,
         "min_via_annular_width": 0.1016,

@@ -4027,7 +4027,6 @@
 	)
 	(label "{White_LED, Cyan_LED, Violet_LED}"
 		(at 46.99 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4038,7 +4037,6 @@
 	)
 	(label "Cyan_LED"
 		(at 64.77 214.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4049,7 +4047,6 @@
 	)
 	(label "White_LED"
 		(at 68.58 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4060,7 +4057,6 @@
 	)
 	(label "Cyan_LED"
 		(at 337.82 204.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4071,7 +4067,6 @@
 	)
 	(label "Violet_LED"
 		(at 76.2 293.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4082,7 +4077,6 @@
 	)
 	(label "Violet_LED"
 		(at 331.47 292.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4093,7 +4087,6 @@
 	)
 	(label "White_LED"
 		(at 330.2 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

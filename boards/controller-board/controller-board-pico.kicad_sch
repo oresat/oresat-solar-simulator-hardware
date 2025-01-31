@@ -5666,7 +5666,6 @@
 	)
 	(label "THERM3"
 		(at 377.19 219.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5677,7 +5676,6 @@
 	)
 	(label "SCL1"
 		(at 317.5 238.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5688,7 +5686,6 @@
 	)
 	(label "THERM2"
 		(at 337.82 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5699,7 +5696,6 @@
 	)
 	(label "DAC_RDY{slash}~{BSY}"
 		(at 326.39 332.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5710,7 +5706,6 @@
 	)
 	(label "White_LED"
 		(at 356.87 325.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5721,7 +5716,6 @@
 	)
 	(label "DAC_~{LDAC}"
 		(at 326.39 330.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5732,7 +5726,6 @@
 	)
 	(label "SDA1"
 		(at 213.36 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5743,7 +5736,6 @@
 	)
 	(label "THERM1"
 		(at 369.57 160.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5754,7 +5746,6 @@
 	)
 	(label "SCL1"
 		(at 317.5 180.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5765,7 +5756,6 @@
 	)
 	(label "PHOTODIODE"
 		(at 337.82 185.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5776,7 +5766,6 @@
 	)
 	(label "THERM3"
 		(at 337.82 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5787,7 +5776,6 @@
 	)
 	(label "SCL1"
 		(at 213.36 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5798,7 +5786,6 @@
 	)
 	(label "PHOTODIODE"
 		(at 381 254 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5809,7 +5796,6 @@
 	)
 	(label "THERM2"
 		(at 379.73 189.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5820,7 +5806,6 @@
 	)
 	(label "PWM"
 		(at 303.53 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5831,7 +5816,6 @@
 	)
 	(label "SDA1"
 		(at 326.39 327.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5842,7 +5826,6 @@
 	)
 	(label "Cyan_LED"
 		(at 356.87 327.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5853,7 +5836,6 @@
 	)
 	(label "SDA1"
 		(at 317.5 182.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5864,7 +5846,6 @@
 	)
 	(label "Violet_LED"
 		(at 356.87 330.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5875,7 +5856,6 @@
 	)
 	(label "THERM1"
 		(at 337.82 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5886,7 +5866,6 @@
 	)
 	(label "SDA1"
 		(at 317.5 241.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5897,7 +5876,6 @@
 	)
 	(label "DAC_RDY{slash}~{BSY}"
 		(at 210.82 208.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5908,7 +5886,6 @@
 	)
 	(label "DAC_~{LDAC}"
 		(at 210.82 205.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5919,7 +5896,6 @@
 	)
 	(label "SCL1"
 		(at 326.39 325.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6253,88 +6229,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 78.74 383.54 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05630a60-101f-4b36-8646-718b9d3d21a7")
-		(property "Reference" "H7"
-			(at 81.28 382.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 81.28 384.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-misc:MountingHole_3.2mm_M3"
-			(at 78.74 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 78.74 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" ""
-			(at 78.74 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 78.74 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "controller-board"
-				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "H7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 88.9 58.42 0)
 		(unit 1)
@@ -6624,88 +6518,6 @@
 			(project "controller-board"
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 78.74 394.97 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15351549-d856-4df5-a720-4efabf10ebb8")
-		(property "Reference" "H8"
-			(at 81.28 393.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 81.28 396.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-misc:MountingHole_3.2mm_M3"
-			(at 78.74 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 78.74 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" ""
-			(at 78.74 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 78.74 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "controller-board"
-				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -7274,88 +7086,6 @@
 			(project "controller-board"
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 54.61 406.4 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2569a157-f385-4489-b284-ac991abafad9")
-		(property "Reference" "H6"
-			(at 57.15 405.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 57.15 407.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-misc:MountingHole_3.2mm_M3"
-			(at 54.61 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 54.61 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" ""
-			(at 54.61 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 54.61 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "controller-board"
-				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -9819,7 +9549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oresat-misc:RPi_Pico_TH"
+		(property "Footprint" "oresat-misc:Raspberry Pi Pico Castellated"
 			(at 189.23 166.37 0)
 			(effects
 				(font
@@ -12071,88 +11801,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 30.48 383.54 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b765dcfc-1803-43a3-9583-597c10363a5a")
-		(property "Reference" "H1"
-			(at 33.02 382.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 33.02 384.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-misc:MountingHole_3.2mm_M3"
-			(at 30.48 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 30.48 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" ""
-			(at 30.48 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 30.48 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "controller-board"
-				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 187.96 214.63 0)
 		(unit 1)
@@ -12452,88 +12100,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 78.74 406.4 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c28381f8-b493-4951-9c49-ad40e9d245b0")
-		(property "Reference" "H9"
-			(at 81.28 405.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 81.28 407.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-misc:MountingHole_3.2mm_M3"
-			(at 78.74 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 78.74 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" ""
-			(at 78.74 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 78.74 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "controller-board"
-				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "H9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 389.89 222.25 0)
 		(unit 1)
@@ -12747,88 +12313,6 @@
 			(project "controller-board"
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 30.48 394.97 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5e680ab-8ded-4a9f-b383-40de4408b5e5")
-		(property "Reference" "H2"
-			(at 33.02 393.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 33.02 396.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-misc:MountingHole_3.2mm_M3"
-			(at 30.48 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 30.48 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" ""
-			(at 30.48 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 30.48 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "controller-board"
-				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -13607,88 +13091,6 @@
 			(project "controller-board"
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 54.61 394.97 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "daddeea0-4753-4767-9e85-947329ab9d0b")
-		(property "Reference" "H5"
-			(at 57.15 393.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 57.15 396.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-misc:MountingHole_3.2mm_M3"
-			(at 54.61 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 54.61 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" ""
-			(at 54.61 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 54.61 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "controller-board"
-				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "H5")
 					(unit 1)
 				)
 			)

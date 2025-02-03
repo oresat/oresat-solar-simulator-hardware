@@ -7,7 +7,7 @@
 	(title_block
 		(title "OreSat Solar Simulator")
 		(date "2024-08-19")
-		(rev "1.2")
+		(rev "2.0")
 	)
 	(lib_symbols)
 	(bus_alias "{RED_LIM, GREEN_LIM, BLUE_LIM, UV_LIM}"

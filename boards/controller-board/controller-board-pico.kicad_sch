@@ -1528,30 +1528,39 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Diode:MBR0530"
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
+			(property "Reference" "D"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MBR0530"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1560,7 +1569,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1569,7 +1578,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1578,7 +1587,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "mounting hole"
+			(property "ki_fp_filters" "D*SOD?123*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1587,7 +1596,116 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(symbol "MBR0530_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MBR0530_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "oresat-misc:M2-Press-Fit-Nut"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HW"
+				(at 4.445 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "M2-Press-Fit-Nut"
+				(at 12.065 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1596,12 +1714,43 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "M2-Press-Fit-Nut_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center 0 0)
 					(radius 1.27)
 					(stroke
-						(width 1.27)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -3460,13 +3609,13 @@
 		)
 	)
 	(junction
-		(at 328.93 64.77)
+		(at 335.28 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "089e5f32-0eb3-4d2c-9cf2-6b4a5883659d")
 	)
 	(junction
-		(at 336.55 82.55)
+		(at 328.93 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10fe9396-f41e-41d2-8fe1-e8fb7d3c6be8")
@@ -3496,12 +3645,6 @@
 		(uuid "2a9d0e1e-29fb-4497-acee-d8a9ec329dce")
 	)
 	(junction
-		(at 336.55 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bb3f475-1b6b-4ecc-879c-d11792e094b7")
-	)
-	(junction
 		(at 384.81 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3526,12 +3669,6 @@
 		(uuid "44bb0fb0-9928-4ee2-9668-85ae38b8699d")
 	)
 	(junction
-		(at 274.32 238.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52338077-9a7d-4469-84a1-a9b6ffc82941")
-	)
-	(junction
 		(at 307.34 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3544,28 +3681,10 @@
 		(uuid "6cefc2b4-76eb-43fd-a9f8-da8e043f646a")
 	)
 	(junction
-		(at 304.8 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e8b2353-fa88-4b94-8f64-c645df272aab")
-	)
-	(junction
 		(at 271.78 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70715cd6-d0c2-42e2-a82d-6d298830f87d")
-	)
-	(junction
-		(at 314.96 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "738a9f4c-f0b2-4e84-8653-cf7cb1a4a6a2")
-	)
-	(junction
-		(at 327.66 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75996ac2-6a5e-475f-b9d8-d851573f3ee1")
 	)
 	(junction
 		(at 274.32 180.34)
@@ -3622,6 +3741,12 @@
 		(uuid "9ebad812-27d5-4850-a744-06fd5bdd7c36")
 	)
 	(junction
+		(at 347.98 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6124af1-b775-4d8c-aee6-ac9a7a98eb34")
+	)
+	(junction
 		(at 101.6 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3664,22 +3789,16 @@
 		(uuid "f5b6083a-be4c-4491-9527-c772d53a1c65")
 	)
 	(junction
-		(at 314.96 160.02)
+		(at 347.98 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f9e5819d-c5c0-482a-9778-8eee39a63f34")
+		(uuid "f83f6a1b-e153-4d92-a0e5-e345c02fa070")
 	)
 	(junction
 		(at 267.97 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd2841ef-8f44-4612-9fb2-c65660da35a2")
-	)
-	(junction
-		(at 271.78 241.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ffd8ba9a-0fd6-446f-8866-d55203b26244")
 	)
 	(no_connect
 		(at 205.74 172.72)
@@ -3724,10 +3843,6 @@
 	(no_connect
 		(at 170.18 200.66)
 		(uuid "8374fbd5-f54b-4260-83d3-e957f059d913")
-	)
-	(no_connect
-		(at 317.5 233.68)
-		(uuid "86423736-bc85-48cb-b4d6-3b5e8aa93357")
 	)
 	(no_connect
 		(at 317.5 175.26)
@@ -3836,6 +3951,16 @@
 			(type default)
 		)
 		(uuid "06dc6f82-f9e3-4536-bd83-6270458f6fb4")
+	)
+	(wire
+		(pts
+			(xy 347.98 96.52) (xy 347.98 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079d40c5-36e5-44c5-8437-4fcd62f001ec")
 	)
 	(wire
 		(pts
@@ -3959,23 +4084,13 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 241.3) (xy 271.78 327.66)
+			(xy 271.78 182.88) (xy 271.78 327.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2258c70a-56f7-40a9-92fb-6126965a2d80")
-	)
-	(wire
-		(pts
-			(xy 314.96 160.02) (xy 304.8 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23b7d3be-7277-429d-ab3b-12224d13eda5")
 	)
 	(wire
 		(pts
@@ -4059,7 +4174,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 87.63) (xy 347.98 90.17)
+			(xy 347.98 87.63) (xy 347.98 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4069,7 +4184,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 80.01) (xy 307.34 80.01)
+			(xy 251.46 80.01) (xy 297.18 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4119,17 +4234,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 220.98) (xy 314.96 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e6f6cf7-d100-40b2-ae0f-d8aea61e6908")
-	)
-	(wire
-		(pts
-			(xy 328.93 64.77) (xy 336.55 64.77)
+			(xy 335.28 64.77) (xy 347.98 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4319,16 +4424,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 162.56) (xy 304.8 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53944a98-195f-448d-9311-3ec90f1a2007")
-	)
-	(wire
-		(pts
 			(xy 158.75 160.02) (xy 170.18 160.02)
 		)
 		(stroke
@@ -4369,7 +4464,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 64.77) (xy 328.93 64.77)
+			(xy 316.23 64.77) (xy 335.28 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4429,16 +4524,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 243.84) (xy 294.64 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61766ce6-b7f0-45e3-bd3e-3ca89d0f480d")
-	)
-	(wire
-		(pts
 			(xy 205.74 175.26) (xy 251.46 175.26)
 		)
 		(stroke
@@ -4456,36 +4541,6 @@
 			(type default)
 		)
 		(uuid "61f90235-f6b2-4400-8f0f-882d66a66e69")
-	)
-	(wire
-		(pts
-			(xy 347.98 92.71) (xy 347.98 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62d94eb7-90a0-4c1d-a117-4b9fc8fa2348")
-	)
-	(wire
-		(pts
-			(xy 336.55 64.77) (xy 347.98 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65b8a6f0-34cd-4996-aae9-6d6cab948ed2")
-	)
-	(wire
-		(pts
-			(xy 342.9 243.84) (xy 337.82 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "664673a7-e283-4102-b2a2-9b42135809c7")
 	)
 	(wire
 		(pts
@@ -4519,16 +4574,6 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 226.06) (xy 327.66 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b4e3c49-8a3b-492c-95a1-222eb78325ab")
-	)
-	(wire
-		(pts
 			(xy 384.81 224.79) (xy 384.81 229.87)
 		)
 		(stroke
@@ -4536,16 +4581,6 @@
 			(type default)
 		)
 		(uuid "6d906bdc-66bd-4394-bea6-f4408c0aac98")
-	)
-	(wire
-		(pts
-			(xy 271.78 241.3) (xy 317.5 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7033405d-56a5-4274-be39-9bd03e45280c")
 	)
 	(wire
 		(pts
@@ -4579,17 +4614,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 241.3) (xy 337.82 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "750e0b27-8aa0-47d5-ba5d-d457dfe50edd")
-	)
-	(wire
-		(pts
-			(xy 336.55 88.9) (xy 336.55 90.17)
+			(xy 328.93 88.9) (xy 328.93 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4606,16 +4631,6 @@
 			(type default)
 		)
 		(uuid "79a69d38-3791-4f54-b094-076fe9df0988")
-	)
-	(wire
-		(pts
-			(xy 304.8 220.98) (xy 304.8 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bfd26db-c183-41c6-a94c-aa1e6e0e4d08")
 	)
 	(wire
 		(pts
@@ -4669,6 +4684,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 90.17) (xy 350.52 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87501657-b85b-4b19-8b5d-2cb52149dad3")
+	)
+	(wire
+		(pts
 			(xy 153.67 203.2) (xy 153.67 214.63)
 		)
 		(stroke
@@ -4719,6 +4744,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 96.52) (xy 347.98 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c7de85e-3e3b-4214-b973-ff2df20df01d")
+	)
+	(wire
+		(pts
 			(xy 209.55 214.63) (xy 209.55 203.2)
 		)
 		(stroke
@@ -4749,6 +4784,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 92.71) (xy 347.98 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93dd6e62-9761-47de-9cfe-baaf41a9ffca")
+	)
+	(wire
+		(pts
 			(xy 251.46 175.26) (xy 251.46 80.01)
 		)
 		(stroke
@@ -4776,16 +4821,6 @@
 			(type default)
 		)
 		(uuid "9656f9b9-35f4-4561-a1fb-77b18be1634a")
-	)
-	(wire
-		(pts
-			(xy 271.78 182.88) (xy 271.78 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97b4ca40-9708-4448-92d7-b0ff54cc0f71")
 	)
 	(wire
 		(pts
@@ -4849,6 +4884,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 88.9) (xy 347.98 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40ffa78-1b45-4a60-b3a0-0f98b534d9a0")
+	)
+	(wire
+		(pts
 			(xy 271.78 182.88) (xy 317.5 182.88)
 		)
 		(stroke
@@ -4856,6 +4901,16 @@
 			(type default)
 		)
 		(uuid "a5477a17-2dce-4ab0-ac3c-0a7096c3adf9")
+	)
+	(wire
+		(pts
+			(xy 302.26 80.01) (xy 307.34 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8e0c7d3-3a15-4a9d-83e3-f65a2debb853")
 	)
 	(wire
 		(pts
@@ -4919,13 +4974,23 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 82.55) (xy 336.55 83.82)
+			(xy 328.93 82.55) (xy 328.93 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b0af818a-f2ac-45c7-8253-ddeebdae1948")
+	)
+	(wire
+		(pts
+			(xy 335.28 66.04) (xy 335.28 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a65118-9561-4f9b-9a15-9c863c70c136")
 	)
 	(wire
 		(pts
@@ -4949,16 +5014,6 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 218.44) (xy 304.8 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5f4f1ca-bda2-48ef-9c82-41a6e1eefebd")
-	)
-	(wire
-		(pts
 			(xy 356.87 327.66) (xy 386.08 327.66)
 		)
 		(stroke
@@ -4969,17 +5024,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 236.22) (xy 337.82 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6e7a347-407f-4318-a2c2-2ba4caf871a0")
-	)
-	(wire
-		(pts
-			(xy 336.55 82.55) (xy 331.47 82.55)
+			(xy 328.93 82.55) (xy 327.66 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5029,16 +5074,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 243.84) (xy 294.64 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2629f41-1b2d-4ef9-8bee-ca200b207e96")
-	)
-	(wire
-		(pts
 			(xy 316.23 72.39) (xy 316.23 73.66)
 		)
 		(stroke
@@ -5049,7 +5084,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 82.55) (xy 336.55 82.55)
+			(xy 340.36 82.55) (xy 328.93 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5069,7 +5104,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 82.55) (xy 326.39 82.55)
+			(xy 321.31 82.55) (xy 322.58 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5086,6 +5121,16 @@
 			(type default)
 		)
 		(uuid "cd0130a4-c1ff-4a22-8940-1d0f2cfaf106")
+	)
+	(wire
+		(pts
+			(xy 335.28 72.39) (xy 335.28 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf166626-2178-4ff6-88cc-0bdaa38fb586")
 	)
 	(wire
 		(pts
@@ -5146,16 +5191,6 @@
 			(type default)
 		)
 		(uuid "d94fbe30-0546-41b8-a391-86fac6b0cdc4")
-	)
-	(wire
-		(pts
-			(xy 327.66 218.44) (xy 314.96 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbb770fb-3cb7-4a8b-933f-951a46ba201f")
 	)
 	(wire
 		(pts
@@ -5229,7 +5264,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 238.76) (xy 274.32 325.12)
+			(xy 274.32 180.34) (xy 274.32 325.12)
 		)
 		(stroke
 			(width 0)
@@ -5246,16 +5281,6 @@
 			(type default)
 		)
 		(uuid "e769053e-a308-4209-bca9-5a9142e4a601")
-	)
-	(wire
-		(pts
-			(xy 327.66 215.9) (xy 327.66 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e825a40e-dafa-4944-b68a-bebd506dd46e")
 	)
 	(wire
 		(pts
@@ -5289,26 +5314,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 180.34) (xy 274.32 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9e51c7c-cf7d-4e62-97a5-aeda4f054280")
-	)
-	(wire
-		(pts
-			(xy 294.64 218.44) (xy 304.8 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb56dcf7-0a53-4ac0-8411-0f02eaaba371")
-	)
-	(wire
-		(pts
 			(xy 316.23 73.66) (xy 321.31 73.66)
 		)
 		(stroke
@@ -5326,6 +5331,16 @@
 			(type default)
 		)
 		(uuid "ed1742eb-818f-4270-81d6-899907495d7f")
+	)
+	(wire
+		(pts
+			(xy 347.98 88.9) (xy 347.98 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02ecc92-3634-421f-9404-bea83dc6c672")
 	)
 	(wire
 		(pts
@@ -5359,16 +5374,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 238.76) (xy 317.5 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2d4960f-ab1c-4758-8921-68004bfd65b6")
-	)
-	(wire
-		(pts
 			(xy 384.81 160.02) (xy 384.81 162.56)
 		)
 		(stroke
@@ -5379,13 +5384,13 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 238.76) (xy 337.82 238.76)
+			(xy 347.98 92.71) (xy 350.52 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f747e23f-cc0d-441d-a404-40c2a85baa52")
+		(uuid "f5ce1b31-c555-4395-a74f-0dbe585c7fc1")
 	)
 	(wire
 		(pts
@@ -5426,16 +5431,6 @@
 			(type default)
 		)
 		(uuid "fc9e6189-5f5f-426f-992b-0e5415e59a3c")
-	)
-	(wire
-		(pts
-			(xy 327.66 248.92) (xy 327.66 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd4ee3a9-5c56-4e90-ac51-61cc13b0a2dc")
 	)
 	(rectangle
 		(start 52.07 45.974)
@@ -5506,16 +5501,16 @@
 		)
 		(uuid "02c6bcc1-6a33-49c2-96bd-eaa8f4b8b226")
 	)
-	(text "Output to SS"
+	(text "(out)"
 		(exclude_from_sim no)
-		(at 212.09 160.02 0)
+		(at 217.17 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.1588)
 			)
-			(justify left bottom)
 		)
-		(uuid "25162084-e79a-49f5-9067-4d169c75afaf")
+		(uuid "054805fe-e652-45c4-8894-6dda6d322ef9")
 	)
 	(text "Thermistor 1"
 		(exclude_from_sim no)
@@ -5541,16 +5536,15 @@
 		)
 		(uuid "3a6603f0-11f0-4dac-9089-75cdc7e27fb5")
 	)
-	(text "Input from SS if stuffed"
+	(text "3D printed sheet metal adapter mounting holes\n"
 		(exclude_from_sim no)
-		(at 203.2 148.59 0)
+		(at 405.13 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
-		(uuid "5c51b290-f994-4afe-bddc-f7fd8ec8bd12")
+		(uuid "7ea3ab04-3916-40a3-bab8-5db13b8af2a0")
 	)
 	(text "Halogen Dimming"
 		(exclude_from_sim no)
@@ -5565,7 +5559,7 @@
 		)
 		(uuid "82a1e1c7-753d-4db1-93e3-460cb21d5754")
 	)
-	(text "TBD: R13 may need to be stuffed with something \nto slow down Q2 rise time to prevent ringing\nand overshoot and whatnot."
+	(text "TBD: R13/C17 may need to be stuffed with something \nto slow down Q2 rise time to prevent ringing\nand overshoot and whatnot."
 		(exclude_from_sim no)
 		(at 335.28 109.22 0)
 		(effects
@@ -5574,6 +5568,16 @@
 			)
 		)
 		(uuid "964875be-057d-45ee-9c4c-9c646e879597")
+	)
+	(text "Mounting holes for Halogen"
+		(exclude_from_sim no)
+		(at 405.13 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9a2e90b3-ccec-49f2-a22e-530a5bb16106")
 	)
 	(text "12V @ 11A"
 		(exclude_from_sim no)
@@ -5587,7 +5591,7 @@
 	)
 	(text "To 75 W 12 V \nHalogen"
 		(exclude_from_sim no)
-		(at 361.95 91.44 0)
+		(at 365.76 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5654,12 +5658,35 @@
 		)
 		(uuid "d6f73ad5-5766-49c3-baed-d87661c26f89")
 	)
-	(text "USB powered"
+	(text "1210"
 		(exclude_from_sim no)
-		(at 185.166 152.146 0)
+		(at 340.36 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+			)
+		)
+		(uuid "d92a0c76-1214-43df-a2cd-5d4a85701bd7")
+	)
+	(text "(out)"
+		(exclude_from_sim no)
+		(at 209.55 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "e6a192d5-abc6-4cbd-ba8d-91717125154e")
+	)
+	(text "USB powered"
+		(exclude_from_sim no)
+		(at 187.96 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 		)
 		(uuid "f29ba9c0-0ea3-4ae0-a6a5-6a47b060f4f8")
@@ -5673,16 +5700,6 @@
 			(justify right bottom)
 		)
 		(uuid "08774edf-f2ab-4efa-949c-f8fcb115de69")
-	)
-	(label "SCL1"
-		(at 317.5 238.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1238bdea-5484-4d02-a170-31f808d4f7d7")
 	)
 	(label "THERM2"
 		(at 337.82 180.34 0)
@@ -5863,16 +5880,6 @@
 			(justify left bottom)
 		)
 		(uuid "c505fe97-6a24-4378-a214-ffde1d5497bc")
-	)
-	(label "SDA1"
-		(at 317.5 241.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c775dc8b-e2a8-42eb-a8a4-fae11afb5249")
 	)
 	(label "DAC_RDY{slash}~{BSY}"
 		(at 210.82 208.28 0)
@@ -6175,7 +6182,7 @@
 		(dnp no)
 		(uuid "05371723-4601-429c-81c0-7a6dfff0c754")
 		(property "Reference" "Q1"
-			(at 317.5 85.09 0)
+			(at 311.15 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6184,7 +6191,7 @@
 			)
 		)
 		(property "Value" "PMV45EN"
-			(at 317.5 87.63 0)
+			(at 304.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6385,6 +6392,154 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 299.72 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a325d66-f622-4448-92e9-6ecd1f794308")
+		(property "Reference" "R4"
+			(at 299.72 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 299.72 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 299.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 299.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 299.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "311-100GRCT-ND"
+			(at 299.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 299.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Yageo"
+			(at 299.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603JR-07100RL"
+			(at 299.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 299.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 299.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 299.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 299.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 299.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce8c2ded-522f-4f2e-be1d-f9928721e56a")
+		)
+		(pin "2"
+			(uuid "7edc6d07-9b6e-418d-baeb-4af3926624f6")
+		)
+		(instances
+			(project "controller-board"
+				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 316.23 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6571,7 +6726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.gofordsemi.com/u_file/product/497/GOFORD-G11S.pdf"
+		(property "Datasheet" "https://www.gofordsemi.com/upload/cn/propdf/G11S.pdf"
 			(at 344.678 95.25 0)
 			(effects
 				(font
@@ -6705,8 +6860,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 353.06 92.71 0)
-		(mirror x)
+		(at 355.6 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6714,7 +6868,7 @@
 		(dnp no)
 		(uuid "16dae407-918f-469e-9ffb-07fa61bfab5e")
 		(property "Reference" "J6"
-			(at 353.06 95.25 0)
+			(at 355.6 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6722,7 +6876,7 @@
 			)
 		)
 		(property "Value" "Phoenix 1995499"
-			(at 361.442 97.79 0)
+			(at 363.982 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6730,7 +6884,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 353.06 92.71 0)
+			(at 355.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,7 +6893,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 353.06 92.71 0)
+			(at 355.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6748,7 +6902,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 353.06 92.71 0)
+			(at 355.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6757,7 +6911,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 353.06 92.71 0)
+			(at 355.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6766,7 +6920,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 353.06 92.71 0)
+			(at 355.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6775,7 +6929,7 @@
 			)
 		)
 		(property "Sim.Params" "r=\"\""
-			(at 353.06 92.71 0)
+			(at 355.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6784,7 +6938,7 @@
 			)
 		)
 		(property "DPN" "277-6718-ND"
-			(at 353.06 92.71 0)
+			(at 355.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6793,7 +6947,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 353.06 92.71 0)
+			(at 355.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6802,7 +6956,7 @@
 			)
 		)
 		(property "MPN" "1995499"
-			(at 353.06 92.71 0)
+			(at 355.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6811,7 +6965,7 @@
 			)
 		)
 		(property "MFR" "Phoenix Contact"
-			(at 353.06 92.71 0)
+			(at 355.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6820,7 +6974,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 353.06 92.71 0)
+			(at 355.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6829,7 +6983,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 353.06 92.71 0)
+			(at 355.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6838,7 +6992,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 353.06 92.71 0)
+			(at 355.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6847,7 +7001,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 353.06 92.71 0)
+			(at 355.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6856,7 +7010,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 353.06 92.71 0)
+			(at 355.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6874,6 +7028,134 @@
 			(project "controller-board"
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:M2-Press-Fit-Nut")
+		(at 394.97 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "179470c2-ba71-42bc-b73a-ffa89b29876d")
+		(property "Reference" "HW4"
+			(at 398.78 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2-Press-Fit-Nut"
+			(at 398.78 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
+			(at 394.97 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 394.97 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 394.97 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "controller-board"
+				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
+					(reference "HW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:M2-Press-Fit-Nut")
+		(at 394.97 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18e1f77b-a0a4-42e1-9417-0d459fa946c4")
+		(property "Reference" "HW3"
+			(at 398.78 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2-Press-Fit-Nut"
+			(at 398.78 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
+			(at 394.97 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 394.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 394.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "controller-board"
+				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
+					(reference "HW3")
 					(unit 1)
 				)
 			)
@@ -6948,16 +7230,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 336.55 90.17 0)
+		(at 328.93 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1d75ce53-fa83-4aaa-9f5a-072905f706a4")
 		(property "Reference" "#PWR038"
-			(at 336.55 96.52 0)
+			(at 328.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6966,7 +7247,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 336.55 95.25 0)
+			(at 328.93 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6974,7 +7255,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 336.55 90.17 0)
+			(at 328.93 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6983,7 +7264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 90.17 0)
+			(at 328.93 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6992,7 +7273,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 336.55 90.17 0)
+			(at 328.93 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7007,158 +7288,6 @@
 			(project "controller-board"
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 304.8 165.1 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f3dcfa6-10a2-4437-928d-2ede7c14f4c7")
-		(property "Reference" "C6"
-			(at 302.26 164.4713 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 302.26 167.0113 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 304.8 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 304.8 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 304.8 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "490-6328-1-ND"
-			(at 304.8 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 304.8 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Murata Electronics"
-			(at 304.8 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM155R71C104KA88J"
-			(at 304.8 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 304.8 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 304.8 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 304.8 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 304.8 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 304.8 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98e61622-7f66-4080-ba6c-cb09ecba5f38")
-		)
-		(pin "2"
-			(uuid "cfae5572-dfc8-4ce5-90a0-ef92dc5fb8ec")
-		)
-		(instances
-			(project "controller-board"
-				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7401,6 +7530,70 @@
 			(project "controller-board"
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:M2-Press-Fit-Nut")
+		(at 394.97 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "263e4c29-af7c-4c22-9b96-60459e702849")
+		(property "Reference" "HW2"
+			(at 398.78 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2-Press-Fit-Nut"
+			(at 398.78 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
+			(at 394.97 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 394.97 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 394.97 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "controller-board"
+				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
+					(reference "HW2")
 					(unit 1)
 				)
 			)
@@ -7777,158 +7970,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 314.96 223.52 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "2e97a45f-4054-4e98-b578-9219ba2744eb")
-		(property "Reference" "C5"
-			(at 312.42 222.8913 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 312.42 225.4313 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 314.96 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 314.96 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 314.96 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "311-1446-1-ND"
-			(at 314.96 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 314.96 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Yageo"
-			(at 314.96 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0603KRX7R7BB105 "
-			(at 314.96 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 314.96 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 314.96 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 314.96 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 314.96 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 314.96 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97e0a67c-c249-47c6-81a4-ddd83fd8789b")
-		)
-		(pin "2"
-			(uuid "cc97885d-4ab6-4bac-8c47-1ddc63141344")
-		)
-		(instances
-			(project "controller-board"
-				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 341.63 340.36 0)
 		(unit 1)
@@ -8211,156 +8252,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 336.55 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37b541ca-05ee-4a4c-bde7-0c4d4af8ce68")
-		(property "Reference" "C16"
-			(at 339.09 66.6813 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 339.09 69.2213 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 336.55 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 336.55 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 336.55 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1276-1102-1-ND"
-			(at 336.55 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 336.55 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Samsung Electro-Mechanics"
-			(at 336.55 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10A105KA8NNNC"
-			(at 336.55 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 336.55 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 336.55 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 336.55 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 336.55 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 336.55 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c790cd90-a3ba-47dd-930a-1aad7bffec0d")
-		)
-		(pin "2"
-			(uuid "65fc4685-e96a-4038-82d6-74960793b7e7")
-		)
-		(instances
-			(project "controller-board"
-				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 394.97 341.63 0)
 		(mirror y)
@@ -8580,84 +8471,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 327.66 215.9 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4770c10d-95f5-4a11-ae62-7e7f1e7157ab")
-		(property "Reference" "#PWR027"
-			(at 327.66 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 327.66 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 327.66 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 327.66 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 327.66 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a182b876-6eb1-4258-8a80-24a89f1a27f0")
-		)
-		(instances
-			(project "controller-board"
-				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 347.98 93.98 0)
+		(at 347.98 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "47eae35c-7086-4dc3-856b-6ad194075815")
 		(property "Reference" "#PWR047"
-			(at 347.98 100.33 0)
+			(at 347.98 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8666,7 +8489,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 347.98 99.06 0)
+			(at 347.98 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8674,7 +8497,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 347.98 93.98 0)
+			(at 347.98 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8683,7 +8506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 93.98 0)
+			(at 347.98 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8692,7 +8515,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 347.98 93.98 0)
+			(at 347.98 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9128,16 +8951,17 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:TestPoint-MinTH")
-		(at 342.9 238.76 0)
+		(lib_id "oresat-misc:M2-Press-Fit-Nut")
+		(at 394.97 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "58b276f8-22cc-40eb-9e0f-eb5f92c7d5fa")
-		(property "Reference" "TP5"
-			(at 344.17 239.395 0)
+		(fields_autoplaced yes)
+		(uuid "5d7c9472-0b08-4f0f-a25c-f8d163e85df1")
+		(property "Reference" "HW1"
+			(at 398.78 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9145,17 +8969,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint-MinTH"
-			(at 342.9 231.775 0)
+		(property "Value" "M2-Press-Fit-Nut"
+			(at 398.78 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-misc:TestPoint-MinTH"
-			(at 342.9 233.68 0)
+		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
+			(at 394.97 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9164,7 +8988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.9 238.76 0)
+			(at 394.97 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9173,151 +8997,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 342.9 238.76 0)
+			(at 394.97 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "DPN" ""
-			(at 342.9 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey "
-			(at 342.9 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 342.9 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 342.9 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 342.9 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 342.9 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 342.9 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3b97c0c-0309-4f66-8111-9ef0eb3ca78c")
 		)
 		(instances
-			(project "controller-board"
+			(project ""
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 304.8 226.06 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d54cc34-ae22-4dd3-97b8-58ba29ef0783")
-		(property "Reference" "#PWR08"
-			(at 304.8 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 304.8 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.8 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 304.8 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fdec3bda-395c-4716-8627-96218a7c4108")
-		)
-		(instances
-			(project "controller-board"
-				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "#PWR08")
+					(reference "HW1")
 					(unit 1)
 				)
 			)
@@ -9477,7 +9168,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 336.55 86.36 0)
+		(at 328.93 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9485,7 +9176,7 @@
 		(dnp yes)
 		(uuid "657acf81-d042-4ef4-ba8e-060f882b9ef0")
 		(property "Reference" "C17"
-			(at 328.93 88.9 0)
+			(at 322.58 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9493,8 +9184,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 326.644 86.36 0)
+		(property "Value" "NP"
+			(at 322.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9503,7 +9194,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 336.55 86.36 0)
+			(at 328.93 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9512,7 +9203,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 336.55 86.36 0)
+			(at 328.93 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9521,7 +9212,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 336.55 86.36 0)
+			(at 328.93 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9530,7 +9221,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 336.55 86.36 0)
+			(at 328.93 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9539,7 +9230,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 336.55 86.36 0)
+			(at 328.93 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9548,7 +9239,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 336.55 86.36 0)
+			(at 328.93 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9557,7 +9248,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 336.55 86.36 0)
+			(at 328.93 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9566,7 +9257,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 336.55 86.36 0)
+			(at 328.93 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9575,7 +9266,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 336.55 86.36 0)
+			(at 328.93 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9584,7 +9275,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 336.55 86.36 0)
+			(at 328.93 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10220,7 +9911,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "71fa1357-3c9d-4b76-b048-6e60e7140f56")
 		(property "Reference" "#PWR023"
 			(at 316.23 97.79 0)
@@ -10232,7 +9922,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 316.23 96.52 0)
+			(at 316.23 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10409,16 +10099,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 328.93 67.31 0)
+		(at 335.28 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7c685f19-3985-4917-8dde-de596dcc4f9b")
 		(property "Reference" "C15"
-			(at 331.47 66.6813 0)
+			(at 337.82 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10426,8 +10115,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
-			(at 331.47 69.2213 0)
+		(property "Value" "22u/25V"
+			(at 337.82 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10436,7 +10125,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 328.93 67.31 0)
+			(at 335.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10445,7 +10134,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 328.93 67.31 0)
+			(at 335.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10454,7 +10143,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 328.93 67.31 0)
+			(at 335.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10463,7 +10152,7 @@
 			)
 		)
 		(property "DPN" "1276-3392-1-ND"
-			(at 328.93 67.31 0)
+			(at 335.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10472,7 +10161,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 328.93 67.31 0)
+			(at 335.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10481,7 +10170,7 @@
 			)
 		)
 		(property "MFR" "Samsung Electro-Mechanics"
-			(at 328.93 67.31 0)
+			(at 335.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10490,7 +10179,7 @@
 			)
 		)
 		(property "MPN" "CL32B226KAJNNNE"
-			(at 328.93 67.31 0)
+			(at 335.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10499,7 +10188,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 328.93 67.31 0)
+			(at 335.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10508,7 +10197,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 328.93 67.31 0)
+			(at 335.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10517,7 +10206,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 328.93 67.31 0)
+			(at 335.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10526,7 +10215,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 328.93 67.31 0)
+			(at 335.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10535,7 +10224,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 328.93 67.31 0)
+			(at 335.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11345,158 +11034,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 304.8 223.52 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "883d3c7b-f5f5-48d7-9a4b-9f9096fd11c3")
-		(property "Reference" "C7"
-			(at 302.26 222.8913 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 302.26 225.4313 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 304.8 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 304.8 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 304.8 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "490-6328-1-ND"
-			(at 304.8 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey "
-			(at 304.8 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM155R71C104KA88J"
-			(at 304.8 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Murata Electronics"
-			(at 304.8 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 304.8 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 304.8 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 304.8 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 304.8 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 304.8 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe59b215-cf1d-4c3c-88d8-2db965b2fbaf")
-		)
-		(pin "2"
-			(uuid "cbe6d3bf-ecd5-41d7-aa8b-e2ec7966deca")
-		)
-		(instances
-			(project "controller-board"
-				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 209.55 214.63 0)
 		(unit 1)
@@ -11631,7 +11168,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 80.01 71.12 180)
+		(at 80.01 68.58 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11639,15 +11177,15 @@
 		(dnp no)
 		(uuid "8e585ae9-ca65-4ed3-9f08-dae6e4bbefc6")
 		(property "Reference" "J1"
-			(at 80.01 66.04 0)
+			(at 80.01 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 85.09 73.66 0)
+		(property "Value" "Phoenix 1935161"
+			(at 80.01 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11655,7 +11193,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 80.01 71.12 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11664,7 +11202,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/909/1935161.pdf"
-			(at 80.01 71.12 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11673,7 +11211,7 @@
 			)
 		)
 		(property "Description" "1935161"
-			(at 80.01 71.12 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11682,7 +11220,7 @@
 			)
 		)
 		(property "DPN" "277-1667-ND"
-			(at 80.01 71.12 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11691,7 +11229,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 80.01 71.12 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11700,7 +11238,7 @@
 			)
 		)
 		(property "MFR" "Phoenix Contact"
-			(at 80.01 71.12 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11709,7 +11247,7 @@
 			)
 		)
 		(property "MPN" "1935161"
-			(at 80.01 71.12 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11718,7 +11256,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 80.01 71.12 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11727,7 +11265,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 80.01 71.12 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11736,7 +11274,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 80.01 71.12 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11745,7 +11283,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 80.01 71.12 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11754,7 +11292,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 80.01 71.12 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11772,262 +11310,6 @@
 			(project "controller-board"
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 54.61 383.54 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93c1fbfc-b4e6-49d4-a35a-21ea302e87e0")
-		(property "Reference" "H4"
-			(at 57.15 382.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 57.15 384.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-misc:MountingHole_3.2mm_M3"
-			(at 54.61 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 54.61 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" ""
-			(at 54.61 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 54.61 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 54.61 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 54.61 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 54.61 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 54.61 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 54.61 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "controller-board"
-				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:TestPoint-MinTH")
-		(at 342.9 236.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "975e3454-92e4-4e9b-ba9a-031e140be023")
-		(property "Reference" "TP4"
-			(at 344.17 236.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint-MinTH"
-			(at 342.9 229.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint-MinTH"
-			(at 342.9 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 342.9 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" ""
-			(at 342.9 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey "
-			(at 342.9 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 342.9 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 342.9 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 342.9 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 342.9 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 342.9 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf61b694-6020-4fc1-92d1-827b70669aec")
-		)
-		(instances
-			(project "controller-board"
-				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -12231,80 +11513,12 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 314.96 226.06 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a723b86f-6811-4ee8-b2a1-e5aa7c893f90")
-		(property "Reference" "#PWR020"
-			(at 314.96 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 314.96 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 314.96 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 314.96 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e32d257-55f7-4e8d-9940-3de1dca1ab47")
-		)
-		(instances
-			(project "controller-board"
-				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 307.34 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a817de22-fa6f-45f8-bbc7-c7685659a403")
 		(property "Reference" "#PWR017"
 			(at 307.34 101.6 0)
@@ -12316,7 +11530,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 307.34 100.33 0)
+			(at 307.34 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13014,16 +12228,17 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:TestPoint-MinTH")
-		(at 342.9 241.3 0)
+		(lib_id "oresat-misc:M2-Press-Fit-Nut")
+		(at 394.97 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b1276b9f-20df-4bc0-8933-9ea2eced5189")
-		(property "Reference" "TP6"
-			(at 344.17 241.935 0)
+		(fields_autoplaced yes)
+		(uuid "aca1b70b-66fa-4231-a354-fbfc8c9ef67e")
+		(property "Reference" "HW6"
+			(at 398.78 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13031,17 +12246,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint-MinTH"
-			(at 342.9 234.315 0)
+		(property "Value" "M2-Press-Fit-Nut"
+			(at 398.78 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-misc:TestPoint-MinTH"
-			(at 342.9 236.22 0)
+		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
+			(at 394.97 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13050,7 +12265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.9 241.3 0)
+			(at 394.97 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13059,84 +12274,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 342.9 241.3 0)
+			(at 394.97 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "DPN" ""
-			(at 342.9 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey "
-			(at 342.9 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 342.9 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 342.9 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 342.9 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 342.9 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 342.9 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d6a1ba2-4c37-4e93-a186-68ea7555cc85")
 		)
 		(instances
 			(project "controller-board"
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "TP6")
+					(reference "HW6")
 					(unit 1)
 				)
 			)
@@ -13511,6 +12660,70 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-misc:M2-Press-Fit-Nut")
+		(at 394.97 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7ba0d56-7dc6-4cc3-a31d-3fc04ee601a0")
+		(property "Reference" "HW5"
+			(at 398.78 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2-Press-Fit-Nut"
+			(at 398.78 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
+			(at 394.97 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 394.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 394.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "controller-board"
+				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
+					(reference "HW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 187.96 214.63 0)
 		(unit 1)
@@ -13767,133 +12980,6 @@
 			(project "controller-board"
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 30.48 406.4 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1251b66-2185-4e74-bfee-a7a8bdff1bb5")
-		(property "Reference" "H3"
-			(at 33.02 405.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 33.02 407.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-misc:MountingHole_3.2mm_M3"
-			(at 30.48 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 30.48 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" ""
-			(at 30.48 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 30.48 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 30.48 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 30.48 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 30.48 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 30.48 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 30.48 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "controller-board"
-				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -14665,73 +13751,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 304.8 167.64 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d29127e9-af57-4996-bc91-afe1088a0fa5")
-		(property "Reference" "#PWR07"
-			(at 304.8 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 304.8 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.8 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 304.8 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bcfc6d17-d345-464b-97f6-5b12bc91f0b2")
-		)
-		(instances
-			(project "controller-board"
-				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 377.19 346.71 0)
 		(mirror y)
 		(unit 1)
@@ -14792,135 +13811,6 @@
 			(project "controller-board"
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:TestPoint-MinTH")
-		(at 342.9 243.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d71e1a44-ccf6-40e3-a403-537db6948416")
-		(property "Reference" "TP7"
-			(at 344.17 244.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint-MinTH"
-			(at 342.9 236.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint-MinTH"
-			(at 342.9 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 342.9 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" ""
-			(at 342.9 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey "
-			(at 342.9 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 342.9 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 342.9 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 342.9 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 342.9 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 342.9 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3d81f8c-f661-41e4-b21d-aaa438dde8e3")
-		)
-		(instances
-			(project "controller-board"
-				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -15057,16 +13947,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 328.93 69.85 0)
+		(at 335.28 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d7e0e2e3-522a-4e76-9bb6-8a43b760b20b")
 		(property "Reference" "#PWR033"
-			(at 328.93 76.2 0)
+			(at 335.28 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15075,7 +13964,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 328.93 74.93 0)
+			(at 335.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15083,7 +13972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 328.93 69.85 0)
+			(at 335.28 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15092,7 +13981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 328.93 69.85 0)
+			(at 335.28 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15101,7 +13990,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 328.93 69.85 0)
+			(at 335.28 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15340,75 +14229,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 327.66 251.46 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc8ffcb0-cbfd-42d2-a00d-17501314eb69")
-		(property "Reference" "#PWR032"
-			(at 327.66 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 327.66 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 327.66 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 327.66 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 327.66 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f07b10c1-732e-48bb-bd0e-3bc0bbee2722")
-		)
-		(instances
-			(project "controller-board"
-				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse_Small")
 		(at 88.9 62.23 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15416,7 +14239,7 @@
 		(dnp no)
 		(uuid "dd2b3f27-4756-4af1-be28-ed5b0b3b446b")
 		(property "Reference" "F1"
-			(at 86.995 64.135 90)
+			(at 91.44 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15424,7 +14247,7 @@
 			)
 		)
 		(property "Value" "01550900DR"
-			(at 80.518 61.468 90)
+			(at 81.28 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15450,7 +14273,7 @@
 			)
 		)
 		(property "Description" "10A fuseholder"
-			(at 79.756 59.182 90)
+			(at 80.01 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15554,247 +14377,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Analog_ADC:ADS1015IDGS")
-		(at 327.66 238.76 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "dfbeeffb-c83c-45e9-b9bd-3050a593440d")
-		(property "Reference" "U3"
-			(at 326.39 250.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADS1015IRUGR"
-			(at 326.39 248.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Texas_R-PUQFN-N10"
-			(at 327.66 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1015.pdf"
-			(at 328.93 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 327.66 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "296-43557-1-ND"
-			(at 327.66 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 327.66 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Texas Instruments"
-			(at 327.66 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ADS1015IRUGR"
-			(at 327.66 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 327.66 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 327.66 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 327.66 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 327.66 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 327.66 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0815e02-5f2a-4fc7-8a94-c18b754fe1ba")
-		)
-		(pin "10"
-			(uuid "8010dcdc-4fba-41b1-ae4c-3fa47a7a520f")
-		)
-		(pin "2"
-			(uuid "f9bf11ac-7c69-46ba-8bbe-0513f2dbe493")
-		)
-		(pin "3"
-			(uuid "790633b4-4694-41d3-84bc-9845fce00e2e")
-		)
-		(pin "4"
-			(uuid "b9147b39-285f-4643-bcd1-125b48fbc390")
-		)
-		(pin "5"
-			(uuid "4893b223-1212-4801-ab2e-1f0bafa1e935")
-		)
-		(pin "6"
-			(uuid "df7202e7-a36d-4bd1-a8aa-f76cdaa9a832")
-		)
-		(pin "7"
-			(uuid "cdd3e701-125c-4352-ba78-7d02f6db698e")
-		)
-		(pin "8"
-			(uuid "4cebd2be-6f9d-4177-88a8-915b1b766f75")
-		)
-		(pin "9"
-			(uuid "f2e2ef90-1261-4ae9-bd3b-d4532925663a")
-		)
-		(instances
-			(project "controller-board"
-				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 336.55 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1552174-f657-462c-826b-fbc6febce9c4")
-		(property "Reference" "#PWR034"
-			(at 336.55 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 336.55 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 336.55 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 336.55 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 336.55 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e1d5bc1-5d79-405e-b458-22bcb0185d8a")
-		)
-		(instances
-			(project "controller-board"
-				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 384.81 167.64 0)
 		(mirror y)
@@ -15863,6 +14445,7 @@
 	(symbol
 		(lib_id "Device:Fuse_Small")
 		(at 101.6 62.23 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15870,7 +14453,7 @@
 		(dnp no)
 		(uuid "f5f587aa-9501-40ea-b3cc-10e676d2d772")
 		(property "Reference" "F2"
-			(at 103.632 61.722 90)
+			(at 99.06 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15878,7 +14461,7 @@
 			)
 		)
 		(property "Value" "01550900DR"
-			(at 108.204 59.436 90)
+			(at 109.22 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15904,7 +14487,7 @@
 			)
 		)
 		(property "Description" "10A fuseholder"
-			(at 109.728 57.404 90)
+			(at 110.49 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16002,6 +14585,76 @@
 			(project "controller-board"
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:MBR0530")
+		(at 344.17 92.71 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6005350-0c40-4c01-bbae-012f43b6e37e")
+		(property "Reference" "D19"
+			(at 341.63 91.1224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MBR0530"
+			(at 341.63 93.6624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 348.615 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
+			(at 344.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
+			(at 344.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4bd130da-8d62-4a6a-a818-8d77412bcc67")
+		)
+		(pin "1"
+			(uuid "a327b9fa-9c93-4627-9e52-e549c9beb167")
+		)
+		(instances
+			(project ""
+				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -16138,7 +14791,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 328.93 82.55 90)
+		(at 325.12 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16146,15 +14799,15 @@
 		(dnp no)
 		(uuid "fe6613f5-7de5-4fd7-be5f-abc237c94eba")
 		(property "Reference" "R13"
-			(at 326.39 80.01 90)
+			(at 325.12 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 331.47 80.01 90)
+		(property "Value" "100"
+			(at 325.12 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16162,7 +14815,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 328.93 82.55 0)
+			(at 325.12 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16170,8 +14823,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 328.93 82.55 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 325.12 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16179,8 +14832,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 328.93 82.55 0)
+		(property "Description" "100 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 325.12 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16188,8 +14841,8 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "311-0.0GRCT-ND"
-			(at 328.93 82.55 0)
+		(property "DPN" "311-100GRCT-ND"
+			(at 325.12 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16198,7 +14851,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 328.93 82.55 0)
+			(at 325.12 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16207,7 +14860,7 @@
 			)
 		)
 		(property "MFR" "Yageo"
-			(at 328.93 82.55 0)
+			(at 325.12 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16215,8 +14868,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603JR-070RL"
-			(at 328.93 82.55 0)
+		(property "MPN" "RC0603JR-07100RL"
+			(at 325.12 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16225,7 +14878,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 328.93 82.55 0)
+			(at 325.12 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16234,7 +14887,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 328.93 82.55 0)
+			(at 325.12 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16243,7 +14896,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 328.93 82.55 0)
+			(at 325.12 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16252,7 +14905,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 328.93 82.55 0)
+			(at 325.12 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16261,7 +14914,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 328.93 82.55 0)
+			(at 325.12 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)

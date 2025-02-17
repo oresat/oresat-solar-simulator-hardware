@@ -653,7 +653,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP2410A/?srsltid=AfmBOoq4z4WtQYWOc-41pknCDJ6uY34GDs52DYPHUzpEKC2OqmLQfBMb"
+			(property "Datasheet" ""
 				(at -8.89 7.62 0)
 				(effects
 					(font

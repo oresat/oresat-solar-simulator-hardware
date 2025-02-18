@@ -3627,12 +3627,6 @@
 		(uuid "11676468-bfd2-4f9e-9dd3-690465496235")
 	)
 	(junction
-		(at 394.97 325.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "183e5b43-f997-4b2a-b462-ee98faf50678")
-	)
-	(junction
 		(at 316.23 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3667,6 +3661,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44bb0fb0-9928-4ee2-9668-85ae38b8699d")
+	)
+	(junction
+		(at 377.19 330.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5512ed33-8b2e-4a88-9052-2d6964194e47")
 	)
 	(junction
 		(at 307.34 80.01)
@@ -3759,16 +3759,16 @@
 		(uuid "b7047e5d-578c-4b19-af5c-2c8c693e27a9")
 	)
 	(junction
-		(at 377.19 330.2)
+		(at 394.97 325.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bd6347e2-ca01-4f18-a41e-673f1b071ac2")
+		(uuid "b712e68f-3f31-468c-bcf9-5bd630600e3d")
 	)
 	(junction
 		(at 386.08 327.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c25229b2-61c9-4d66-8b62-46ae53fc9fdc")
+		(uuid "d0a8a5b6-267c-4b31-a1ff-0560de58261e")
 	)
 	(junction
 		(at 88.9 68.58)
@@ -3964,6 +3964,16 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 325.12) (xy 397.51 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b8e70d6-aa92-41c1-954a-cbc9298c43dd")
+	)
+	(wire
+		(pts
 			(xy 205.74 162.56) (xy 209.55 162.56)
 		)
 		(stroke
@@ -4061,6 +4071,16 @@
 			(type default)
 		)
 		(uuid "1d7e4100-7763-4420-8b40-84c569d16bcb")
+	)
+	(wire
+		(pts
+			(xy 377.19 330.2) (xy 397.51 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e176ed9-0e1d-48f2-b6a7-8cae3cb89b0a")
 	)
 	(wire
 		(pts
@@ -4594,16 +4614,6 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 330.2) (xy 406.4 330.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "711c44f4-4a99-4234-b89e-c1edc44701fa")
-	)
-	(wire
-		(pts
 			(xy 367.03 182.88) (xy 367.03 219.71)
 		)
 		(stroke
@@ -5034,6 +5044,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 327.66) (xy 397.51 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba085380-5dca-485c-a847-65b55032ece5")
+	)
+	(wire
+		(pts
 			(xy 307.34 80.01) (xy 307.34 85.09)
 		)
 		(stroke
@@ -5354,16 +5374,6 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 327.66) (xy 405.13 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2c01f53-6dd6-4e75-b029-744ee0437d18")
-	)
-	(wire
-		(pts
 			(xy 384.81 189.23) (xy 384.81 191.77)
 		)
 		(stroke
@@ -5411,16 +5421,6 @@
 			(type default)
 		)
 		(uuid "fb67476c-58d7-40fd-b46f-40d6a04d290e")
-	)
-	(wire
-		(pts
-			(xy 394.97 325.12) (xy 407.67 325.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbf6bcc3-153f-4d82-84b3-b0a7ac9c459b")
 	)
 	(wire
 		(pts
@@ -5721,16 +5721,6 @@
 		)
 		(uuid "323acaa1-1e03-4a8f-b3ef-b3316d69e827")
 	)
-	(label "White_LED"
-		(at 356.87 325.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "37ae483d-2e4e-4831-adad-0dcebc1b2d5b")
-	)
 	(label "DAC_~{LDAC}"
 		(at 326.39 330.2 180)
 		(effects
@@ -5750,6 +5740,16 @@
 			(justify left bottom)
 		)
 		(uuid "58e12b16-f4fc-43d4-9893-816254085b55")
+	)
+	(label "PWM"
+		(at 213.36 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f00a585-2a8e-4f22-a96b-25de72c4fb4c")
 	)
 	(label "THERM1"
 		(at 369.57 160.02 180)
@@ -5821,16 +5821,6 @@
 		)
 		(uuid "848bb548-fad8-4ff6-901b-25a514e21f66")
 	)
-	(label "PWM"
-		(at 303.53 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "851f8601-7e51-471e-87b5-f6035a0e0c5f")
-	)
 	(label "SDA1"
 		(at 326.39 327.66 180)
 		(effects
@@ -5841,16 +5831,6 @@
 		)
 		(uuid "9c5c4550-1440-489a-aa54-39011d391e92")
 	)
-	(label "Cyan_LED"
-		(at 356.87 327.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a6f8215d-b688-47fa-a605-aa757747bdd4")
-	)
 	(label "SDA1"
 		(at 317.5 182.88 180)
 		(effects
@@ -5860,16 +5840,6 @@
 			(justify right bottom)
 		)
 		(uuid "acd287b8-556b-4e19-af57-4393a9513147")
-	)
-	(label "Violet_LED"
-		(at 356.87 330.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c117784f-f746-4b15-b2ea-4fd5e1693c12")
 	)
 	(label "THERM1"
 		(at 337.82 177.8 0)
@@ -5890,6 +5860,16 @@
 			(justify left bottom)
 		)
 		(uuid "d36e6b7c-40b2-4168-a290-e1f07866cc40")
+	)
+	(label "PWM"
+		(at 292.1 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcdad979-169e-4576-94bd-f4a7c35a8997")
 	)
 	(label "DAC_~{LDAC}"
 		(at 210.82 205.74 0)
@@ -5913,7 +5893,7 @@
 	)
 	(global_label "Cyan_LED"
 		(shape input)
-		(at 405.13 327.66 0)
+		(at 397.51 330.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5923,7 +5903,7 @@
 		)
 		(uuid "3a06c2ed-2e97-4074-914d-b08c406a1d01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 417.0655 327.66 0)
+			(at 409.4455 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5935,7 +5915,7 @@
 	)
 	(global_label "Violet_LED"
 		(shape input)
-		(at 406.4 330.2 0)
+		(at 397.51 325.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5945,7 +5925,7 @@
 		)
 		(uuid "473a7666-9397-49f1-b7c3-98d65b832fde")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 419.1218 330.2 0)
+			(at 410.2318 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5957,7 +5937,7 @@
 	)
 	(global_label "White_LED"
 		(shape input)
-		(at 407.67 325.12 0)
+		(at 397.51 327.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5967,7 +5947,7 @@
 		)
 		(uuid "bcbf1a66-682d-4611-b782-f32eb7c10610")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 420.0894 325.12 0)
+			(at 409.9294 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)

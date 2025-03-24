@@ -7380,7 +7380,7 @@
 				)
 			)
 		)
-		(property "Value" "Phoenix 1995499"
+		(property "Value" "Phoenix 1935161"
 			(at 363.982 85.09 0)
 			(effects
 				(font
@@ -7406,7 +7406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2 Position Terminal Block Header, Male Pins, Shrouded (4 Side) 0.138\" (3.50mm) 90°, Right Angle Through Hole"
+		(property "Description" "2 Position Wire to Board Terminal Block Horizontal with Board 0.197\" (5.00mm) Through Hole"
 			(at 355.6 90.17 0)
 			(effects
 				(font
@@ -7442,7 +7442,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "277-6718-ND"
+		(property "DPN" "277-1667-ND"
 			(at 355.6 90.17 0)
 			(effects
 				(font
@@ -7460,7 +7460,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1995499"
+		(property "MPN" "1935161"
 			(at 355.6 90.17 0)
 			(effects
 				(font
@@ -16842,7 +16842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
+		(property "Description" "Diode 30 V 500mA Surface Mount SOD-123"
 			(at 344.17 92.71 0)
 			(effects
 				(font
@@ -16851,7 +16851,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "MBR0530CT-ND"
+		(property "DPN" "MBR0530T3GOSCT-ND"
 			(at 344.17 92.71 0)
 			(effects
 				(font
@@ -16878,7 +16878,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MBR0530"
+		(property "MPN" "MBR0530T3G"
 			(at 344.17 92.71 0)
 			(effects
 				(font

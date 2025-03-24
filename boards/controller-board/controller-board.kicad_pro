@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.254,
-          "height": 0.4572,
-          "width": 0.4572
+          "drill": 0.0,
+          "height": 0.6,
+          "width": 1.325
         },
         "silk_line_width": 0.125,
         "silk_text_italic": false,
@@ -60,27 +60,51 @@
       ],
       "drc_exclusions": [
         [
-          "silk_edge_clearance|79800000|58712100|53cdfaaa-2ae4-4c29-b870-c765f68d67fd|1b773427-c173-419a-beb6-aef8dcda2c04",
+          "silk_edge_clearance|79800000|52209700|53cdfaaa-2ae4-4c29-b870-c765f68d67fd|bf5d66b1-8296-46d5-9468-1f52dca52ca6",
           ""
         ],
         [
-          "silk_edge_clearance|79800000|66967100|53cdfaaa-2ae4-4c29-b870-c765f68d67fd|0adea601-c55f-454a-a3f7-7cd7bff68b57",
+          "silk_edge_clearance|79800000|73469500|53cdfaaa-2ae4-4c29-b870-c765f68d67fd|baaae319-4b5b-47dc-8e62-1100277531d5",
           ""
         ],
         [
-          "silk_overlap|100150000|143548409|e3ddabfb-cdd4-47f9-b68a-170196009985|3ec958fa-fd97-4652-97f1-27f07fd58668",
+          "silk_overlap|100150000|143474545|3ec958fa-fd97-4652-97f1-27f07fd58668|e3ddabfb-cdd4-47f9-b68a-170196009985",
           ""
         ],
         [
-          "silk_overlap|114060000|143200909|dadef241-de30-4f2a-9a5b-7d37b3e48798|7a42d78f-1527-45be-a487-6a808ec7d925",
+          "silk_overlap|114060000|143540000|7a42d78f-1527-45be-a487-6a808ec7d925|dadef241-de30-4f2a-9a5b-7d37b3e48798",
           ""
         ],
         [
-          "silk_overlap|173760000|142740000|d1d5044c-0c8b-4861-8bc1-f3cb275b8048|29de70d0-149e-447f-828b-52dcd7e67bec",
+          "silk_overlap|173850000|142674545|29de70d0-149e-447f-828b-52dcd7e67bec|d1d5044c-0c8b-4861-8bc1-f3cb275b8048",
           ""
         ],
         [
           "silk_overlap|188260000|142740000|7de7b0e2-063f-49e7-8b73-58acb133f4b1|9802e758-59eb-4cd1-a223-511f9df79069",
+          ""
+        ],
+        [
+          "solder_mask_bridge|147099240|137391318|5f8ccae2-13f5-4c75-b4fe-ead6baf333d7|f07da2f7-a898-4fc0-9c60-5f04a7b16f89",
+          ""
+        ],
+        [
+          "solder_mask_bridge|147099240|67391318|c3b760d7-966a-4ba0-95de-d89a2835e6a6|ee969d0f-be4f-4af2-a6ea-911e46a24c4f",
+          ""
+        ],
+        [
+          "solder_mask_bridge|204500759|48091317|ad066ff4-3068-4423-b4cf-01bbb0327d2c|cebe0b82-7b4d-41a5-8f42-9e56bedf8630",
+          ""
+        ],
+        [
+          "solder_mask_bridge|204500760|156708682|28bbfda4-4fa4-49c4-875f-bf87eb700aeb|4a7b22df-1d07-4f50-9240-54d889ee4850",
+          ""
+        ],
+        [
+          "solder_mask_bridge|80900760|156708682|be7abb5a-77d9-4590-a945-accadb1f7e33|a533938f-a6a1-40dc-b8a4-bf395616f386",
+          ""
+        ],
+        [
+          "solder_mask_bridge|80900760|48108682|c6fdac4b-b96b-491d-a626-e61bd33a17bb|d8fddb81-bd3a-42ce-a81d-2c7ca2c1427d",
           ""
         ]
       ],
@@ -282,20 +306,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "same_local_global_label|419100|635000|65f1412e-5ebc-40cc-8cb3-d2f5318d45b8|914cc329-578f-49e8-beda-82b8b29e1208|/ab186ba7-5fdc-41ea-88f4-a283b73948bc/e7cdee32-82f6-44c4-a42b-6ebe9d2c5310|/ab186ba7-5fdc-41ea-88f4-a283b73948bc/e7cdee32-82f6-44c4-a42b-6ebe9d2c5310|/ab186ba7-5fdc-41ea-88f4-a283b73948bc/e7cdee32-82f6-44c4-a42b-6ebe9d2c5310",
-        ""
-      ],
-      [
-        "same_local_global_label|419100|685800|e51a90ae-d694-4d28-a176-a7650a7bbe17|28ce6e8a-65e9-4a1c-b828-0df018a08462|/ab186ba7-5fdc-41ea-88f4-a283b73948bc/e7cdee32-82f6-44c4-a42b-6ebe9d2c5310|/ab186ba7-5fdc-41ea-88f4-a283b73948bc/e7cdee32-82f6-44c4-a42b-6ebe9d2c5310|/ab186ba7-5fdc-41ea-88f4-a283b73948bc/e7cdee32-82f6-44c4-a42b-6ebe9d2c5310",
-        ""
-      ],
-      [
-        "same_local_global_label|419100|736600|7b9110b2-a52d-4e99-adea-e584b8ae122f|7af7f19b-972a-49d6-b65d-b2cb67ddbb72|/ab186ba7-5fdc-41ea-88f4-a283b73948bc/e7cdee32-82f6-44c4-a42b-6ebe9d2c5310|/ab186ba7-5fdc-41ea-88f4-a283b73948bc/e7cdee32-82f6-44c4-a42b-6ebe9d2c5310|/ab186ba7-5fdc-41ea-88f4-a283b73948bc/e7cdee32-82f6-44c4-a42b-6ebe9d2c5310",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -592,10 +603,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "build",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "controller-board.step",
+      "step": "../../../../../solarsimcheckout.step",
       "svg": "",
       "vrml": ""
     },
@@ -616,13 +627,19 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": false
         },
         {
           "group_by": true,
@@ -647,12 +664,6 @@
           "label": "Qty",
           "name": "${QUANTITY}",
           "show": true
-        },
-        {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": false
         },
         {
           "group_by": false,
@@ -680,14 +691,20 @@
         },
         {
           "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
+          "label": "MFR",
+          "name": "MFR",
+          "show": true
         },
         {
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
           "show": true
         },
         {
@@ -722,20 +739,14 @@
         },
         {
           "group_by": false,
-          "label": "MFR",
-          "name": "MFR",
+          "label": "Distributor",
+          "name": "Distributor",
           "show": true
         },
         {
           "group_by": false,
           "label": "DPN",
           "name": "DPN",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Distributor",
-          "name": "Distributor",
           "show": true
         },
         {

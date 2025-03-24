@@ -3697,7 +3697,7 @@
 	)
 	(rectangle
 		(start 290.83 287.274)
-		(end 421.64 360.045)
+		(end 411.48 360.045)
 		(stroke
 			(width 0)
 			(type default)
@@ -3885,6 +3885,26 @@
 		)
 		(uuid "b7726de0-e20a-4811-8986-2d9a62dda275")
 	)
+	(text "5A Fuse for LEDs"
+		(exclude_from_sim no)
+		(at 127 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ba94128b-d7e8-40a6-b3f6-5d2afd10db51")
+	)
+	(text "8A Fuse for Halogen"
+		(exclude_from_sim no)
+		(at 96.52 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bcc53a1a-6f1b-4535-a897-55470008884f")
+	)
 	(text "Quad DAC"
 		(exclude_from_sim no)
 		(at 293.37 293.37 0)
@@ -4006,6 +4026,12 @@
 		(uuid "19e974aa-b364-4213-b114-d5e57186115c")
 	)
 	(junction
+		(at 231.14 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b8b2fcc-2a84-4a7d-8b59-dfae82607b81")
+	)
+	(junction
 		(at 109.22 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4018,10 +4044,28 @@
 		(uuid "2a9d0e1e-29fb-4497-acee-d8a9ec329dce")
 	)
 	(junction
+		(at 372.11 327.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2baf4937-e6af-47c0-847e-97e8eebf2831")
+	)
+	(junction
 		(at 384.81 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f5a3be7-0d2c-45df-a86e-ae868fa857c4")
+	)
+	(junction
+		(at 363.22 330.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33fffdd8-b081-4c53-ae12-2ad06a05ad34")
+	)
+	(junction
+		(at 229.87 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35210b71-7bdb-44f0-ad81-4a22e083cbeb")
 	)
 	(junction
 		(at 153.67 190.5)
@@ -4042,16 +4086,28 @@
 		(uuid "44bb0fb0-9928-4ee2-9668-85ae38b8699d")
 	)
 	(junction
-		(at 377.19 330.2)
+		(at 368.3 330.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5512ed33-8b2e-4a88-9052-2d6964194e47")
+	)
+	(junction
+		(at 382.27 325.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c55be60-04e3-4509-b566-8235d6818200")
 	)
 	(junction
 		(at 307.34 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ece5330-1b17-4113-ae5e-522e43b0812a")
+	)
+	(junction
+		(at 231.14 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "669c3367-b880-4161-9dc8-caf0fd4bb1bf")
 	)
 	(junction
 		(at 346.71 299.72)
@@ -4076,6 +4132,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7df49f41-5a50-4061-aeee-a38ff1a42fcf")
+	)
+	(junction
+		(at 231.14 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8520e8ee-40b7-45b1-aa41-efbafe8982de")
 	)
 	(junction
 		(at 384.81 219.71)
@@ -4144,16 +4206,22 @@
 		(uuid "b7047e5d-578c-4b19-af5c-2c8c693e27a9")
 	)
 	(junction
-		(at 394.97 325.12)
+		(at 386.08 325.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b712e68f-3f31-468c-bcf9-5bd630600e3d")
 	)
 	(junction
-		(at 386.08 327.66)
+		(at 377.19 327.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0a8a5b6-267c-4b31-a1ff-0560de58261e")
+	)
+	(junction
+		(at 229.87 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8a28df8-1b1b-474a-9ef5-ba39a2eca3e0")
 	)
 	(junction
 		(at 198.12 290.83)
@@ -4166,6 +4234,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5366028-cebd-4b85-994e-4118a25c4fbb")
+	)
+	(junction
+		(at 335.28 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8ab72dd-a77f-445e-8b1f-6a684795cc96")
 	)
 	(junction
 		(at 209.55 177.8)
@@ -4355,6 +4429,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 205.74) (xy 205.74 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08397b0b-a936-4ed4-94fc-99b7904d561f")
+	)
+	(wire
+		(pts
 			(xy 196.85 288.29) (xy 199.39 288.29)
 		)
 		(stroke
@@ -4365,7 +4449,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 325.12) (xy 397.51 325.12)
+			(xy 386.08 325.12) (xy 388.62 325.12)
 		)
 		(stroke
 			(width 0)
@@ -4475,7 +4559,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 330.2) (xy 397.51 330.2)
+			(xy 368.3 330.2) (xy 388.62 330.2)
 		)
 		(stroke
 			(width 0)
@@ -4555,7 +4639,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 346.71) (xy 394.97 344.17)
+			(xy 386.08 346.71) (xy 386.08 344.17)
 		)
 		(stroke
 			(width 0)
@@ -4565,7 +4649,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 182.88) (xy 261.62 182.88)
+			(xy 205.74 182.88) (xy 231.14 182.88)
 		)
 		(stroke
 			(width 0)
@@ -4615,6 +4699,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 330.2) (xy 368.3 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "356e57f8-fd25-4b4d-9a8c-991b60a7a1a4")
+	)
+	(wire
+		(pts
 			(xy 261.62 332.74) (xy 261.62 208.28)
 		)
 		(stroke
@@ -4635,7 +4729,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 346.71) (xy 377.19 344.17)
+			(xy 368.3 346.71) (xy 368.3 344.17)
 		)
 		(stroke
 			(width 0)
@@ -4765,7 +4859,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 330.2) (xy 377.19 330.2)
+			(xy 356.87 330.2) (xy 363.22 330.2)
 		)
 		(stroke
 			(width 0)
@@ -4775,7 +4869,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 325.12) (xy 394.97 339.09)
+			(xy 386.08 325.12) (xy 386.08 339.09)
 		)
 		(stroke
 			(width 0)
@@ -4795,7 +4889,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 332.74) (xy 368.3 339.09)
+			(xy 359.41 332.74) (xy 359.41 339.09)
 		)
 		(stroke
 			(width 0)
@@ -4805,7 +4899,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 330.2) (xy 377.19 339.09)
+			(xy 368.3 330.2) (xy 368.3 339.09)
 		)
 		(stroke
 			(width 0)
@@ -4835,6 +4929,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 208.28) (xy 261.62 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d079b9-e25a-424d-8fb3-79bf9b1e0699")
+	)
+	(wire
+		(pts
 			(xy 384.81 222.25) (xy 384.81 219.71)
 		)
 		(stroke
@@ -4842,6 +4946,16 @@
 			(type default)
 		)
 		(uuid "51f675d4-694c-4142-9562-7022c137d0a5")
+	)
+	(wire
+		(pts
+			(xy 231.14 175.26) (xy 251.46 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "526d486b-0eda-4b18-912b-3de12d2e9fb5")
 	)
 	(wire
 		(pts
@@ -4855,6 +4969,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 180.34) (xy 267.97 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5411217c-b066-458f-94af-df64c422eb36")
+	)
+	(wire
+		(pts
 			(xy 217.17 170.18) (xy 217.17 166.37)
 		)
 		(stroke
@@ -4865,7 +4989,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 325.12) (xy 394.97 325.12)
+			(xy 356.87 325.12) (xy 382.27 325.12)
 		)
 		(stroke
 			(width 0)
@@ -4945,7 +5069,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 208.28) (xy 261.62 208.28)
+			(xy 205.74 208.28) (xy 229.87 208.28)
 		)
 		(stroke
 			(width 0)
@@ -4965,7 +5089,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 175.26) (xy 251.46 175.26)
+			(xy 205.74 175.26) (xy 231.14 175.26)
 		)
 		(stroke
 			(width 0)
@@ -5045,6 +5169,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 327.66) (xy 377.19 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "766fe10d-6ebf-4d10-ad6e-40258677b190")
+	)
+	(wire
+		(pts
 			(xy 328.93 88.9) (xy 328.93 90.17)
 		)
 		(stroke
@@ -5082,6 +5216,16 @@
 			(type default)
 		)
 		(uuid "7dd8f70d-3c54-492a-bbf9-d19f445b524f")
+	)
+	(wire
+		(pts
+			(xy 231.14 182.88) (xy 261.62 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8327601c-01cb-4c90-81a1-37c1857d21d9")
 	)
 	(wire
 		(pts
@@ -5365,7 +5509,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 346.71) (xy 386.08 344.17)
+			(xy 377.19 346.71) (xy 377.19 344.17)
 		)
 		(stroke
 			(width 0)
@@ -5385,7 +5529,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 180.34) (xy 267.97 180.34)
+			(xy 205.74 180.34) (xy 231.14 180.34)
 		)
 		(stroke
 			(width 0)
@@ -5475,7 +5619,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 327.66) (xy 386.08 327.66)
+			(xy 356.87 327.66) (xy 372.11 327.66)
 		)
 		(stroke
 			(width 0)
@@ -5495,7 +5639,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 327.66) (xy 397.51 327.66)
+			(xy 377.19 327.66) (xy 388.62 327.66)
 		)
 		(stroke
 			(width 0)
@@ -5565,6 +5709,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 325.12) (xy 386.08 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1adcd7d-2ea8-4ecf-9b8d-d119996f3457")
+	)
+	(wire
+		(pts
 			(xy 316.23 72.39) (xy 316.23 73.66)
 		)
 		(stroke
@@ -5575,7 +5729,17 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 82.55) (xy 328.93 82.55)
+			(xy 335.28 82.55) (xy 328.93 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ba5d5c-ce01-4085-b500-7a36ed59dbf6")
+	)
+	(wire
+		(pts
+			(xy 340.36 82.55) (xy 335.28 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5665,7 +5829,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 332.74) (xy 368.3 332.74)
+			(xy 356.87 332.74) (xy 359.41 332.74)
 		)
 		(stroke
 			(width 0)
@@ -5705,7 +5869,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 346.71) (xy 368.3 344.17)
+			(xy 359.41 346.71) (xy 359.41 344.17)
 		)
 		(stroke
 			(width 0)
@@ -5715,7 +5879,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 205.74) (xy 205.74 205.74)
+			(xy 264.16 205.74) (xy 229.87 205.74)
 		)
 		(stroke
 			(width 0)
@@ -5915,7 +6079,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 327.66) (xy 386.08 339.09)
+			(xy 377.19 327.66) (xy 377.19 339.09)
 		)
 		(stroke
 			(width 0)
@@ -6125,7 +6289,7 @@
 	)
 	(global_label "Cyan_LED"
 		(shape input)
-		(at 397.51 330.2 0)
+		(at 388.62 330.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6135,7 +6299,7 @@
 		)
 		(uuid "3a06c2ed-2e97-4074-914d-b08c406a1d01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 409.4455 330.2 0)
+			(at 400.5555 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6147,7 +6311,7 @@
 	)
 	(global_label "Violet_LED"
 		(shape input)
-		(at 397.51 325.12 0)
+		(at 388.62 325.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6157,7 +6321,7 @@
 		)
 		(uuid "473a7666-9397-49f1-b7c3-98d65b832fde")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 410.2318 325.12 0)
+			(at 401.3418 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6169,7 +6333,7 @@
 	)
 	(global_label "White_LED"
 		(shape input)
-		(at 397.51 327.66 0)
+		(at 388.62 327.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6179,7 +6343,7 @@
 		)
 		(uuid "bcbf1a66-682d-4611-b782-f32eb7c10610")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 409.9294 327.66 0)
+			(at 401.0394 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6194,7 +6358,7 @@
 		(at 127 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "01d7439b-4ec0-4e72-88f0-567de77827ae")
@@ -6252,7 +6416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "DigiKey "
+		(property "Distributor" ""
 			(at 127 99.06 0)
 			(effects
 				(font
@@ -6313,6 +6477,135 @@
 			(project "controller-board"
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:TestPoint-MinTH")
+		(at 372.11 327.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "028a0a22-6f6a-4054-98af-5722f7ee5fab")
+		(property "Reference" "TP21"
+			(at 369.57 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint-MinTH"
+			(at 372.11 320.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-MinTH"
+			(at 372.11 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" ""
+			(at 372.11 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 372.11 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 372.11 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 372.11 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 372.11 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 372.11 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 372.11 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94b1217d-d175-4e1b-a223-30bf12c2a8ac")
+		)
+		(instances
+			(project "controller-board"
+				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -6429,7 +6722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" "N-Channel 30 V 4.1A (Ta) 510mW (Ta), 5W (Tc) Surface Mount TO-236AB"
 			(at 313.69 80.01 0)
 			(effects
 				(font
@@ -6796,7 +7089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 316.23 69.85 0)
 			(effects
 				(font
@@ -6947,7 +7240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, source/gate/drain"
+		(property "Description" "P-Channel 20 V 11A (Tc) 3.3W (Tc) Surface Mount 8-SOP"
 			(at 349.25 97.536 0)
 			(effects
 				(font
@@ -7113,7 +7406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2 Position Terminal Block Header, Male Pins, Shrouded (4 Side) 0.138\" (3.50mm) 90°, Right Angle Through Hole"
 			(at 355.6 90.17 0)
 			(effects
 				(font
@@ -7250,7 +7543,7 @@
 		(at 394.97 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7314,7 +7607,7 @@
 		(at 394.97 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7416,12 +7709,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5A fuse for F2/LED strings"
+		(property "Description" "5 A 125 V AC 125 V DC Fuse Board Mount (Cartridge Style Excluded) Surface Mount 2-SMD, Square End Block"
 			(at 127 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DPN" "F2607CT-ND"
@@ -7522,7 +7816,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 368.3 346.71 0)
+		(at 359.41 346.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7532,7 +7826,7 @@
 		(fields_autoplaced yes)
 		(uuid "1af961d7-9e07-42f4-b80a-1cb06a285b9e")
 		(property "Reference" "#PWR051"
-			(at 368.3 353.06 0)
+			(at 359.41 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7541,7 +7835,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 368.3 351.79 0)
+			(at 359.41 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7549,7 +7843,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 346.71 0)
+			(at 359.41 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7558,7 +7852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 346.71 0)
+			(at 359.41 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7567,7 +7861,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 368.3 346.71 0)
+			(at 359.41 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7765,7 +8059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "12 Bit Analog to Digital Converter 2, 4 Input 1 Sigma-Delta 10-X2QFN (2x1.5)"
 			(at 327.66 180.34 0)
 			(effects
 				(font
@@ -7899,7 +8193,7 @@
 		(at 201.93 273.05 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "226c783d-fd6e-4608-bce2-b0529b32b372")
@@ -7957,7 +8251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "DigiKey "
+		(property "Distributor" ""
 			(at 201.93 273.05 0)
 			(effects
 				(font
@@ -8094,7 +8388,7 @@
 		(at 394.97 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8158,7 +8452,7 @@
 		(at 127 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2a96dd4c-d813-44cb-a407-8e399314a9a3")
@@ -8216,7 +8510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "DigiKey "
+		(property "Distributor" ""
 			(at 127 104.14 0)
 			(effects
 				(font
@@ -8395,7 +8689,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Connector Header Through Hole 3 position 0.100\" (2.54mm)"
+			(at 191.77 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "609-861400031YO2LF-ND"
+			(at 191.77 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 191.77 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Amphenol ICC (FCI)"
+			(at 191.77 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "861400031YO2LF"
 			(at 191.77 275.59 0)
 			(effects
 				(font
@@ -8468,7 +8798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "12 Bit Digital to Analog Converter 4 10-MSOP"
 			(at 341.63 327.66 0)
 			(effects
 				(font
@@ -8486,7 +8816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "DigiKey"
 			(at 341.63 327.66 0)
 			(effects
 				(font
@@ -8774,7 +9104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 261.62 161.29 0)
 			(effects
 				(font
@@ -8881,7 +9211,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 394.97 341.63 0)
+		(at 386.08 341.63 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8891,7 +9221,7 @@
 		(fields_autoplaced yes)
 		(uuid "3dae02d4-14bb-4e62-9bc3-a080ab5716d5")
 		(property "Reference" "R51"
-			(at 392.43 340.3599 0)
+			(at 383.54 340.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8900,7 +9230,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 392.43 342.8999 0)
+			(at 383.54 342.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8909,7 +9239,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 394.97 341.63 0)
+			(at 386.08 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8918,7 +9248,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 394.97 341.63 0)
+			(at 386.08 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8926,8 +9256,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 394.97 341.63 0)
+		(property "Description" "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 386.08 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8936,7 +9266,7 @@
 			)
 		)
 		(property "DPN" "311-100KHRCT-ND"
-			(at 394.97 341.63 0)
+			(at 386.08 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8945,7 +9275,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 394.97 341.63 0)
+			(at 386.08 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8954,7 +9284,7 @@
 			)
 		)
 		(property "MFR" "Yageo"
-			(at 394.97 341.63 0)
+			(at 386.08 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8963,7 +9293,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-07100KL"
-			(at 394.97 341.63 0)
+			(at 386.08 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8972,7 +9302,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 394.97 341.63 0)
+			(at 386.08 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8981,7 +9311,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 394.97 341.63 0)
+			(at 386.08 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8990,7 +9320,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 394.97 341.63 0)
+			(at 386.08 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8999,7 +9329,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 394.97 341.63 0)
+			(at 386.08 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9008,7 +9338,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 394.97 341.63 0)
+			(at 386.08 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9103,7 +9433,7 @@
 		(at 201.93 285.75 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "45b411b7-fc7c-4518-a125-33bd2fed4263")
@@ -9161,7 +9491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "DigiKey "
+		(property "Distributor" ""
 			(at 201.93 285.75 0)
 			(effects
 				(font
@@ -9335,7 +9665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Connector Header Through Hole 2 position 0.100\" (2.54mm)"
 			(at 389.89 162.56 0)
 			(effects
 				(font
@@ -9344,7 +9674,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "861400021YO2LF-ND"
 			(at 389.89 162.56 0)
 			(effects
 				(font
@@ -9399,6 +9729,24 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 389.89 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Amphenol ICC (FCI)"
+			(at 389.89 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "861400021YO2LF"
 			(at 389.89 162.56 0)
 			(effects
 				(font
@@ -9535,7 +9883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 346.71 304.8 0)
 			(effects
 				(font
@@ -9712,7 +10060,7 @@
 		(at 394.97 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9840,7 +10188,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 368.3 341.63 0)
+		(at 359.41 341.63 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9850,7 +10198,7 @@
 		(fields_autoplaced yes)
 		(uuid "63489cdf-62c0-478b-b0c7-33bf1650b6ab")
 		(property "Reference" "R48"
-			(at 365.76 340.3599 0)
+			(at 356.87 340.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9859,7 +10207,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 365.76 342.8999 0)
+			(at 356.87 342.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9868,7 +10216,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 368.3 341.63 0)
+			(at 359.41 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9877,7 +10225,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 368.3 341.63 0)
+			(at 359.41 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9885,8 +10233,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 368.3 341.63 0)
+		(property "Description" "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 359.41 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9895,7 +10243,7 @@
 			)
 		)
 		(property "DPN" "311-100KHRCT-ND"
-			(at 368.3 341.63 0)
+			(at 359.41 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9904,7 +10252,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 368.3 341.63 0)
+			(at 359.41 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9913,7 +10261,7 @@
 			)
 		)
 		(property "MFR" "Yageo"
-			(at 368.3 341.63 0)
+			(at 359.41 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9922,7 +10270,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-07100KL"
-			(at 368.3 341.63 0)
+			(at 359.41 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9931,7 +10279,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 368.3 341.63 0)
+			(at 359.41 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9940,7 +10288,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 368.3 341.63 0)
+			(at 359.41 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9949,7 +10297,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 368.3 341.63 0)
+			(at 359.41 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9958,7 +10306,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 368.3 341.63 0)
+			(at 359.41 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9967,7 +10315,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 368.3 341.63 0)
+			(at 359.41 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10127,7 +10475,7 @@
 		(at 127 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6976cb07-f69e-41ac-b920-837733ba0108")
@@ -10185,7 +10533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "DigiKey "
+		(property "Distributor" ""
 			(at 127 101.6 0)
 			(effects
 				(font
@@ -10256,7 +10604,7 @@
 		(at 158.75 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6a6ee41d-0bd2-49ec-9f5e-889d82e3fd49")
@@ -10314,7 +10662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "DigiKey "
+		(property "Distributor" ""
 			(at 158.75 167.64 0)
 			(effects
 				(font
@@ -10650,7 +10998,7 @@
 		(at 158.75 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "74f6f58b-cd16-4940-b856-5d3f90a731b0")
@@ -10708,7 +11056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "DigiKey "
+		(property "Distributor" ""
 			(at 158.75 170.18 0)
 			(effects
 				(font
@@ -10819,7 +11167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X7R 1210 (3225 Metric)"
 			(at 335.28 68.58 0)
 			(effects
 				(font
@@ -10968,7 +11316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RP2040 Raspberry Pi Pico - ARM® Cortex®-M0+ MCU 32-Bit Embedded Evaluation Board"
 			(at 186.69 184.15 0)
 			(effects
 				(font
@@ -11198,7 +11546,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 377.19 341.63 0)
+		(at 368.3 341.63 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11208,7 +11556,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e2aff1f-1802-4c08-ab95-bdc17ff47c8b")
 		(property "Reference" "R49"
-			(at 374.65 340.3599 0)
+			(at 365.76 340.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11217,7 +11565,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 374.65 342.8999 0)
+			(at 365.76 342.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11226,7 +11574,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 377.19 341.63 0)
+			(at 368.3 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11235,7 +11583,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 377.19 341.63 0)
+			(at 368.3 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11243,8 +11591,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 377.19 341.63 0)
+		(property "Description" "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 368.3 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11253,7 +11601,7 @@
 			)
 		)
 		(property "DPN" "311-100KHRCT-ND"
-			(at 377.19 341.63 0)
+			(at 368.3 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11262,7 +11610,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 377.19 341.63 0)
+			(at 368.3 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11271,7 +11619,7 @@
 			)
 		)
 		(property "MFR" "Yageo"
-			(at 377.19 341.63 0)
+			(at 368.3 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11280,7 +11628,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-07100KL"
-			(at 377.19 341.63 0)
+			(at 368.3 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11289,7 +11637,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 377.19 341.63 0)
+			(at 368.3 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11298,7 +11646,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 377.19 341.63 0)
+			(at 368.3 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11307,7 +11655,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 377.19 341.63 0)
+			(at 368.3 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11316,7 +11664,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 377.19 341.63 0)
+			(at 368.3 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11325,7 +11673,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 377.19 341.63 0)
+			(at 368.3 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11458,7 +11806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 384.81 184.15 0)
 			(effects
 				(font
@@ -11558,6 +11906,135 @@
 			(project "controller-board"
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:TestPoint-MinTH")
+		(at 229.87 208.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "85de49b2-e4f6-4954-8eb5-2cef271b8e97")
+		(property "Reference" "TP18"
+			(at 232.41 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint-MinTH"
+			(at 229.87 215.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-MinTH"
+			(at 229.87 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" ""
+			(at 229.87 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 229.87 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 229.87 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 229.87 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 229.87 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 229.87 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 229.87 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "698a7e96-6dc1-426e-a9de-8cc8ec2a1e4f")
+		)
+		(instances
+			(project "controller-board"
+				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -11697,6 +12174,135 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-misc:TestPoint-MinTH")
+		(at 231.14 182.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d291c2f-c367-4034-a110-e1de37bf9fc6")
+		(property "Reference" "TP16"
+			(at 233.68 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint-MinTH"
+			(at 231.14 189.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-MinTH"
+			(at 231.14 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" ""
+			(at 231.14 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 231.14 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 231.14 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 231.14 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 231.14 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 231.14 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 231.14 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bf32135-a0b6-4875-ab9e-57653a66a211")
+		)
+		(instances
+			(project "controller-board"
+				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 73.66 101.6 180)
 		(unit 1)
@@ -11739,7 +12345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1935161"
+		(property "Description" "2 Position Wire to Board Terminal Block Horizontal with Board 0.197\" (5.00mm) Through Hole"
 			(at 73.66 101.6 0)
 			(effects
 				(font
@@ -11845,6 +12451,135 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-misc:TestPoint-MinTH")
+		(at 231.14 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8eb9b2ae-f966-41c2-98e7-daa6936f5a39")
+		(property "Reference" "TP15"
+			(at 228.6 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint-MinTH"
+			(at 231.14 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-MinTH"
+			(at 231.14 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" ""
+			(at 231.14 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 231.14 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 231.14 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 231.14 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 231.14 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 231.14 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 231.14 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b61f69ca-f75c-4e03-a291-d8a0daaeb4e2")
+		)
+		(instances
+			(project "controller-board"
+				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse_Small")
 		(at 96.52 71.12 90)
 		(unit 1)
@@ -11887,12 +12622,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8A fuse for F1/Halogen"
-			(at 96.52 76.2 90)
+		(property "Description" "8 A 72 V AC 60 V DC Fuse Board Mount (Cartridge Style Excluded) Surface Mount 2-SMD, Square End Block"
+			(at 97.79 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DPN" "F4172CT-ND"
@@ -12060,10 +12796,139 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:TestPoint-MinTH")
+		(at 363.22 330.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ba2ec3f-9764-4a11-a4f4-6ced46193017")
+		(property "Reference" "TP22"
+			(at 360.68 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint-MinTH"
+			(at 363.22 323.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-MinTH"
+			(at 363.22 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 363.22 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" ""
+			(at 363.22 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 363.22 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 363.22 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 363.22 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 363.22 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 363.22 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 363.22 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "152d6bca-be52-43d9-bc8f-817b56e427d6")
+		)
+		(instances
+			(project "controller-board"
+				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:TestPoint-MinTH")
 		(at 158.75 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9da99099-4f7a-4957-920e-a2da2d9e9751")
@@ -12121,7 +12986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "DigiKey "
+		(property "Distributor" ""
 			(at 158.75 162.56 0)
 			(effects
 				(font
@@ -12299,7 +13164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 384.81 214.63 0)
 			(effects
 				(font
@@ -12449,7 +13314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 355.6 304.8 0)
 			(effects
 				(font
@@ -12600,7 +13465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 384.81 153.67 0)
 			(effects
 				(font
@@ -12908,7 +13773,7 @@
 		(at 394.97 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13013,7 +13878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 307.34 87.63 0)
 			(effects
 				(font
@@ -13163,7 +14028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 267.97 161.29 0)
 			(effects
 				(font
@@ -13340,7 +14205,7 @@
 		(at 394.97 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13508,7 +14373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Connector Header Through Hole 2 position 0.100\" (2.54mm)"
 			(at 389.89 191.77 0)
 			(effects
 				(font
@@ -13517,7 +14382,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "861400021YO2LF-ND"
 			(at 389.89 191.77 0)
 			(effects
 				(font
@@ -13572,6 +14437,24 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 389.89 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Amphenol ICC (FCI)"
+			(at 389.89 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "861400021YO2LF"
 			(at 389.89 191.77 0)
 			(effects
 				(font
@@ -13704,7 +14587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Connector Header Through Hole 2 position 0.100\" (2.54mm)"
 			(at 389.89 222.25 0)
 			(effects
 				(font
@@ -13713,7 +14596,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "861400021YO2LF-ND"
 			(at 389.89 222.25 0)
 			(effects
 				(font
@@ -13776,6 +14659,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Amphenol ICC (FCI)"
+			(at 389.89 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "861400021YO2LF"
+			(at 389.89 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aaa75e16-6e25-415d-bb5c-3187e0ad9f16")
 		)
@@ -13793,7 +14694,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 386.08 346.71 0)
+		(at 377.19 346.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13803,7 +14704,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2e1943c-27c2-44a6-bc42-04a7e98ec202")
 		(property "Reference" "#PWR066"
-			(at 386.08 353.06 0)
+			(at 377.19 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13812,7 +14713,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 386.08 351.79 0)
+			(at 377.19 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13820,7 +14721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 386.08 346.71 0)
+			(at 377.19 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13829,7 +14730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 386.08 346.71 0)
+			(at 377.19 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13838,7 +14739,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 386.08 346.71 0)
+			(at 377.19 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13853,6 +14754,135 @@
 			(project "controller-board"
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:TestPoint-MinTH")
+		(at 335.28 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2e93e7f-9ae8-4a9a-9557-d272dfc147b6")
+		(property "Reference" "TP19"
+			(at 332.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint-MinTH"
+			(at 335.28 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-MinTH"
+			(at 335.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" ""
+			(at 335.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 335.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 335.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 335.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 335.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 335.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 335.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "135466a7-6b77-47c1-bf8a-eb9c736a95fb")
+		)
+		(instances
+			(project "controller-board"
+				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -13926,8 +14956,137 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-misc:TestPoint-MinTH")
+		(at 231.14 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6bd169a-212c-42ca-982a-280590088fa3")
+		(property "Reference" "TP14"
+			(at 228.6 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint-MinTH"
+			(at 231.14 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-MinTH"
+			(at 231.14 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" ""
+			(at 231.14 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 231.14 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 231.14 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 231.14 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 231.14 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 231.14 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 231.14 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4688159-7d9c-4c95-af3c-7dc42fae9f1d")
+		)
+		(instances
+			(project "controller-board"
+				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 394.97 346.71 0)
+		(at 386.08 346.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13937,7 +15096,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca034a19-bf61-4432-91de-8b8515b6e092")
 		(property "Reference" "#PWR067"
-			(at 394.97 353.06 0)
+			(at 386.08 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13946,7 +15105,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 394.97 351.79 0)
+			(at 386.08 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13954,7 +15113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 394.97 346.71 0)
+			(at 386.08 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13963,7 +15122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 394.97 346.71 0)
+			(at 386.08 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13972,7 +15131,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 394.97 346.71 0)
+			(at 386.08 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14104,7 +15263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 314.96 165.1 0)
 			(effects
 				(font
@@ -14254,7 +15413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 311.15 309.88 0)
 			(effects
 				(font
@@ -14427,7 +15586,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 377.19 346.71 0)
+		(at 368.3 346.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14437,7 +15596,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3a12a56-a95f-4606-9b2c-7151d2fc6908")
 		(property "Reference" "#PWR052"
-			(at 377.19 353.06 0)
+			(at 368.3 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14446,7 +15605,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 377.19 351.79 0)
+			(at 368.3 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14454,7 +15613,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 377.19 346.71 0)
+			(at 368.3 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14463,7 +15622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 377.19 346.71 0)
+			(at 368.3 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14472,7 +15631,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 377.19 346.71 0)
+			(at 368.3 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14497,7 +15656,7 @@
 		(at 158.75 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d7370b44-0fe9-4930-ad59-a78dffe14dd4")
@@ -14555,7 +15714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "DigiKey "
+		(property "Distributor" ""
 			(at 158.75 160.02 0)
 			(effects
 				(font
@@ -14733,7 +15892,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Connector Header Through Hole 3 position 0.100\" (2.54mm)"
+			(at 191.77 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "609-861400031YO2LF-ND"
+			(at 191.77 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 191.77 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Amphenol ICC (FCI)"
+			(at 191.77 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "861400031YO2LF"
 			(at 191.77 288.29 0)
 			(effects
 				(font
@@ -14829,7 +16024,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 386.08 341.63 0)
+		(at 377.19 341.63 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14839,7 +16034,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc7d0326-7ce5-49e6-97d0-97f6c862bc35")
 		(property "Reference" "R50"
-			(at 383.54 340.3599 0)
+			(at 374.65 340.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14848,7 +16043,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 383.54 342.8999 0)
+			(at 374.65 342.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14857,7 +16052,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 386.08 341.63 0)
+			(at 377.19 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14866,7 +16061,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 386.08 341.63 0)
+			(at 377.19 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14874,8 +16069,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 386.08 341.63 0)
+		(property "Description" "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 377.19 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14884,7 +16079,7 @@
 			)
 		)
 		(property "DPN" "311-100KHRCT-ND"
-			(at 386.08 341.63 0)
+			(at 377.19 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14893,7 +16088,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 386.08 341.63 0)
+			(at 377.19 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14902,7 +16097,7 @@
 			)
 		)
 		(property "MFR" "Yageo"
-			(at 386.08 341.63 0)
+			(at 377.19 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14911,7 +16106,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-07100KL"
-			(at 386.08 341.63 0)
+			(at 377.19 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14920,7 +16115,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 386.08 341.63 0)
+			(at 377.19 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14929,7 +16124,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 386.08 341.63 0)
+			(at 377.19 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14938,7 +16133,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 386.08 341.63 0)
+			(at 377.19 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14947,7 +16142,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 386.08 341.63 0)
+			(at 377.19 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14956,7 +16151,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 386.08 341.63 0)
+			(at 377.19 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15023,12 +16218,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10A fuseholder"
+		(property "Description" "Fuse Block 9 A 125V 1 Circuit Cartridge Surface Mount"
 			(at 87.63 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DPN" "18-01550900DRCT-ND"
@@ -15194,6 +16390,264 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-misc:TestPoint-MinTH")
+		(at 382.27 325.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea355d28-6765-428b-8595-c8e1165017b5")
+		(property "Reference" "TP20"
+			(at 379.73 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint-MinTH"
+			(at 382.27 318.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-MinTH"
+			(at 382.27 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 382.27 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 382.27 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" ""
+			(at 382.27 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 382.27 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 382.27 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 382.27 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 382.27 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 382.27 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 382.27 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acf44793-350d-4c7c-ac00-22b2967771ee")
+		)
+		(instances
+			(project "controller-board"
+				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:TestPoint-MinTH")
+		(at 229.87 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee8e80e9-1d1f-455a-9c64-b4913e9bc92f")
+		(property "Reference" "TP17"
+			(at 227.33 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint-MinTH"
+			(at 229.87 198.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-MinTH"
+			(at 229.87 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" ""
+			(at 229.87 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 229.87 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 229.87 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 229.87 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 229.87 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 229.87 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 229.87 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2adb068-7f41-4893-b60d-fd6e862fe479")
+		)
+		(instances
+			(project "controller-board"
+				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse_Small")
 		(at 127 92.71 90)
 		(mirror x)
@@ -15237,12 +16691,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10A fuseholder"
+		(property "Description" "Fuse Block 9 A 125V 1 Circuit Cartridge Surface Mount"
 			(at 135.89 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DPN" "18-01550900DRCT-ND"
@@ -15396,6 +16851,42 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "MBR0530CT-ND"
+			(at 344.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 344.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "onsemi"
+			(at 344.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MBR0530"
+			(at 344.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4bd130da-8d62-4a6a-a818-8d77412bcc67")
 		)
@@ -15416,7 +16907,7 @@
 		(at 158.75 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "fbcc096a-ad77-41e7-acda-d3b43e994869")
@@ -15474,7 +16965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "DigiKey "
+		(property "Distributor" ""
 			(at 158.75 172.72 0)
 			(effects
 				(font
@@ -15732,7 +17223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Connector Header Through Hole 3 position 0.100\" (2.54mm)"
 			(at 386.08 254 0)
 			(effects
 				(font
@@ -15741,7 +17232,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "609-861400031YO2LF-ND"
 			(at 386.08 254 0)
 			(effects
 				(font
@@ -15796,6 +17287,24 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 386.08 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Amphenol ICC (FCI)"
+			(at 386.08 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "861400031YO2LF"
 			(at 386.08 254 0)
 			(effects
 				(font

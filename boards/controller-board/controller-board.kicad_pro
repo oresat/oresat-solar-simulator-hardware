@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.6,
-          "width": 1.325
+          "height": 0.33,
+          "width": 0.56
         },
         "silk_line_width": 0.125,
         "silk_text_italic": false,
@@ -81,30 +81,6 @@
         ],
         [
           "silk_overlap|188260000|142740000|7de7b0e2-063f-49e7-8b73-58acb133f4b1|9802e758-59eb-4cd1-a223-511f9df79069",
-          ""
-        ],
-        [
-          "solder_mask_bridge|147099240|137391318|5f8ccae2-13f5-4c75-b4fe-ead6baf333d7|f07da2f7-a898-4fc0-9c60-5f04a7b16f89",
-          ""
-        ],
-        [
-          "solder_mask_bridge|147099240|67391318|c3b760d7-966a-4ba0-95de-d89a2835e6a6|ee969d0f-be4f-4af2-a6ea-911e46a24c4f",
-          ""
-        ],
-        [
-          "solder_mask_bridge|204500759|48091317|ad066ff4-3068-4423-b4cf-01bbb0327d2c|cebe0b82-7b4d-41a5-8f42-9e56bedf8630",
-          ""
-        ],
-        [
-          "solder_mask_bridge|204500760|156708682|28bbfda4-4fa4-49c4-875f-bf87eb700aeb|4a7b22df-1d07-4f50-9240-54d889ee4850",
-          ""
-        ],
-        [
-          "solder_mask_bridge|80900760|156708682|be7abb5a-77d9-4590-a945-accadb1f7e33|a533938f-a6a1-40dc-b8a4-bf395616f386",
-          ""
-        ],
-        [
-          "solder_mask_bridge|80900760|48108682|c6fdac4b-b96b-491d-a626-e61bd33a17bb|d8fddb81-bd3a-42ce-a81d-2c7ca2c1427d",
           ""
         ]
       ],
@@ -157,6 +133,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",

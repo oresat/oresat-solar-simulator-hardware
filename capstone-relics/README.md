@@ -1,2 +1,0 @@
-# Capstone Relics
-This project was developed by PSU students as part of their 2023 Capstone. These files were used for organization and prototyping towards the final build of the simulator. They're kept here for future reference and can be deleted as needed.

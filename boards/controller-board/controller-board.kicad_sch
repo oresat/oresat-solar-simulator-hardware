@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "ab186ba7-5fdc-41ea-88f4-a283b73948bc")
 	(paper "C")
 	(title_block
@@ -10,9 +10,6 @@
 		(rev "2.0")
 	)
 	(lib_symbols)
-	(bus_alias "{RED_LIM, GREEN_LIM, BLUE_LIM, UV_LIM}"
-		(members)
-	)
 	(sheet
 		(at 165.1 140.97)
 		(size 54.61 12.7)
@@ -26,11 +23,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "42a1061e-62cf-44f3-8caa-6fc9c5631a6d")
 		(property "Sheetname" "Pico, sensors, and Halogen"
 			(at 165.1 139.3934 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 3 3)
@@ -42,6 +41,8 @@
 		)
 		(property "Sheetfile" "controller-board-pico.kicad_sch"
 			(at 165.1 154.2546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70,11 +71,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "e7cdee32-82f6-44c4-a42b-6ebe9d2c5310")
 		(property "Sheetname" "LEDs and Drivers"
 			(at 164.465 174.3184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 3 3)
@@ -86,6 +89,8 @@
 		)
 		(property "Sheetfile" "controller-board-sch-leds.kicad_sch"
 			(at 164.465 191.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

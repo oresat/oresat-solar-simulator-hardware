@@ -11,4 +11,5 @@
 	(lib (name "oresat-qrcodes") (type "KiCad") (uri "${ORESAT_LIBRARIES}/oresat-footprints/oresat-qrcodes.pretty") (options "") (descr ""))
 	(lib (name "U-PIR-PIRT1280A1-12") (type "KiCad") (uri "${ORESAT_LIBRARIES}/oresat-footprints/U-PIR-PIRT1280A1-12.pretty") (options "") (descr ""))
 	(lib (name "controller_brd") (type "KiCad") (uri "${KIPRJMOD}/controller_brd.pretty") (options "") (descr ""))
+	(lib (name "controller_brd_footprints") (type "KiCad") (uri "${KIPRJMOD}/controller_brd_footprints.pretty") (options "") (descr ""))
 )

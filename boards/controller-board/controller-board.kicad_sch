@@ -6,7 +6,7 @@
 	(paper "C")
 	(title_block
 		(title "OreSat Solar Simulator")
-		(date "2024-08-19")
+		(date "2026-05-27")
 		(rev "2.0")
 	)
 	(lib_symbols)

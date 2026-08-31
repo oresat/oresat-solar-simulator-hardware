@@ -126,10 +126,6 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|202725000|149400000|b1d05c52-a6eb-4826-aab5-907d471b2e48|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "silk_overlap|114060000|143540000|7a42d78f-1527-45be-a487-6a808ec7d925|dadef241-de30-4f2a-9a5b-7d37b3e48798",
           ""
         ],
@@ -540,8 +536,8 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "ignore",
-      "footprint_link_issues": "warning",
+      "footprint_filter": "error",
+      "footprint_link_issues": "ignore",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
@@ -561,9 +557,9 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "ignore",
-      "same_local_global_label": "warning",
+      "same_local_global_label": "ignore",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",

@@ -1,0 +1,117 @@
+(footprint "controller_brd"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc1dd367-2291-426c-8838-bf894d771d08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9f6525a-d844-4c7a-ad12-62b9dd314d97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "controller_brd"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f85ba6e6-3a1a-4b34-bd5e-49376ebed1dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "08ab0657-580c-4ed1-80b2-ed3a352aa373")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -15.5 -5.65)
+		(end -15.5 6.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2db42f67-345c-4de4-80bb-6cdc9ae314c5")
+	)
+	(fp_line
+		(start 17.5 -5.65)
+		(end -15.5 -5.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4b53a47-e91e-4630-83fc-53614a6efe4e")
+	)
+	(fp_line
+		(start 17.5 -5.65)
+		(end 17.5 6.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5c981743-f23e-42d2-b343-dd3460d26846")
+	)
+	(fp_line
+		(start 17.5 6.35)
+		(end -15.5 6.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1fb67092-b3e5-4570-82a8-38ccffa194ac")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "19273941-0e34-45ea-9b5b-7b2b03ae1301")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(group ""
+		(uuid "4cad79c8-4032-4da4-8d57-6278ae8e7133")
+		(members "1fb67092-b3e5-4570-82a8-38ccffa194ac" "2db42f67-345c-4de4-80bb-6cdc9ae314c5"
+			"5c981743-f23e-42d2-b343-dd3460d26846" "a4b53a47-e91e-4630-83fc-53614a6efe4e"
+		)
+	)
+	(embedded_fonts no)
+)

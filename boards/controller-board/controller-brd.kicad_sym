@@ -150,7 +150,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -18.288 23.368 0)
+			(at 0 32.512 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -160,7 +160,7 @@
 			)
 		)
 		(property "Value" "XIAO-RP2040-SMD"
-			(at -8.382 21.336 0)
+			(at 0.254 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -204,7 +204,7 @@
 		)
 		(symbol "XIAO-RP2040-SMD_1_0"
 			(pin passive line
-				(at -21.59 10.16 0)
+				(at -11.43 8.89 0)
 				(length 2.54)
 				(name "D0"
 					(effects
@@ -222,7 +222,7 @@
 				)
 			)
 			(pin passive line
-				(at -21.59 6.35 0)
+				(at -11.43 6.35 0)
 				(length 2.54)
 				(name "D1"
 					(effects
@@ -240,7 +240,7 @@
 				)
 			)
 			(pin passive line
-				(at -21.59 2.54 0)
+				(at -11.43 3.81 0)
 				(length 2.54)
 				(name "D2"
 					(effects
@@ -258,7 +258,7 @@
 				)
 			)
 			(pin passive line
-				(at -21.59 -1.27 0)
+				(at -11.43 1.27 0)
 				(length 2.54)
 				(name "D3"
 					(effects
@@ -276,7 +276,7 @@
 				)
 			)
 			(pin passive line
-				(at -21.59 -5.08 0)
+				(at -11.43 -1.27 0)
 				(length 2.54)
 				(name "D4"
 					(effects
@@ -294,7 +294,7 @@
 				)
 			)
 			(pin passive line
-				(at -21.59 -8.89 0)
+				(at -11.43 -3.81 0)
 				(length 2.54)
 				(name "D5"
 					(effects
@@ -312,7 +312,7 @@
 				)
 			)
 			(pin passive line
-				(at -21.59 -12.7 0)
+				(at -11.43 -6.35 0)
 				(length 2.54)
 				(name "D6"
 					(effects
@@ -330,7 +330,7 @@
 				)
 			)
 			(pin passive line
-				(at 21.59 -12.7 180)
+				(at 11.43 -6.35 180)
 				(length 2.54)
 				(name "D7"
 					(effects
@@ -348,7 +348,7 @@
 				)
 			)
 			(pin passive line
-				(at 21.59 -8.89 180)
+				(at 11.43 -3.81 180)
 				(length 2.54)
 				(name "D8"
 					(effects
@@ -366,7 +366,7 @@
 				)
 			)
 			(pin passive line
-				(at 21.59 -5.08 180)
+				(at 11.43 -1.27 180)
 				(length 2.54)
 				(name "D9"
 					(effects
@@ -384,7 +384,7 @@
 				)
 			)
 			(pin passive line
-				(at 21.59 -1.27 180)
+				(at 11.43 1.27 180)
 				(length 2.54)
 				(name "D10"
 					(effects
@@ -402,7 +402,7 @@
 				)
 			)
 			(pin passive line
-				(at 21.59 2.54 180)
+				(at 11.43 6.35 180)
 				(length 2.54)
 				(name "3V3_OUT"
 					(effects
@@ -420,7 +420,7 @@
 				)
 			)
 			(pin passive line
-				(at 21.59 6.35 180)
+				(at 11.43 8.89 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -438,7 +438,7 @@
 				)
 			)
 			(pin passive line
-				(at 21.59 10.16 180)
+				(at 11.43 11.43 180)
 				(length 2.54)
 				(name "VBUS"
 					(effects
@@ -458,8 +458,8 @@
 		)
 		(symbol "XIAO-RP2040-SMD_1_1"
 			(rectangle
-				(start -19.05 20.32)
-				(end 19.05 -19.05)
+				(start -8.89 20.32)
+				(end 8.89 -10.16)
 				(stroke
 					(width 0)
 					(type solid)
@@ -469,7 +469,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 22.86 270)
+				(at -3.81 22.86 270)
 				(length 2.54)
 				(name "SWDIO"
 					(effects
@@ -505,9 +505,9 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 22.86 270)
+				(at 1.27 22.86 270)
 				(length 2.54)
-				(name "EN"
+				(name "RST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -541,7 +541,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -21.59 90)
+				(at -2.54 -12.7 90)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -559,7 +559,7 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 -21.59 90)
+				(at 0 -12.7 90)
 				(length 2.54)
 				(name "GND"
 					(effects

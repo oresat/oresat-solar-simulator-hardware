@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.6,
-          "width": 1.325
+          "height": 1.1,
+          "width": 2.5
         },
         "silk_line_width": 0.125,
         "silk_text_italic": false,
@@ -77,10 +77,6 @@
         }
       ],
       "drc_exclusions": [
-        [
-          "lib_footprint_issues|105051080|64262000|7f11c830-1d5b-4638-a09f-7ba392bac948|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
         [
           "lib_footprint_mismatch|101812500|142000000|443ff1e6-9eb1-40aa-9f00-ed4ce6d4564b|00000000-0000-0000-0000-000000000000",
           ""
@@ -134,27 +130,11 @@
           ""
         ],
         [
-          "silk_edge_clearance|79800000|52209700|53cdfaaa-2ae4-4c29-b870-c765f68d67fd|bf5d66b1-8296-46d5-9468-1f52dca52ca6",
-          ""
-        ],
-        [
-          "silk_edge_clearance|79800000|73469500|53cdfaaa-2ae4-4c29-b870-c765f68d67fd|baaae319-4b5b-47dc-8e62-1100277531d5",
-          ""
-        ],
-        [
-          "silk_overlap|100150000|143474545|3ec958fa-fd97-4652-97f1-27f07fd58668|e3ddabfb-cdd4-47f9-b68a-170196009985",
-          ""
-        ],
-        [
           "silk_overlap|114060000|143540000|7a42d78f-1527-45be-a487-6a808ec7d925|dadef241-de30-4f2a-9a5b-7d37b3e48798",
           ""
         ],
         [
           "silk_overlap|173850000|142674545|29de70d0-149e-447f-828b-52dcd7e67bec|d1d5044c-0c8b-4861-8bc1-f3cb275b8048",
-          ""
-        ],
-        [
-          "silk_overlap|188260000|142740000|7de7b0e2-063f-49e7-8b73-58acb133f4b1|9802e758-59eb-4cd1-a223-511f9df79069",
           ""
         ]
       ],
@@ -901,7 +881,7 @@
         "uuid": "ab186ba7-5fdc-41ea-88f4-a283b73948bc"
       }
     ],
-    "used_designators": "P1-2,U1,U3,TP6-8,TP23-31,R5,R24-32,J1,J5,J8-12,D20-21,C1-3,C5-7,#PWR11-16,#PWR20-21,#PWR25,#PWR27-29",
+    "used_designators": "P1-2,U1,U3,TP6-13,TP23-31,R5,R24-32,J1,J5,J8-12,D20-21,C1-3,C5-7,#PWR11-16,#PWR20-21,#PWR25,#PWR27-29",
     "variants": []
   },
   "sheets": [

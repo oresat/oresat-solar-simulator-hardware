@@ -221,6 +221,7 @@
         0.35,
         0.4,
         0.45,
+        0.5,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -723,7 +724,7 @@
         "uuid": "15278b74-d8ac-498d-920d-7931851604d5"
       }
     ],
-    "used_designators": "#PWR4,J5-6",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

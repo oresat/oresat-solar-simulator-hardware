@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "ab186ba7-5fdc-41ea-88f4-a283b73948bc")
-	(paper "C")
+	(paper "User" 457.2 304.8)
 	(title_block
 		(title "OreSat Solar Simulator")
-		(date "2026-05-27")
-		(rev "2.0")
+		(date "2026-09-13")
+		(rev "2.1")
 	)
 	(lib_symbols)
 	(sheet

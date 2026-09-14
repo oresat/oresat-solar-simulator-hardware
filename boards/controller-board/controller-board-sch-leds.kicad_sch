@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "63d3c488-16d6-42c7-b20a-ecf863d37b8b")
-	(paper "C")
+	(paper "User" 457.2 304.8)
 	(title_block
 		(title "OreSat Solar Simulator")
-		(date "2024-08-19")
-		(rev "1.2")
+		(date "2026-09-13")
+		(rev "2.1")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -68,7 +68,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -118,7 +118,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -4519,50 +4519,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 443.23 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 443.23 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 443.23 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 443.23 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Yageo"
 			(at 443.23 218.44 0)
 			(hide yes)
@@ -4585,19 +4541,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 443.23 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 443.23 218.44 0)
+		(property "DIS" "DigiKey"
+			(at 443.23 218.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4700,72 +4645,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 473.71 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 473.71 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 473.71 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 473.71 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 473.71 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 473.71 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Ohmite"
 			(at 473.71 153.67 0)
 			(hide yes)
@@ -4778,6 +4657,17 @@
 			)
 		)
 		(property "MPN" "KDV12DR050ET"
+			(at 473.71 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
 			(at 473.71 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -4880,50 +4770,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 436.88 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 436.88 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 436.88 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 436.88 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "KYOCERA AVX"
 			(at 436.88 205.74 0)
 			(hide yes)
@@ -4946,18 +4792,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 436.88 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 436.88 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -5060,50 +4895,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 172.72 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 172.72 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 172.72 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 172.72 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "KYOCERA AVX"
 			(at 172.72 205.74 0)
 			(hide yes)
@@ -5126,18 +4917,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 172.72 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 172.72 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -5241,50 +5021,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 457.2 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 457.2 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 457.2 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 457.2 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Samsung Electro-Mechanics"
 			(at 457.2 134.62 0)
 			(hide yes)
@@ -5307,18 +5043,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 457.2 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 457.2 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5575,50 +5300,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 182.88 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 182.88 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 182.88 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 182.88 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Yageo"
 			(at 182.88 142.24 0)
 			(hide yes)
@@ -5641,19 +5322,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 182.88 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 182.88 142.24 0)
+		(property "DIS" "DigiKey"
+			(at 182.88 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5834,50 +5504,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 195.58 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 195.58 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 195.58 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 195.58 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Samsung Electro-Mechanics"
 			(at 195.58 213.36 0)
 			(hide yes)
@@ -5900,18 +5526,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 195.58 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 195.58 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -6171,50 +5786,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 474.98 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 474.98 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 474.98 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 474.98 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Cree LED"
 			(at 474.98 298.45 0)
 			(hide yes)
@@ -6237,19 +5808,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 474.98 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 474.98 298.45 0)
+		(property "DIS" "DigiKey"
+			(at 474.98 298.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6354,50 +5914,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 172.72 295.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 172.72 295.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 172.72 295.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 172.72 295.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "KYOCERA AVX"
 			(at 172.72 295.91 0)
 			(hide yes)
@@ -6420,18 +5936,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 172.72 295.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 172.72 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -6535,72 +6040,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 215.9 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 215.9 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 215.9 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 215.9 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 215.9 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 215.9 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Ohmite"
 			(at 215.9 156.21 0)
 			(hide yes)
@@ -6613,6 +6052,17 @@
 			)
 		)
 		(property "MPN" "KDV12DR050ET"
+			(at 215.9 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
 			(at 215.9 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6716,50 +6166,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 215.9 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 215.9 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 215.9 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 215.9 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Cree LED"
 			(at 215.9 144.78 0)
 			(hide yes)
@@ -6782,19 +6188,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 215.9 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 215.9 144.78 0)
+		(property "DIS" "DigiKey"
+			(at 215.9 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6900,50 +6295,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 474.98 308.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 474.98 308.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 474.98 308.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 474.98 308.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Cree LED"
 			(at 474.98 308.61 0)
 			(hide yes)
@@ -6966,19 +6317,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 474.98 308.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 474.98 308.61 0)
+		(property "DIS" "DigiKey"
+			(at 474.98 308.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7084,50 +6424,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 129.54 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 129.54 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 129.54 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 129.54 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Samsung Electro-Mechanics"
 			(at 129.54 213.36 0)
 			(hide yes)
@@ -7150,18 +6446,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 129.54 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 129.54 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -7265,50 +6550,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 473.71 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 473.71 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 473.71 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 473.71 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Cree LED"
 			(at 473.71 132.08 0)
 			(hide yes)
@@ -7331,19 +6572,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 473.71 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 473.71 132.08 0)
+		(property "DIS" "DigiKey"
+			(at 473.71 132.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7449,50 +6679,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 476.25 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 476.25 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 476.25 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 476.25 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Cree LED"
 			(at 476.25 220.98 0)
 			(hide yes)
@@ -7515,19 +6701,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 476.25 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 476.25 220.98 0)
+		(property "DIS" "DigiKey"
+			(at 476.25 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7633,50 +6808,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 458.47 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 458.47 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 458.47 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 458.47 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Samsung Electro-Mechanics"
 			(at 458.47 300.99 0)
 			(hide yes)
@@ -7699,18 +6830,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 458.47 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 458.47 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -7811,50 +6931,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 179.07 308.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 179.07 308.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 179.07 308.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 179.07 308.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Yageo"
 			(at 179.07 308.61 0)
 			(hide yes)
@@ -7877,19 +6953,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 179.07 308.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 179.07 308.61 0)
+		(property "DIS" "DigiKey"
+			(at 179.07 308.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7992,50 +7057,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 392.43 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 392.43 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 392.43 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 392.43 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Samsung Electro-Mechanics"
 			(at 392.43 300.99 0)
 			(hide yes)
@@ -8058,18 +7079,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 392.43 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 392.43 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -8173,50 +7183,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 388.62 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 388.62 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 388.62 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 388.62 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Samsung Electro-Mechanics"
 			(at 388.62 134.62 0)
 			(hide yes)
@@ -8239,18 +7205,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 388.62 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 388.62 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -8510,50 +7465,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 129.54 303.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 129.54 303.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 129.54 303.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 129.54 303.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Samsung Electro-Mechanics"
 			(at 129.54 303.53 0)
 			(hide yes)
@@ -8576,18 +7487,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 129.54 303.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 129.54 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -8769,50 +7669,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 133.35 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 133.35 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 133.35 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 133.35 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Samsung Electro-Mechanics"
 			(at 133.35 137.16 0)
 			(hide yes)
@@ -8835,18 +7691,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 133.35 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 133.35 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9028,50 +7873,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 473.71 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 473.71 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 473.71 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 473.71 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Cree LED"
 			(at 473.71 142.24 0)
 			(hide yes)
@@ -9094,19 +7895,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 473.71 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 473.71 142.24 0)
+		(property "DIS" "DigiKey"
+			(at 473.71 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9365,50 +8155,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 181.61 299.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 181.61 299.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 181.61 299.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 181.61 299.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Bourns Inc."
 			(at 181.61 299.72 0)
 			(hide yes)
@@ -9431,19 +8177,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 181.61 299.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 181.61 299.72 0)
+		(property "DIS" "DigiKey"
+			(at 181.61 299.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9532,51 +8267,7 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 154.94 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 154.94 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "DPN" "1589-1584-1-ND"
-			(at 154.94 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 154.94 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 154.94 298.45 0)
 			(hide yes)
 			(show_name no)
@@ -9609,18 +8300,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 154.94 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 154.94 298.45 0)
 			(hide yes)
 			(show_name no)
@@ -9891,50 +8571,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 434.34 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 434.34 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 434.34 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 434.34 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "KYOCERA AVX"
 			(at 434.34 127 0)
 			(hide yes)
@@ -9957,18 +8593,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 434.34 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 434.34 127 0)
 			(hide yes)
 			(show_name no)
@@ -10058,51 +8683,7 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 154.94 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 154.94 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "DPN" "1589-1584-1-ND"
-			(at 154.94 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 154.94 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 154.94 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -10135,18 +8716,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 154.94 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 154.94 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -10262,50 +8832,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 212.09 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 212.09 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 212.09 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 212.09 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Cree LED"
 			(at 212.09 210.82 0)
 			(hide yes)
@@ -10328,19 +8854,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 212.09 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 212.09 210.82 0)
+		(property "DIS" "DigiKey"
+			(at 212.09 210.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10443,61 +8958,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 443.23 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 443.23 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 443.23 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 443.23 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 443.23 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Coilcraft"
 			(at 443.23 130.81 0)
 			(hide yes)
@@ -10520,19 +8980,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 443.23 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 443.23 130.81 0)
+		(property "DIS" "DigiKey"
+			(at 443.23 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10635,50 +9084,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 476.25 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 476.25 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 476.25 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 476.25 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Cree LED"
 			(at 476.25 210.82 0)
 			(hide yes)
@@ -10701,19 +9106,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 476.25 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 476.25 210.82 0)
+		(property "DIS" "DigiKey"
+			(at 476.25 210.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10816,50 +9210,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 181.61 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 181.61 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 181.61 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 181.61 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Coilcraft"
 			(at 181.61 209.55 0)
 			(hide yes)
@@ -10882,19 +9232,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 181.61 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 181.61 209.55 0)
+		(property "DIS" "DigiKey"
+			(at 181.61 209.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11061,51 +9400,7 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 417.83 295.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 417.83 295.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "DPN" "1589-1584-1-ND"
-			(at 417.83 295.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 417.83 295.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 417.83 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -11138,18 +9433,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 417.83 295.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 417.83 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -11265,72 +9549,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 476.25 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 476.25 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 476.25 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 476.25 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 476.25 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 476.25 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Ohmite"
 			(at 476.25 232.41 0)
 			(hide yes)
@@ -11343,6 +9561,17 @@
 			)
 		)
 		(property "MPN" "KDV12DR050ET"
+			(at 476.25 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
 			(at 476.25 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -11524,50 +9753,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 459.74 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 459.74 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 459.74 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 459.74 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Samsung Electro-Mechanics"
 			(at 459.74 213.36 0)
 			(hide yes)
@@ -11590,18 +9775,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 459.74 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 459.74 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -11702,50 +9876,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 445.77 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 445.77 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 445.77 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 445.77 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Coilcraft"
 			(at 445.77 209.55 0)
 			(hide yes)
@@ -11768,19 +9898,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 445.77 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 445.77 209.55 0)
+		(property "DIS" "DigiKey"
+			(at 445.77 209.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11883,72 +10002,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 212.09 322.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 212.09 322.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 212.09 322.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 212.09 322.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 212.09 322.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 212.09 322.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Ohmite"
 			(at 212.09 322.58 0)
 			(hide yes)
@@ -11961,6 +10014,17 @@
 			)
 		)
 		(property "MPN" "KDV12DR050ET"
+			(at 212.09 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
 			(at 212.09 322.58 0)
 			(hide yes)
 			(show_name no)
@@ -12139,50 +10203,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 440.69 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 440.69 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 440.69 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 440.69 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Yageo"
 			(at 440.69 139.7 0)
 			(hide yes)
@@ -12205,19 +10225,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 440.69 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 440.69 139.7 0)
+		(property "DIS" "DigiKey"
+			(at 440.69 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12317,61 +10326,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 185.42 133.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 185.42 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 185.42 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 185.42 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 185.42 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Coilcraft"
 			(at 185.42 133.35 0)
 			(hide yes)
@@ -12394,19 +10348,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 185.42 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 185.42 133.35 0)
+		(property "DIS" "DigiKey"
+			(at 185.42 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12506,50 +10449,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 441.96 306.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 441.96 306.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 441.96 306.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 441.96 306.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Yageo"
 			(at 441.96 306.07 0)
 			(hide yes)
@@ -12572,19 +10471,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 441.96 306.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 441.96 306.07 0)
+		(property "DIS" "DigiKey"
+			(at 441.96 306.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12765,50 +10653,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 212.09 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 212.09 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 212.09 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 212.09 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Cree LED"
 			(at 212.09 300.99 0)
 			(hide yes)
@@ -12831,19 +10675,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 212.09 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 212.09 300.99 0)
+		(property "DIS" "DigiKey"
+			(at 212.09 300.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12949,50 +10782,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 215.9 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 215.9 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 215.9 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 215.9 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Cree LED"
 			(at 215.9 134.62 0)
 			(hide yes)
@@ -13015,19 +10804,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 215.9 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 215.9 134.62 0)
+		(property "DIS" "DigiKey"
+			(at 215.9 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13133,50 +10911,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 212.09 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 212.09 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 212.09 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 212.09 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Cree LED"
 			(at 212.09 220.98 0)
 			(hide yes)
@@ -13199,19 +10933,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 212.09 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 212.09 220.98 0)
+		(property "DIS" "DigiKey"
+			(at 212.09 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13395,50 +11118,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 473.71 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 473.71 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 473.71 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 473.71 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Cree LED"
 			(at 473.71 121.92 0)
 			(hide yes)
@@ -13461,19 +11140,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 473.71 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 473.71 121.92 0)
+		(property "DIS" "DigiKey"
+			(at 473.71 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13579,50 +11247,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 215.9 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 215.9 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 215.9 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 215.9 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Cree LED"
 			(at 215.9 124.46 0)
 			(hide yes)
@@ -13645,19 +11269,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 215.9 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 215.9 124.46 0)
+		(property "DIS" "DigiKey"
+			(at 215.9 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14075,50 +11688,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 212.09 311.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 212.09 311.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 212.09 311.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 212.09 311.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Cree LED"
 			(at 212.09 311.15 0)
 			(hide yes)
@@ -14141,19 +11710,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 212.09 311.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 212.09 311.15 0)
+		(property "DIS" "DigiKey"
+			(at 212.09 311.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14245,51 +11803,7 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 416.56 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 416.56 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "DPN" "1589-1584-1-ND"
-			(at 416.56 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 416.56 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 416.56 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -14322,18 +11836,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 416.56 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 416.56 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -14446,50 +11949,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 444.5 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 444.5 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 444.5 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 444.5 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Bourns Inc."
 			(at 444.5 297.18 0)
 			(hide yes)
@@ -14512,19 +11971,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 444.5 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 444.5 297.18 0)
+		(property "DIS" "DigiKey"
+			(at 444.5 297.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14627,50 +12075,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 393.7 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 393.7 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 393.7 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 393.7 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Samsung Electro-Mechanics"
 			(at 393.7 213.36 0)
 			(hide yes)
@@ -14693,18 +12097,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 393.7 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 393.7 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -14964,72 +12357,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 212.09 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 212.09 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 212.09 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 212.09 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 212.09 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 212.09 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Ohmite"
 			(at 212.09 232.41 0)
 			(hide yes)
@@ -15042,6 +12369,17 @@
 			)
 		)
 		(property "MPN" "KDV12DR050ET"
+			(at 212.09 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
 			(at 212.09 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -15145,50 +12483,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 195.58 303.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 195.58 303.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 195.58 303.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 195.58 303.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Samsung Electro-Mechanics"
 			(at 195.58 303.53 0)
 			(hide yes)
@@ -15211,18 +12505,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 195.58 303.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 195.58 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -15403,50 +12686,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 435.61 293.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 435.61 293.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 435.61 293.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 435.61 293.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "KYOCERA AVX"
 			(at 435.61 293.37 0)
 			(hide yes)
@@ -15469,18 +12708,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 435.61 293.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 435.61 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -15584,50 +12812,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 212.09 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 212.09 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 212.09 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 212.09 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Cree LED"
 			(at 212.09 200.66 0)
 			(hide yes)
@@ -15650,19 +12834,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 212.09 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 212.09 200.66 0)
+		(property "DIS" "DigiKey"
+			(at 212.09 200.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15765,50 +12938,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 179.07 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 179.07 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 179.07 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 179.07 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Yageo"
 			(at 179.07 218.44 0)
 			(hide yes)
@@ -15831,19 +12960,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 179.07 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 179.07 218.44 0)
+		(property "DIS" "DigiKey"
+			(at 179.07 218.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15946,50 +13064,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 212.09 290.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 212.09 290.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 212.09 290.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 212.09 290.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Cree LED"
 			(at 212.09 290.83 0)
 			(hide yes)
@@ -16012,19 +13086,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 212.09 290.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 212.09 290.83 0)
+		(property "DIS" "DigiKey"
+			(at 212.09 290.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16116,51 +13179,7 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 419.1 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 419.1 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "DPN" "1589-1584-1-ND"
-			(at 419.1 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 419.1 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 419.1 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -16193,18 +13212,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 419.1 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 419.1 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -16320,50 +13328,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 199.39 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 199.39 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 199.39 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 199.39 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Samsung Electro-Mechanics"
 			(at 199.39 137.16 0)
 			(hide yes)
@@ -16386,18 +13350,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 199.39 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 199.39 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -16579,72 +13532,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 474.98 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 474.98 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 474.98 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 474.98 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 474.98 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 474.98 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Ohmite"
 			(at 474.98 320.04 0)
 			(hide yes)
@@ -16657,6 +13544,17 @@
 			)
 		)
 		(property "MPN" "KDV12DR050ET"
+			(at 474.98 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
 			(at 474.98 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -16838,50 +13736,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 476.25 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 476.25 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 476.25 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 476.25 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Cree LED"
 			(at 476.25 200.66 0)
 			(hide yes)
@@ -16904,19 +13758,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 476.25 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 476.25 200.66 0)
+		(property "DIS" "DigiKey"
+			(at 476.25 200.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17021,50 +13864,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 176.53 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 176.53 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 176.53 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 176.53 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "KYOCERA AVX"
 			(at 176.53 129.54 0)
 			(hide yes)
@@ -17087,18 +13886,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 176.53 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 176.53 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -17202,50 +13990,6 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 474.98 288.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 474.98 288.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 474.98 288.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 474.98 288.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MFR" "Cree LED"
 			(at 474.98 288.29 0)
 			(hide yes)
@@ -17268,19 +14012,8 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 474.98 288.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 474.98 288.29 0)
+		(property "DIS" "DigiKey"
+			(at 474.98 288.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17528,51 +14261,7 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 158.75 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 158.75 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "DPN" "1589-1584-1-ND"
-			(at 158.75 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 158.75 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 158.75 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -17605,18 +14294,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 158.75 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "DIS" "DigiKey"
 			(at 158.75 132.08 0)
 			(hide yes)
 			(show_name no)

@@ -16,7 +16,6 @@ PROJECT_NAME = $(PROJECT_FILE:%.kicad_pro=%)
 SCHEMATIC    = $(PROJECT_NAME).kicad_sch
 BOARD        = $(PROJECT_NAME).kicad_pcb
 TIMESTAMP   = $(shell date '+%Y-%m-%dT%H-%M-%S')
-PRESET_NAME ?= bom-export-preset
 OUTPUT_DIR  ?= build
 DOC_DIR     ?= documentation
 FAB_DIR     ?= fabrication
@@ -39,7 +38,7 @@ pdf:	## Generate a PDF of the schematic
 	kicad-cli sch export pdf -o $(OUTPUT_DIR)/$(DOC_DIR)/$(PROJECT_NAME)-schematic.pdf $(SCHEMATIC)
 	
 bom:	## Generate a CSV Bill of Materials (BOM) with the output preset file that you created in your schematic.
-	kicad-cli sch export bom --preset $(PRESET_NAME) -o $(OUTPUT_DIR)/$(ASM_DIR)/$(PROJECT_NAME)-bom.csv $(SCHEMATIC)	
+	kicad-cli sch export bom --fields "Qty","Reference","MFR","MPN","DIS","DPN","Description" -o $(OUTPUT_DIR)/$(ASM_DIR)/$(PROJECT_NAME)-bom.csv $(SCHEMATIC)
 
 # Generate build files from the board
 

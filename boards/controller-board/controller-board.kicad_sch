@@ -1059,7 +1059,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(href "https://www.digikey.com/en/products/detail/phihong-usa/PPL300U-120/10324923")
+			(href "https://www.digikey.com/en/products/detail/mean-well-usa-inc/GST280A12-C6P/7703681")
 		)
 		(uuid "575b7a9f-90d7-47bc-a732-d00fb84ebb93")
 	)
@@ -1083,7 +1083,7 @@
 		)
 		(uuid "5cc4969c-cec7-4f62-b6b8-d21e076858ee")
 	)
-	(text "Requires Phihong USA PPL300U-120\nExternal power supply\n12V @ 288W (~ 24 A)\nMeasured at 17 A"
+	(text "Requires MEAN WELL USA Inc. GST280A12-C6P\nAC/DC DESKTOP ADAPTER 12V 252W (~ 21 A)\nExternal power supply\n(Measured at 17 A)"
 		(exclude_from_sim no)
 		(at 54.864 98.806 0)
 		(effects

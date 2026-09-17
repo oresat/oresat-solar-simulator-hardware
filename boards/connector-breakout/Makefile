@@ -5,6 +5,10 @@
 # The makefile automatically looks for a local *.kicad_pro file and assumes that's your project name. It
 # then assumes you want your build products to go into a folder called "build", of course.
 #
+# To use this makefile software dependencies include:
+# pandoc
+# texlive-latex-recommended
+#
 # Note: PRESET_NAME is the preset for your BOM format. kicad-cli will happily output a completely useless BOM
 # of just REF, VALUE, FOOTPRINT, that's it, unless you set up the BOM tool with a "preset". We suggest you create
 # 'bom-preset' when working in KiCad which has "all the things" when you're editing the schematic, and then 
@@ -18,7 +22,7 @@ BOARD        = $(PROJECT_NAME).kicad_pcb
 TIMESTAMP   = $(shell date '+%Y-%m-%dT%H-%M-%S')
 PRESET_NAME ?= bom-export-preset
 OUTPUT_DIR  ?= build
-DOC_DIR     ?= documentation
+DOC_DIR     ?= documentation	
 FAB_DIR     ?= fabrication
 ASM_DIR     ?= assembly
 CAD_DIR     ?= cad

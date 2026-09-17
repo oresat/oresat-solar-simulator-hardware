@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "Oresat Solar Simulator Connector Board")
-		(date "2026-09-14")
-		(rev "v1.0")
+		(date "2026-09-16")
+		(rev "v1.1")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
@@ -3256,23 +3256,24 @@
 		(dnp no)
 		(uuid "6b70567e-2a67-457d-8613-39ff0cc1c350")
 		(property "Reference" "J1"
-			(at 63.5 67.31 0)
+			(at 63.5 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "M55-7001242R"
-			(at 63.5 71.12 0)
+		(property "Value" "Conn_01x12_MountingPin"
+			(at 62.23 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "oresat-connectors:J-Harwin-M55-7XX1242R"
@@ -3287,7 +3288,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.harwin.com/pdfs/C047XX_M55_Archer_Kontrol.pdf"
-			(at 62.23 87.63 0)
+			(at 63.5 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3297,7 +3298,7 @@
 				)
 			)
 		)
-		(property "Description" "Connector Header Surface Mount 12 position 0.050\" (1.27mm)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 63.5 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3330,7 +3331,7 @@
 				)
 			)
 		)
-		(property "MFR" "Harwin Inc."
+		(property "MFR" "Harwin"
 			(at 63.5 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3976,25 +3977,24 @@
 		(dnp no)
 		(uuid "e0376034-4f43-4c2c-b8ba-11ad69997a39")
 		(property "Reference" "J6"
-			(at 146.05 70.866 0)
+			(at 147.32 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Value" "M55-7101242R"
-			(at 139.192 73.152 0)
+		(property "Value" "Conn_01x12_MountingPin"
+			(at 148.59 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "oresat-connectors:J-Harwin-M55-7101242R"
@@ -4019,7 +4019,7 @@
 				)
 			)
 		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 12 position 0.050\" (1.27mm)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 147.32 87.63 0)
 			(hide yes)
 			(show_name no)

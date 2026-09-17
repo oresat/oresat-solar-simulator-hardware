@@ -1,55 +1,26 @@
-# oresat-kicad
-All things KiCAD for OreSat; libraries, tools, settings, etc.
+# OreSat FlatSat
 
-## Getting started
+A "flatsat" is a integration and debugging configuration of your satellite that allows you to more easily do system integration, software development, testing, and debugging. It's the "open" satellite that allows you to get at all the signals and ports.
 
-To start using these libraries, you should set up an environment variable within KiCAD pointing to `oresat-kicad` on your system.
+Here's what our OreSat0 flatsat looks like -- note the cards laid out flat on the table, the power supply on the left, the ribbon cable and cards, and the small PC on the upper right (vertical wall) that interfaces everything to the interwebs.
 
-* In the KiCAD menu open Preferences > Configure Paths.
-* Under "Environment Variables" click the "+" button to add a new environment variable and name it `ORESAT_LIBRARIES`.
-* In the path area, enter (or browse for) the `oresat-kicad` repository on your system.
-* Click Ok.
+![OreSat 1U Backplane Picture](https://github.com/oresat/oresat-flatsat/raw/master/images/oresat-flatsat.jpg)
 
-That's it! Now when you open a project that uses these libraries with the `ORESAT_LIBRARIES` variable, KiCAD will use the path you provided to locate them.
+Here's a closeup of the cards: the 40 wire ribbon cable mimics our backplane, the "flatsat breakout boards" interface the cards to the ribbon cable backplane, and the "card debug boards" at the bottom of some of the cards are JTAG, serial, USB, and some spare GPIO that's common to all cards.
 
-## Adding libraries to your project
+![OreSat 1U Backplane Picture](https://github.com/oresat/oresat-flatsat/raw/master/images/oresat-flatsat-cards.jpg)
 
-Once you've set up the `ORESAT_LIBRARIES` environment variable, you can also start adding these libraries to your own projects.
+# Some notes
 
-* Open up your project.
-* In the project panel, choose Preferences > Manage Symbol Libraries.
-* Select the "Project Specific Libraries" tab.
-   * MAKE SURE YOU ADD THE LIBRARY TO "Project Specific Libraries" AND NOT "Global Libraries".
-* Click on the Folder icon below.
-   * THIS IS IMPORTANT. DO NOT CLICK ON "+". CLICK ON THE FOLDER.
-* In your project folder, navigate to `oresat-kicad/oresat-symbols` and choose the symbol(s) you want. You can include all of them if you want!
-* Choose Open, then OK.
-* Back in the project panel, choose Preferences > Manage Footprint Libraries.
-* Select the "Project Specific Libraries" tab.
-   * MAKE SURE YOU ADD THE LIBRARY TO "Project Specific Libraries" AND NOT "Global Libraries".
-* Click on the Folder icon below.
-   * THIS IS IMPORTANT. DO NOT CLICK ON "+". CLICK ON THE FOLDER.
-* In your project folder, navigate to `oresat-kicad/oresat-footprints` and choose the footprint libraries you want.
-* Choose Open, then OK.
-
-At this point, your project should be pointing to your oresat-kicad repository and you should be good to go!
-
-# Library files
-
-These are both symbol (.kicad\_sym) and footprint (.pretty) names
-
-- `oresat-connectors` = all connectors
-- `oresat-diodes` = all diodes, including LEDs
-- `oresat-graphics` = logos, graphics, etc.
-- `oresat-ics` = all ICs, including digital and analog, power, oscillators, etc.
-- `oresat-misc` = Batteries, HW, test points, switches
-- `oresat-passives` = Resistors, capacitors, inductors, crystals, ferrite beads, fuses, TVS, etc.
-- `oresat-pcbs` = all pcbs, including card and end cap outlines, and SBC shields / capes, etc.
-- `oresat-transistors` = All transistor types
+- We ordered 6 inch ribbon cables, but had to cut them down to 4" to pack the cards on our small table. We did that by cutting the ribbon cable and pressing on an IDC connector.
+- Don't forget to add termination resistors to both sides of the ribbon cable.
+- The "exteranal supply shutdown" board kills the external power supply when the watchdog (or inhibit switches) pull the !SHUTDOWN signal low.
+- You need very flexible USB micro cables for this to work well.
+- FFCs suck. But, they're still better than anything else.
 
 # LICENSE
 
-Copyright the Portland State Aerospace Society 2022.
+Copyright the Portland State Aerospace Society 2021.
 
 This source describes Open Hardware and is licensed under CERN-OHL-S v2 or any later version.
 
@@ -57,7 +28,7 @@ You may redistribute and modify this source and make products using it under the
 
 This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.
 
-Source location: https://github.com/oresat
+Source location: https://github.com/oresat/
 
-As per CERN-OHL-S v2 section 4, should You produce hardware based on this source, You must where practicable maintain the Source Location visible on the external case of the Gizmo or other products you make using this source.
+As per CERN-OHL-S v2 section 4, should You produce hardware based on this source, You must where practicable maintain the Source Location visible on the external case of the Gizmo or other products you make using this sourc
 

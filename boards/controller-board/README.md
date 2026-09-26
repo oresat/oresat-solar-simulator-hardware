@@ -146,6 +146,15 @@ MOAR HERE.
 
 - No specific information
 
+## Hand Placement Instructions
+
+- Stencil, place, and reflow back (LEDs) first.
+- Press in HW1,2,7,8 press-fit nuts in order to protect LEDs on back side.
+- Stencil, place, and reflow the top.
+- Hand solder the through hole components (connectors).
+- Use thermal glue or thermal epoxy to glue down heatsinks, one per LED.
+- Use a minimal amount of glue, and use drop-in-the-middle technique to avoid air pockets.
+
 ## Assembly Files
 
 ### IPC-2581 File

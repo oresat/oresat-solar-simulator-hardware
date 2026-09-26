@@ -1393,7 +1393,7 @@
 		)
 		(uuid "0f8e6c00-40e0-4f58-bfab-68a417c10522")
 	)
-	(text "Press-in HW1,HW2,HW7,and HW8 into \nPCB before reflowing LEDs. This \nwill protect LED packages after\nreflow."
+	(text "ASSEMBLY NOTE:\nPress-in HW1,HW2,HW7,and HW8 into \nPCB before reflowing LEDs. This \nwill protect LED packages after\nreflow."
 		(exclude_from_sim no)
 		(at 215.138 88.646 0)
 		(effects
@@ -1454,6 +1454,16 @@
 			)
 		)
 		(uuid "699fe3e9-4116-41f3-8ed8-3dfab888fdbd")
+	)
+	(text "Or thermal glue, like Gennel G109 10g Thermal Conductive Glue\n(available on Amazon)"
+		(exclude_from_sim no)
+		(at 215.138 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "69d0c945-d3b7-407b-9379-db4352303176")
 	)
 	(text "2A max"
 		(exclude_from_sim no)

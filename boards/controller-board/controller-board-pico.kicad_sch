@@ -9720,7 +9720,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "657acf81-d042-4ef4-ba8e-060f882b9ef0")
 		(property "Reference" "C17"
 			(at 265.43 62.23 0)
@@ -9810,10 +9810,6 @@
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "C17")
 					(unit 1)
-					(variant
-						(name "Halogen N Channel MOSFET Driver")
-						(dnp no)
-					)
 				)
 			)
 		)
@@ -10442,10 +10438,6 @@
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "TP24")
 					(unit 1)
-					(variant
-						(name "Halogen N Channel MOSFET Driver")
-						(dnp yes)
-					)
 				)
 			)
 		)

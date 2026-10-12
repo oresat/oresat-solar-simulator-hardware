@@ -3734,9 +3734,9 @@
 		)
 		(uuid "972f1e81-c804-47ec-9389-a9406eecb073")
 	)
-	(text "Backup P ch MOSFET\ndriver circuit"
+	(text "Backup N channel for the \nP channel MOSFET driver circuit"
 		(exclude_from_sim no)
-		(at 244.856 44.958 0)
+		(at 239.522 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6445,6 +6445,10 @@
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "Q1")
 					(unit 1)
+					(variant
+						(name "Halogen N Channel MOSFET Driver")
+						(dnp no)
+					)
 				)
 			)
 		)
@@ -6571,6 +6575,10 @@
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "R12")
 					(unit 1)
+					(variant
+						(name "Halogen N Channel MOSFET Driver")
+						(dnp no)
+					)
 				)
 			)
 		)
@@ -7505,6 +7513,10 @@
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "C37")
 					(unit 1)
+					(variant
+						(name "Halogen N Channel MOSFET Driver")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -9798,6 +9810,10 @@
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "C17")
 					(unit 1)
+					(variant
+						(name "Halogen N Channel MOSFET Driver")
+						(dnp no)
+					)
 				)
 			)
 		)
@@ -10426,6 +10442,10 @@
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "TP24")
 					(unit 1)
+					(variant
+						(name "Halogen N Channel MOSFET Driver")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -11112,6 +11132,10 @@
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "U3")
 					(unit 1)
+					(variant
+						(name "Halogen N Channel MOSFET Driver")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -12167,6 +12191,10 @@
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "R9")
 					(unit 1)
+					(variant
+						(name "Halogen N Channel MOSFET Driver")
+						(dnp no)
+					)
 				)
 			)
 		)
@@ -14902,6 +14930,10 @@
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "#PWR028")
 					(unit 1)
+					(variant
+						(name "Halogen N Channel MOSFET Driver")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -15025,6 +15057,10 @@
 				(path "/ab186ba7-5fdc-41ea-88f4-a283b73948bc/42a1061e-62cf-44f3-8caa-6fc9c5631a6d"
 					(reference "R13")
 					(unit 1)
+					(variant
+						(name "Halogen N Channel MOSFET Driver")
+						(dnp no)
+					)
 				)
 			)
 		)

@@ -226,6 +226,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -237,6 +238,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -248,6 +250,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -548,6 +551,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "ignore",
       "same_local_global_label": "ignore",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -631,8 +635,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -827,8 +831,15 @@
         "uuid": "ab186ba7-5fdc-41ea-88f4-a283b73948bc"
       }
     ],
-    "used_designators": "TH1-3,#FLG1,P1-2,HS1-18,F1-4,U1,U3-4,TP1-13,TP23-43,R4-5,R24-32,J1,J5,J8-12,HW1-8,D20-21,C1-3,C5-7,C34-37,#PWR9-16,#PWR20-21,#PWR25,#PWR27-29,#PWR34,#PWR46,#PWR54-55",
-    "variants": []
+    "used_designators": "#FLG1,#PWR9-16,#PWR20-21,#PWR25,#PWR27-29,#PWR34,#PWR46,#PWR54-55,C1-3,C5-7,C34-37,D20-21,F1-4,HS1-18,HW1-8,J1,J5,J8-12,P1-2,R4-5,R24-32,TH1-3,TP1-13,TP23-43,U1,U3-4",
+    "variants": [
+      {
+        "name": "Halogen MIC IC Driver"
+      },
+      {
+        "name": "Halogen N Channel MOSFET Driver"
+      }
+    ]
   },
   "sheets": [
     [

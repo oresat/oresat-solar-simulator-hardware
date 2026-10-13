@@ -1,34 +1,168 @@
-# OreSat FlatSat
+---
+title: "**OreSat Solar Simulator Connector Board**"
+subtitle: |
+  **Fabrication and Assembly Information**\
+  For build 2026-06-23T21-24-18
+fontsize: 10pt
+geometry:
+  - margin=0.5in
+toc: true
+toc-depth: 2
+colorlinks: true
+urlcolor: blue
+---
 
-A "flatsat" is a integration and debugging configuration of your satellite that allows you to more easily do system integration, software development, testing, and debugging. It's the "open" satellite that allows you to get at all the signals and ports.
+\newpage
 
-Here's what our OreSat0 flatsat looks like -- note the cards laid out flat on the table, the power supply on the left, the ribbon cable and cards, and the small PC on the upper right (vertical wall) that interfaces everything to the interwebs.
+# About this Board
 
-![OreSat 1U Backplane Picture](https://github.com/oresat/oresat-flatsat/raw/master/images/oresat-flatsat.jpg)
+## Board Description
 
-Here's a closeup of the cards: the 40 wire ribbon cable mimics our backplane, the "flatsat breakout boards" interface the cards to the ribbon cable backplane, and the "card debug boards" at the bottom of some of the cards are JTAG, serial, USB, and some spare GPIO that's common to all cards.
+This board conects the OreSat Solar Module being tested in the Solar Simulator Assembly to:
 
-![OreSat 1U Backplane Picture](https://github.com/oresat/oresat-flatsat/raw/master/images/oresat-flatsat-cards.jpg)
+- A 12 pin RA OreSat End Card connector so that the `solar-extension` assembly (see `oresat-solar-hardware` repo) can be used to connect the solar module under test to the Engineering Unit / FlatSat.
+- Two 20 pin ribbon cable connectors so that the solar simulators can be easily ganged up for simple FlatSat testing without an end card (although note that you don't get the UART connections here).
+- A 0.1 inch pin header for ease of probing and connecting to a single solar module under test.
+## Documentation Links
 
-# Some notes
+- Git repository: <https://github.com/oresat/oresat-solar-simulator-hardware>
+- **TODO:** Design Notes + Design Review Notes
 
-- We ordered 6 inch ribbon cables, but had to cut them down to 4" to pack the cards on our small table. We did that by cutting the ribbon cable and pressing on an IDC connector.
-- Don't forget to add termination resistors to both sides of the ribbon cable.
-- The "exteranal supply shutdown" board kills the external power supply when the watchdog (or inhibit switches) pull the !SHUTDOWN signal low.
-- You need very flexible USB micro cables for this to work well.
-- FFCs suck. But, they're still better than anything else.
+## Documentation Files
 
-# LICENSE
+| Filename                        | Notes                                    |
+| ------------------------------- | ---------------------------------------- |
+| README.pdf                      | This README file                         |
+| PROJECT-NAME-outline.dxf        | Board outline (with holes) in DXF format |
+| PROJECT-NAME-pcba.step          | 3D model of PCBA (with components)       |
+| PROJECT-NAME-render-bot.jpg     | Render of the top of the 3D model        |
+| PROJECT-NAME-render-bot.jpg     | Render of the bottom of the 3D model     |
+| PROJECT-NAME-schematic.pdf      | PDF of board schematics                  |
 
-Copyright the Portland State Aerospace Society 2021.
+## Contact Information
 
-This source describes Open Hardware and is licensed under CERN-OHL-S v2 or any later version.
+- Website: <https://www.oresat.org/>
+- Email: <oresat@pdx.edu>
+- Instagram: @pdxaerospace
 
-You may redistribute and modify this source and make products using it under the terms of the CERN-OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt).
+## Board Renders
 
-This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.
+![Render of the top of the 3D model](./build/documentation/flatsat-breakout-render-top.jpg){width=50%}
+![Render of the bottom of the 3D model](./build/documentation/flatsat-breakout-render-bot.jpg){width=50%}
 
-Source location: https://github.com/oresat/
+\newpage
 
-As per CERN-OHL-S v2 section 4, should You produce hardware based on this source, You must where practicable maintain the Source Location visible on the external case of the Gizmo or other products you make using this sourc
+# Printed Circuit Board (PCB) Fabrication Information
+
+## Board Info
+
+- 2 layer board
+- Bounding box is 40.000 x 87.175 mm
+- Board thickness is 1.59 mm
+
+## Board Requirements
+
+- Design Rules
+    - Minimum Trace / Space design rules
+       - 0.1524 mm (6.0 mil) / 0.1524 mm (6.0 mil)
+    - Outer dimension router tolerance: +/- 0.254 mm (10.0 mil)
+    - Hole placement tolerance: +/- 0.075 mm (3.0 mil)
+    - Inner tab routed slot tolerance: +/- 0.254 mm (10.0 mil)
+- Drills
+   - Drill Positional Tolerance: 0.051 mm (2.0 mil)
+   - Drill Size tolerance: +/- 0.064 mm (2.5 mil)
+- Plated/Un-plated holes
+  - Via/PTH minimum diameter: 0.254 mm (10 mil)
+  - Via/PTH minimum annulus: 0.102 mm (4 mil) radius
+- Outline/Routing
+  - No requirements
+- Slots and cutouts
+  - There are no slots or cutouts.
+- There are 3 fiducials on the top layer.
+- Panel tabs ("mouse bites")
+   - Card edges must be smooth; no mouse bites or other intrusions into the card outline.
+   - If external mouse bites are required, minimize and customer will remove by hand before assembly.
+- If not otherwise specified, build to IPC 6012 Class 2 or better.
+
+## Stackup /  Materials
+
+- Outside copper layers is 1 oz Cu after plating (0.043 mm / 1.7 mil)
+- There are no requirements on the prepreg or core of this four layer stackup.
+- Board Surface treatment should be ENIG, althogh immersion Silver is acceptable.
+- White silkscreen on top and bottom surface
+- Taiyo PSR-4000 or equivalent soldermask on top and bottom, no requirements for color.
+
+## Array / Panel Information
+
+- Coordinate with Contract Manufacturer (CM) for optimal size of this panel.
+- If no feedback from CM, then produce single boards (no panel).
+
+## Fabrication Files
+
+### IPC-2581 File
+
+| Filename                 | Notes                                   |
+| ------------------------ | --------------------------------------- |
+| PROJECT-NAME-ipc2581.xml | IPC-2581 board information file         |
+
+### Legacy PCB Files
+
+| Filename                      | Notes                                         |
+| ------------------------------| --------------------------------------------- |
+| PROJECT-NAME-Edge_Cuts.gbr    | RS274X file for the dimension (outline) layer |
+| PROJECT-NAME-F_Silkscreen.gbr | RS274X file for the top silkscreen            |
+| PROJECT-NAME-F_Mask.gbr       | RS274X file for the top soldermask            |
+| PROJECT-NAME-F_Cu.gbr         | RS274X file for the top copper layer          |
+| PROJECT-NAME-B_Cu.gbr         | RS274X file for the bottom copper layer       |
+| PROJECT-NAME-B_Mask.gbr       | RS274X file for the bottom soldermask         |
+| PROJECT-NAME-B_Silkscreen.gbr | RS274X file for the bottom silkscreen         |
+| PROJECT-NAME-NPTH.drl         | Excellon file for non-plated through holes    |
+| PROJECT-NAME-PTH.drl          | Excellon file for plated through holes        | 
+
+\newpage
+
+# Printed Circuit Board Assembly (PCBA) Information
+
+## Assembly Info
+
+- This PCBA uses both surface mount (SMT) and through-hole (THT) components.
+
+## Assembly Requirements
+
+- Assemble to IPC Class 2 or better
+- Bake components that are not moisture sealed to appropriate levels as required.
+- Any solder paste (leaded or RoHS) is acceptable. RoHS solder is slightly preferred.
+- Any no-clean or aqueous wash flux is acceptable.
+- No conformal coating.
+
+## Component Specific Assembly Information
+
+- No specific information
+
+## Assembly Files
+
+### IPC-2581 File
+
+| Filename                 | Notes                           |
+| ------------------------ | ------------------------------- |
+| PROJECT-NAME-ipc2581.xml | IPC-2581 board information file |
+
+### Bill of Materials (BOM)
+
+| Filename             | Description                            |
+| -------------------- | -------------------------------------- |
+| PROJECT-NAME-bom.csv | BOM in Comma Separated Variable format |
+
+### Solder Paste Stencils
+
+| Filename                 | Notes                                            |
+| ------------------------ | ------------------------------------------------ |
+| PROJECT-NAME-B_Paste.gbr | RS274X file for top/front solder paste stencil   |
+| PROJECT-NAME-F_Paste.gbr | RS274X file for bottom/back solder paste stencil |
+
+### Mounting/Placement Location
+
+| Filename            | Description                                 |
+| ------------------- | ------------------------------------------- |
+| PROJECT-NAME.pos | Pick and place locations for components     |
 
